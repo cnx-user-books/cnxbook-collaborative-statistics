@@ -1,0 +1,111 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Probability Concepts -- Permutations</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m19072</md:content-id>
+  <md:title>Probability Concepts -- Permutations</md:title>
+  <md:abstract>An introductions to permutations.</md:abstract>
+  <md:uuid>803bcd82-f87f-416e-863d-ed4b2e64823e</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="example">
+      <link url="http://www.brightstorm.com/d/math/s/algebra-2/u/combinatorics/t/combinations-vs-permutations" strength="3">Combinations and Permutations Video</link>
+      <link url="http://www.brightstorm.com/d/math/s/algebra-2/u/combinatorics/t/permutations" strength="3">Permutations Video</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+
+      <table id="id5587171" summary="">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <tbody>
+            <row>
+              <entry>
+        <media id="id1164734685772" alt="a flipped stack of 7 cards with the seven of spades face up."><image src="../../media/cards1.PNG" mime-type="image/png" print-width="2in"/></media>
+      </entry>
+              <entry>In the game of “Solitaire” (also known as “Patience” or “Klondike”), seven cards are dealt out at the beginning, as shown to the left: one face-up, and the other six face-down. (A bunch of other cards are dealt out too, but let’s ignore that right now.)A complete card deck has 52 cards. Assuming that all you know is the 7 of spades showing, how many possible “hands” (the other six cards) could be showing underneath?What makes this a “permutations” problem is that <emphasis>order matters</emphasis>: if an ace is hiding somewhere in those six cards, it makes a big difference if the ace is on the first position, the second, <emphasis>etc</emphasis>. Permutations problems can always be addressed as an example of the multiplication rule, with one small twist.</entry>
+            </row>
+          </tbody>
+        
+
+
+
+</tgroup>
+</table>
+      <list id="id9176495" list-type="bulleted"><item><label>Question</label>How many cards might be in the first position, directly under the showing 7?</item>
+        <item><label>Answer</label>51. That card could be anything except the 7 of spades.</item>
+        <item><label>Question</label>For any given card in first position, how many cards might be in second position?</item>
+        <item><label>Answer</label>50. The seven of spades, and the next card, are both “spoken for.” So there are 50 possibilities left in this position.</item>
+        <item><label>Question</label>So how many possibilities are there for the first two positions combined?</item>
+        <item><label>Answer</label><m:math>
+<m:mn>51</m:mn>
+<m:mo>×</m:mo>
+<m:mn>50</m:mn>
+</m:math>, or 2,550.</item>
+        <item><label>Question</label>So how many possibilities are there for all six positions?</item>
+        <item><label>Answer</label>
+<m:math>
+<m:mn>51</m:mn>
+<m:mo>×</m:mo>
+<m:mn>50</m:mn>
+<m:mo>×</m:mo>
+<m:mn>49</m:mn>
+<m:mo>×</m:mo>
+<m:mn>48</m:mn>
+<m:mo>×</m:mo>
+<m:mn>47</m:mn>
+<m:mo>×</m:mo>
+<m:mn>46</m:mn>
+</m:math>, or approximately 
+<m:math>
+<m:mn>1.3</m:mn>
+<m:mo>×</m:mo>
+<m:msup>
+<m:mn>10</m:mn>
+<m:mn>10</m:mn>
+</m:msup>
+</m:math>; about 10 <emphasis>billion</emphasis> possibilities!</item>
+      </list>
+      <para id="id7706221">This result can be expressed (and typed into a calculator) more concisely by using <emphasis>factorials</emphasis>.</para>
+      <para id="id7309774">A “factorial” (written with an exclamation mark) means “multiply all the numbers from 1 up to this number.” So 5! means <m:math>
+<m:mn>1</m:mn>
+<m:mo>×</m:mo>
+<m:mn>2</m:mn>
+<m:mo>×</m:mo>
+<m:mn>3</m:mn>
+<m:mo>×</m:mo>
+<m:mn>4</m:mn>
+<m:mo>×</m:mo>
+<m:mn>5</m:mn>
+<m:mo>=</m:mo>
+<m:mn>120</m:mn>
+</m:math>.</para>
+      <para id="id7814155">What is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mrow><m:mn>7</m:mn><m:mi>!</m:mi></m:mrow><m:mrow><m:mn>5</m:mn><m:mi>!</m:mi></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {7!}  over  {5!} } } {}</m:annotation></m:semantics></m:math>? Well, it is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">×</m:mo><m:mn>2</m:mn></m:mrow><m:mo stretchy="false">×</m:mo><m:mn>3</m:mn></m:mrow><m:mo stretchy="false">×</m:mo><m:mn>4</m:mn></m:mrow><m:mo stretchy="false">×</m:mo><m:mn>5</m:mn></m:mrow><m:mo stretchy="false">×</m:mo><m:mn>6</m:mn></m:mrow><m:mo stretchy="false">×</m:mo><m:mn>7</m:mn></m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">×</m:mo><m:mn>2</m:mn></m:mrow><m:mo stretchy="false">×</m:mo><m:mn>3</m:mn></m:mrow><m:mo stretchy="false">×</m:mo><m:mn>4</m:mn></m:mrow><m:mo stretchy="false">×</m:mo><m:mn>5</m:mn></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1 times 2 times 3 times 4 times 5 times 6 times 7}  over  {1 times 2 times 3 times 4 times 5} } } {}</m:annotation></m:semantics></m:math>, of course. Most of the terms cancel, leaving only <m:math>
+<m:mn>6</m:mn>
+<m:mo>×</m:mo>
+<m:mn>7</m:mn>
+<m:mo>=</m:mo>
+<m:mn>42</m:mn>
+</m:math>.</para>
+      <para id="id5353922">And what about 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mrow><m:mtext>51</m:mtext><m:mi>!</m:mi></m:mrow><m:mrow><m:mtext>45</m:mtext><m:mi>!</m:mi></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {"51"!}  over  {"45"!} } } {}</m:annotation></m:semantics></m:math>? If you write out all the terms, you can see that the first 45 terms cancel, leaving <m:math>
+<m:mn>46</m:mn>
+<m:mo>×</m:mo>
+<m:mn>47</m:mn>
+<m:mo>×</m:mo>
+<m:mn>48</m:mn>
+<m:mo>×</m:mo>
+<m:mn>49</m:mn>
+<m:mo>×</m:mo>
+<m:mn>50</m:mn>
+<m:mo>×</m:mo>
+<m:mn>51</m:mn>
+</m:math>, which is the number of permutations we want. So instead of typing into your calculator six numbers to multiply (or sixty numbers or six hundred, depending on the problem), you can always find the answer to a permutation problem by dividing two factorials. In many calculators, the factorial option is located under the “probability” menu for this reason.</para>
+
+  </content>
+</document>

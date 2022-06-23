@@ -1,0 +1,272 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Probability Concepts -- Probability</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m19073</md:content-id>
+  <md:title>Probability Concepts -- Probability</md:title>
+  <md:abstract>An introduction to probability and the multiplication rule.</md:abstract>
+  <md:uuid>6613a545-8987-40d4-9cb9-a95ecb62035f</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="example">
+      <link url="http://www.brightstorm.com/d/math/s/algebra-2/u/combinatorics/t/introduction-to-probability" strength="3">Introduction to Probability Video</link>
+      <link url="http://www.brightstorm.com/d/math/s/algebra-2/u/combinatorics/t/conditional-probability" strength="3">Conditional Probability Video</link>
+      <link url="http://www.brightstorm.com/d/math/s/algebra-2/u/combinatorics/t/using-the-complement-to-calculate-probability" strength="3">Calculating Probability Video</link>
+      <link url="http://www.brightstorm.com/d/math/s/algebra-2/u/combinatorics/t/fundamental-counting-principal" strength="3">Fundamental Counting Principal Video</link>
+      <link url="http://www.brightstorm.com/d/math/s/algebra-2/u/combinatorics/t/probability-of-dependent-events" strength="3">Probability of Dependent Events Video</link>
+      <link url="http://www.brightstorm.com/d/math/s/algebra-2/u/combinatorics/t/probability-of-independent-events" strength="3">Probability of Independent Events Video</link>
+      <link url="http://www.brightstorm.com/d/math/s/algebra-2/u/combinatorics/t/probability-of-multiple-events" strength="3">Probability of Multiple Events Video</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+
+      <para id="id7293926">If you flip a coin, what is the chance of getting heads? That’s easy: 50/50. In the language of probability, we say that the probability is <m:math>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>2</m:mn>
+</m:mfrac>
+</m:math>. That is to say, half the time you flip coins, you will get heads.</para>
+      <para id="id11763141">So here is a harder question: if you flip <emphasis>two</emphasis> coins, what is the chance that you will get heads <emphasis>both times</emphasis>? I asked this question of my son, who has good mathematical intuition but no training in probability. His immediate answer: <m:math>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>3</m:mn>
+</m:mfrac>
+</m:math>. There are three possibilities: two heads, one heads and one tails, and two tails. So there is a <m:math>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>3</m:mn>
+</m:mfrac>
+</m:math> chance of getting each possibility, including two heads. Makes sense, right?</para>
+      <para id="id11720450">But it is not right. If you try this experiment 100 times, you will not find about 33 “both heads” results, 33 “both tails,” and 33 “one heads and one tails.” Instead, you will find something much closer to: 25 “both heads,” 25 “both tails,” and 50 “one of each” results. Why?</para>
+      <para id="id4744671">Because hidden inside this experiment are actually <emphasis>four different results</emphasis>, each as likely as the others. These results are: heads-heads, heads-tails, tails-heads, and tails-tails. Even if you don’t keep track of what “order” the coins flipped in, heads-tails is still a different result from tails-heads, and each must be counted.</para>
+      <para id="id10718060">And what if you flip a coin <emphasis>three</emphasis> times? In this case, there are actually eight results. In case this is getting hard to keep track of, here is a systematic way of listing all eight results.</para>
+      <table id="id8297584" summary="A table showing a systematic listing of all eight results from the coin flipping.">
+
+        <tgroup cols="4">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <thead>
+            <row>
+              <entry>First Coin</entry>
+              <entry>Second Coin</entry>
+              <entry>Third Coin</entry>
+              <entry>End Result</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry morerows="3">Heads</entry>
+              <entry morerows="1">Heads</entry>
+              <entry>Heads</entry>
+              <entry>HHH</entry>
+            </row>
+            <row>
+              <entry>Tails</entry>
+              <entry>HHT</entry>
+            </row>
+            <row>
+              <entry morerows="1">Tails</entry>
+              <entry>Heads</entry>
+              <entry>HTH</entry>
+            </row>
+            <row>
+              <entry>Tails</entry>
+              <entry>HTT</entry>
+            </row>
+            <row>
+              <entry morerows="3">Tails</entry>
+              <entry morerows="1">Heads</entry>
+              <entry>Heads</entry>
+              <entry>THH</entry>
+            </row>
+            <row>
+              <entry>Tails</entry>
+              <entry>THT</entry>
+            </row>
+            <row>
+              <entry morerows="1">Tails</entry>
+              <entry>Heads</entry>
+              <entry>TTH</entry>
+            </row>
+            <row>
+              <entry>Tails</entry>
+              <entry>TTT</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      
+      </table>
+      <para id="id10295268">When you make a table like this, the pattern becomes apparent: each new coin doubles the number of possibilities. The chance of three heads in a row is <m:math>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>8</m:mn>
+</m:mfrac>
+</m:math>. What would be the chance of four heads in row?</para>
+      <para id="id11533347">Let’s take a slightly more complicated—and more interesting—example. You are the proud inventor of the SongWriter 2000tm.</para>
+      <figure id="id9868673"><media id="id11223773" alt="A picture of a machine called the 'Songwriter 2000'"><image src="../../media/graphics1-dbee.png" mime-type="image/png" print-width="4in"/></media></figure>
+      <para id="id11471160">The user sets the song speed (“fast,” “medium,” or “slow”); the volume (“loud” or “quiet”); and the style (“rock” or “country”). Then, the SongWriter automatically writes a song to match.</para>
+      <para id="id11795793">How many possible settings are there? You might suspect that the answer is 
+<m:math>
+<m:mn>3</m:mn>
+<m:mo>+</m:mo>
+<m:mn>2</m:mn>
+<m:mo>+</m:mo>
+<m:mn>2</m:mn>
+<m:mo>=</m:mo>
+<m:mn>7</m:mn>
+</m:math>, but in fact there are many more than that. We can see them all on the following “tree diagram.”</para>
+      <figure id="id9976804"><media id="id11223867" alt="A tree diagram showing all possibilities in the experiment."><image src="../../media/graphics2-8fce.png" mime-type="image/png" print-width="4in"/></media></figure>
+      <para id="id6951744">If you start at the top of a tree like this and follow all the way down, you end up with one particular kind of song: for instance, “fast loud country song.” There are 12 different song types in all. This comes from <emphasis>multiplying</emphasis> the number of settings for each knob: <m:math>
+<m:mn>3</m:mn>
+<m:mo>×</m:mo>
+<m:mn>2</m:mn>
+<m:mo>×</m:mo>
+<m:mn>2</m:mn>
+<m:mo>=</m:mo>
+<m:mn>12</m:mn>
+</m:math>.</para>
+      <para id="id9195382">Now, suppose the machine has a “Randomize” setting that randomly chooses the speed, volume, and style. What is the probability that you will end up with a loud rock song that is <emphasis>not</emphasis> slow? To answer a question like this, you can use the following process.</para>
+      <list id="id9219995" list-type="enumerated">
+        <item>Count the total number of results (the “leaves” in the tree) that match your criterion. In this case there are 2: the “fast-loud-rock” and “medium-loud-rock” paths.</item>
+        <item>Count the total number of results: as we said previously, there are 12.</item>
+        <item>Divide. The probability of a non-slow loud rock song is 2/12, or 1/6.</item>
+      </list>
+      <para id="id6862844">Note that this process will always give you a number between 0 (no results match) and 1 (all results match). Probabilities are always between 0 (for something that never happens) and 1 (for something that is guaranteed to happen).</para>
+      <para id="id11752727">But what does it really mean to say that “the probability is 1/6?” You aren’t going to get 1/6 of a song. One way to make this result more concrete is to imagine that you run the machine on its “Randomize” setting 100 times. You should expect to get non-slow loud rock songs 1 out of every 6 times; roughly 17 songs will match that description. This gives us another way to express the answer: there is a 17% probability of any given song matching this description.</para>
+      <section id="id8497310">
+        <title>The multiplication rule</title>
+        <para id="id5057564">We can look at the above problem another way.</para>
+        <para id="id5685844">What is the chance that any given, randomly selected song will be non-slow? <m:math><m:mfrac>
+<m:mn>2</m:mn>
+<m:mn>3</m:mn>
+</m:mfrac>
+</m:math>. That is to say, 2 out of every three randomly chosen songs will be non-slow.</para>
+        <para id="id4365601">Now...<emphasis>out of those <m:math>
+<m:mfrac>
+<m:mn>2</m:mn>
+<m:mn>3</m:mn>
+</m:mfrac>
+</m:math></emphasis>, how many will be loud? Half of them. The probability that a randomly selected song is both non-slow and loud is half of <m:math>
+<m:mfrac>
+<m:mn>2</m:mn>
+<m:mn>3</m:mn>
+</m:mfrac>
+</m:math>
+, or <m:math>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>2</m:mn>
+</m:mfrac>
+<m:mo>×</m:mo>
+<m:mfrac>
+<m:mn>2</m:mn>
+<m:mn>3</m:mn>
+</m:mfrac>
+</m:math>, or <m:math>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>3</m:mn>
+</m:mfrac>
+</m:math>.</para>
+        <para id="id3312294">And now, <emphasis>out of that <m:math>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>3</m:mn>
+</m:mfrac>
+</m:math></emphasis>, how many will be rock? Again, half of them: <m:math>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>2</m:mn>
+</m:mfrac>
+<m:mo>×</m:mo>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>3</m:mn>
+</m:mfrac>
+</m:math>. This leads us back to the conclusion we came to earlier: 1/6 of randomly chosen songs will be non-slow, loud, rock songs. But it also gives us an example of a very general principle that is at the heart of all probability calculations:</para>
+        <para id="id11738483"><emphasis>When two events are independent, the probability that they will 
+          both
+          occur is the probability of one, multiplied by the probability of the other.</emphasis>
+        </para>
+        <para id="id11098844">What does it mean to describe two events as “independent?” It means that they have no effect on each other. In real life, we know that rock songs are more likely to be fast and loud than slow and quiet. Our machine, however, keeps all three categories independent: choosing “Rock” does not make a song more likely to be fast or slow, loud or quiet.</para>
+        <para id="id6628787">In some cases, applying the multiplication rule is very straightforward. Suppose you generate two different songs: what is the chance that they will <emphasis>both</emphasis> be fast songs? The two songs are independent of each other, so the chance is <m:math>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>3</m:mn>
+</m:mfrac>
+<m:mo>×</m:mo>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>3</m:mn>
+</m:mfrac>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>9</m:mn>
+</m:mfrac>
+</m:math>.</para>
+        <para id="id10652900">Now, suppose you generate five different songs. What is the chance that they will <emphasis>all</emphasis> be fast? 
+<m:math>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>3</m:mn>
+</m:mfrac>
+<m:mo>×</m:mo>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>3</m:mn>
+</m:mfrac>
+<m:mo>×</m:mo>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>3</m:mn>
+</m:mfrac>
+<m:mo>×</m:mo>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>3</m:mn>
+</m:mfrac>
+<m:mo>×</m:mo>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>3</m:mn>
+</m:mfrac>
+</m:math>, or <m:math>
+<m:mo>(</m:mo>
+
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>3</m:mn>
+</m:mfrac>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>5</m:mn>
+</m:msup>
+</m:math>, or 1 chance in 243. Not very likely, as you might suspect!</para>
+        <para id="id11417109">Other cases are less obvious. Suppose you generate five different songs. What is the probability that <emphasis>none</emphasis> of them will be a fast song? The multiplication rule tells us only how to find the probability of “this <emphasis>and</emphasis> that”; how can we apply it to this question?</para>
+        <para id="id11584967">The key is to reword the question, as follows. What is the chance that the first song will not be fast, <emphasis>and</emphasis> the second song will not be fast, <emphasis>and</emphasis> the third song will not be fast, and so on? Expressed in this way, the question is a perfect candidate for the multiplication rule. The probability of the first song being non-fast is <m:math>
+<m:mfrac>
+<m:mn>2</m:mn>
+<m:mn>3</m:mn>
+</m:mfrac>
+</m:math>. Same for the second, and so on. So the probability is <m:math>
+<m:mo>(</m:mo>
+<m:mfrac>
+<m:mn>2</m:mn>
+<m:mn>3</m:mn>
+</m:mfrac>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>5</m:mn>
+</m:msup>
+</m:math>, or 32/243, or roughly 13%.</para>
+        <para id="id6629105">Based on this, we can easily answer another question: if you generate five different songs, what is the probability that <emphasis>at least one</emphasis> of them will be fast? Once again, the multiplication rule does not apply directly here: it tells us “this and that,” not “this or that.” But we can recognize that this is the opposite of the previous question. We said that 13% of the time, none of the songs will be fast. That means that the <emphasis>other</emphasis> 87% of the time, at least one of them will!</para>
+      </section>
+
+  </content>
+</document>

@@ -1,0 +1,51 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Probability Concepts -- Combinations</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m19071</md:content-id>
+  <md:title>Probability Concepts -- Combinations</md:title>
+  <md:abstract>An introduction to combinations.</md:abstract>
+  <md:uuid>77982c3d-7bb5-42f0-9779-c0be5aa1a589</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="example">
+      <link url="http://www.brightstorm.com/d/math/s/algebra-2/u/combinatorics/t/combinations-vs-permutations" strength="3">Combinations and Permutations Video</link>
+      <link url="http://www.brightstorm.com/d/math/s/algebra-2/u/combinatorics/t/combinations" strength="3">Statistics Combination Video</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+
+      <para id="id11795117">Let’s start once again with a deck of 52 cards. But this time, let’s deal out a poker hand (5 cards). How many possible poker hands are there?</para>
+      <para id="id11832879">At first glance, this seems like a minor variation on the Solitaire question above. The only real difference is that there are five cards instead of six. But in face, there is a more important difference: <emphasis>order does not matter</emphasis>. We do not want to count “Ace-King-Queen-Jack-Ten of spades” and “Ten-Jack-Queen-King-Ace of spades” separately; they are the same poker hand.</para>
+      <para id="id6666867">To approach such question, we <emphasis>begin</emphasis> with the permutations question: how many possible poker hands are there, if order <emphasis>does</emphasis> matter? <m:math>
+<m:mn>52</m:mn>
+<m:mo>×</m:mo>
+<m:mn>51</m:mn>
+<m:mo>×</m:mo>
+<m:mn>50</m:mn>
+<m:mo>×</m:mo>
+<m:mn>49</m:mn>
+<m:mo>×</m:mo>
+<m:mn>48</m:mn>
+</m:math>, or 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mrow><m:mtext>52</m:mtext><m:mi>!</m:mi></m:mrow><m:mrow><m:mtext>47</m:mtext><m:mi>!</m:mi></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {"52"!}  over  {"47"!} } } {}</m:annotation></m:semantics></m:math>. But we know that we are counting every possible hand many different times in this calculation. How many times?</para>
+      <para id="id11531904">The key insight is that this second question—“How many different times are we counting, for instance, Ace-King-Queen-Jack-Ten of spades?”—is itself a permutations question! It is the same as the question “How many different ways can these five cards be rearranged in a hand?” There are five possibilities for the first card; for each of these, four for the second; and so on. The answer is 5! which is 120. So, since we have counted every possible hand 120 times, we divide our earlier result by 120 to find that there are 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mrow><m:mtext>52</m:mtext><m:mi>!</m:mi></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>47</m:mtext><m:mi>!</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mi>!</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {"52"!}  over  { \( "47"! \)  \( 5! \) } } } {}</m:annotation></m:semantics></m:math>, or about 2.6 Million possibilities.</para>
+      <para id="id9868673">This question—“how many different 5-card hands can be made from 52 cards?”—turns out to have a surprisingly large number of applications. Consider the following questions:</para>
+      <list id="id7340563" list-type="bulleted">
+        <item>A school offers 50 classes. Each student must choose 6 of them to fill out a schedule. How many possible schedules can be made?</item>
+        <item>A basketball team has 12 players, but only 5 will start. How many possible starting teams can they field?</item>
+        <item>Your computer contains 300 videos, but you can only fit 10 of them on your iPod. How many possible ways can you load your iPod?</item>
+      </list>
+      <para id="id12348607">Each of these is a <emphasis>combinations</emphasis> question, and can be answered exactly like our card scenario. Because this type of question comes up in so many different contexts, it is given a special name and symbol. The last question would be referred to as “300 choose 10” and written 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfenced open="(" close=")"><m:mtable><m:mtr><m:mtd><m:mrow><m:mtext>300</m:mtext><m:mrow/></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd><m:mtext>10</m:mtext></m:mtd></m:mtr></m:mtable></m:mfenced></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left ( matrix {
+"300" {} ##
+"10"
+}  right )} {}</m:annotation></m:semantics></m:math>. It is calculated, of course, as 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mrow><m:mtext>300</m:mtext><m:mi>!</m:mi></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>290</m:mtext><m:mi>!</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mtext>10</m:mtext><m:mi>!</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {"300"!}  over  { \( "290"! \)  \( "10"! \) } } } {}</m:annotation></m:semantics></m:math> for reasons explained above.</para>
+
+  </content>
+</document>
