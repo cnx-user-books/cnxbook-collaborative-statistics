@@ -1,0 +1,50 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Hypothesis Testing of Two Means and Two Proportions: Lab I (edited: Teegarden)</title>
+  <metadata>
+  <md:content-id>m17327</md:content-id><md:title>Hypothesis Testing of Two Means and Two Proportions: Lab I (edited: Teegarden)</md:title>
+  <md:abstract>Labs changed to incorporate mini-tabs.</md:abstract>
+  <md:uuid>4aaf313d-3f40-477c-ae4b-245e8c883a7e</md:uuid>
+</metadata>
+
+<content>
+    <para id="id5657495">
+      <emphasis>Hypothesis Testing Lab -Two Samples</emphasis>
+    </para>
+    <para id="id4645097">Name: <emphasis effect="underline"/><space count="50" effect="underline"/></para>
+    <section id="id2149645">
+      <title>Student Learning Outcomes: </title>
+      <para id="id1164178346159">* The student will select the appropriate distributions to use in each case.</para>
+      <para id="id1164171458366">* The student will conduct hypothesis tests and interpret the results.</para>
+    </section>
+    <section id="id1164182366957">
+      <title>House Prices</title>
+      <para id="id4716411">Conduct a hypothesis test to determine if the proportion of homes in San Diego that cost more than $350,000 is different from the proportion of homes in Los Angeles that cost more than $350,000. Using either the newspaper’s housing section or a website, randomly choose 40 house prices from each city. Be sure to include a variety of areas. Choosing only homes in La Jolla will greatly bias your data. (α = 0.03)</para>
+      <para id="id1164178228037">1. H<sub>o</sub> = <emphasis effect="underline"/><space count="20" effect="underline"/> H<sub>a</sub> = <emphasis effect="underline"/><space count="20" effect="underline"/></para>
+      <para id="id1164172063823">2. Summarize your sample statistics:</para>
+      <para id="id1164176528886">San Diego: x = <space count="10" effect="underline"/>  n = <space count="10" effect="underline"/> 
+Los Angeles:  x = <space count="10" effect="underline"/>  n = <space count="10" effect="underline"/></para>
+      <para id="id1164177681847">3. The distribution to use for the test is: <emphasis effect="underline"/><space count="20" effect="underline"/></para>
+      <para id="id5775448">4. Using Minitab, draw a graph and label it appropriately. Shade the actual level of significance. Include the graph with this lab.</para>
+      <para id="id1164171716691">5. What is the formula for calculating the test statistic? <emphasis effect="underline"/><space count="30" effect="underline"/></para>
+      <para id="id1164173138814">6. Calculate the test statistic and the p-value using Mintab, and record your values here and attach the session window to this lab.</para>
+      <para id="id1164177140252">Test statistic = <emphasis effect="underline"/><space count="20" effect="underline"/> p-value = <emphasis effect="underline"/><space count="20" effect="underline"/></para>
+      <para id="id1164174925259">7. Do you reject or not reject the null hypothesis? <emphasis effect="underline"/><space count="20" effect="underline"/>Why (use a complete sentence?</para>
+      <para id="id1164178167482">8. Write a clear conclusion using a complete sentence.</para>
+    </section>
+    <section id="id1164172225665">
+      <title>Textbook Prices</title>
+      <para id="id3447242">The data in Textbook.mtw shows both the new and used textbook price for a sample of books required for summer 2008 classes at Mesa College. Is it worthwhile to buy used textbooks? (α = 0.06)</para>
+      <para id="id3608532">1. H<sub>o</sub> = <emphasis effect="underline"/><space count="20" effect="underline"/> H<sub>a</sub> = <emphasis effect="underline"/><space count="20" effect="underline"/></para>
+      <para id="id1164171394191">2. Summarize your sample statistics:</para>
+      <para id="id1164170821516">New: x = <space count="10" effect="underline"/>  n = <space count="10" effect="underline"/> 
+Used:  x = <space count="10" effect="underline"/>  n = <space count="10" effect="underline"/></para>
+      <para id="id4839568">3. The distribution to use for the test is: <emphasis effect="underline"/><space count="30" effect="underline"/></para>
+      <para id="id1164178020240">4. Using Minitab, draw a graph and label it appropriately. Shade the actual level of significance. Include the graph with this lab.</para>
+      <para id="id1164185683624">5. What is the formula for calculating the test statistic? <emphasis effect="underline"/><space count="30" effect="underline"/></para>
+      <para id="id1164183733828">6. Calculate the test statistic and the p-value using Mintab, and record your values here:</para>
+      <para id="id2492453">Test statistic = <emphasis effect="underline"/><space count="30" effect="underline"/> p-value = <emphasis effect="underline"/><space count="30" effect="underline"/></para>
+      <para id="id1164181036812">7. Do you reject or not reject the null hypothesis? <emphasis effect="underline"/><space count="20" effect="underline"/>Why (use a complete sentence?</para>
+      <para id="id1164173166115">8. Write a clear conclusion using a complete sentence.</para>
+    </section>
+  </content>
+</document>

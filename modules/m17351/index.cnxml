@@ -1,0 +1,51 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Hypothesis Testing of Single Mean and Single Proportion: Lab (Edited: Teegarden) 02</title>
+  <metadata>
+  <md:content-id>m17351</md:content-id><md:title>Hypothesis Testing of Single Mean and Single Proportion: Lab (Edited: Teegarden) 02</md:title>
+  <md:abstract>update of figure 1 to be a normal curve</md:abstract>
+  <md:uuid>00003821-294f-4fcd-9f1b-f65f62d254c9</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1166030819216">
+      <emphasis>Single Sample Hypothesis Test</emphasis>
+    </para>
+    <para id="id1166028883707">Name: <emphasis effect="underline"/><space count="50" effect="underline"/></para>
+    <section id="id1166030906378">
+      <title>I. Student Learning Outcomes:</title>
+      <list id="id1166030603073" list-type="bulleted">
+        <item>The student will select the appropriate distributions to use in each case.</item>
+        <item>The student will conduct hypothesis tests and interpret the results.</item>
+      </list>
+    </section>
+    <section id="id1166030648230">
+      <title>II Textbook Survey</title>
+      <para id="id1166030126518">The data in the Textbook.mtw lists the cost of 62 books required for a sample of classes from Summer 2008 at Mesa College. Students believe that they are spending on average $100 for their textbooks. Using the data for new books as the sample, conduct a hypothesis test to determine if the average cost of new textbooks at Mesa is lower than $100. (α = 0.08)</para>
+      <list id="id1166030119972" list-type="enumerated" number-style="arabic"><item>Ho: <emphasis effect="underline"/><space count="20" effect="underline"/> Ha: <emphasis effect="underline"/><space count="20" effect="underline"/></item>
+        <item>In words, define the random variable.<space count="50" effect="underline"/></item>
+        <item>The distribution to use for the test is: <emphasis effect="underline"/><space count="30" effect="underline"/></item>
+        <item>Using Minitab, draw the probability graph and label it appropriately. Attach the graph to this lab.</item>
+        <item>What is the formula for calculating the test statistic? Include the values.<space count="50" effect="underline"/></item>
+        <item>Calculate the test statistic using Minitab and include the session window output. test statistic = <emphasis effect="underline"/><space count="20" effect="underline"/></item>
+        <item>Determine the p-value using Minitab. p-value = <space count="20" effect="underline"/><emphasis effect="underline"/></item>
+        <item>Do you or do you not reject the null hypothesis? <emphasis effect="underline"/><space count="20" effect="underline"/>Why? (Use 2 - 3 complete sentences)</item>
+        <item>Write a clear conclusion using a complete sentence.</item>
+      </list>
+    </section>
+    <section id="id1166026192103">
+      <title>II. Language Survey</title>
+      <para id="id1166030492027">According to the 2000 Census, about 39.5% of Californians and 17.9% of all Americans speak a language other than English at home. Using students at your college as the sample, conduct a hypothesis test to determine if the percent of the students at your school that speak a language other than English at home is different from 39.5%. (α = 0.05) (Ensure that your sample is large enough to allow for the assumption of normality.)</para>
+      <para id="id1166027772684">Sample data: x = <emphasis effect="underline"/><space count="20" effect="underline"/> n = <emphasis effect="underline"/><space count="20" effect="underline"/></para>
+      <list id="id1166030195492" list-type="enumerated" number-style="arabic"><item>Ho: <emphasis effect="underline"/><space count="20" effect="underline"/> Ha: <emphasis effect="underline"/><space count="20" effect="underline"/></item>
+        <item>In words, define the random variable.<space count="50" effect="underline"/></item>
+        <item>The distribution to use for the test is: <emphasis effect="underline"/><space count="20" effect="underline"/></item>
+        <item>Using Minitab, draw the probability graph and label it appropriately. Attach the graph to this lab.</item>
+        <item>What is the formula for calculating the test statistic? Include the values.<space count="50" effect="underline"/></item>
+        <item>Calculate the test statistic using Minitab and include the session window output. test statistic = <emphasis effect="underline"/></item>
+        <item>Determine the p-value using Minitab. p-value = <emphasis effect="underline"/><space count="20" effect="underline"/></item>
+        <item>Do you or do you not reject the null hypothesis? <emphasis effect="underline"/><space count="20" effect="underline"/>Why? (Use 2 - 3 complete sentences)</item>
+        <item>. Write a clear conclusion using a complete sentence.</item>
+      </list>
+    </section>
+  </content>
+</document>

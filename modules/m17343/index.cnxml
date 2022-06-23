@@ -1,0 +1,1267 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Sample Size</title>
+  <metadata>
+  <md:content-id>m17343</md:content-id><md:title>Sample Size</md:title>
+  <md:abstract>Calculations for determining the required sample sized when calculation a confidence interval for the population mean or population proportion.</md:abstract>
+  <md:uuid>2f74f589-b12f-4d16-b727-d33eaf26fa17</md:uuid>
+</metadata>
+
+<content>
+    <section id="id5180758"><title>Determining Sample Size Required to Estimate μ</title><para id="id5343059">Prior to creating a confidence interval a sample must be taken. Often the number of data values needed in a sample to obtain a particular level of confidence within a given error needs to be determined prior to taking the sample. If the sample is too small the result may not be useful and if the sample is too big both time and money are wasted in the sampling. </para>
+      <para id="id4873963">Let’s begin by looking at the equation for the Error Bound.</para>
+      <para id="id8524614"><emphasis>
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>EBM</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:msub>
+                          <m:mi>Z</m:mi>
+                          <m:mfrac>
+                            <m:mi>α</m:mi>
+                            <m:mn>2</m:mn>
+                          </m:mfrac>
+                        </m:msub>
+                      </m:mrow>
+                      <m:mfrac>
+                        <m:mi>σ</m:mi>
+                        <m:msqrt>
+                          <m:mi>n</m:mi>
+                        </m:msqrt>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ ital "EBM"=Z rSub { size 8{ { size 6{α} } wideslash { size 6{2} } } }  {  {σ}  over  { sqrt {n} } } } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </emphasis>
+      </para>
+      <para id="id1169103033733">To affect the size of the error, what can be changed in the formula?</para>
+      <para id="id8170602">Only
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow>                        <m:msub>
+                          <m:mi>Z</m:mi>
+                          <m:mfrac>
+                            <m:mi>α</m:mi>
+                            <m:mn>2</m:mn>
+                          </m:mfrac>
+                        </m:msub>
+
+</m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Z rSub { size 8{ { size 6{α} } wideslash { size 6{2} } } } } {}</m:annotation></m:semantics></m:math>, by changing the level of confidence, or n by changing the sample size affects the error. The standard deviation is a given which one can not change. (Note if n &gt; 30 then the sample standard deviation can be used to approximate the population standard deviation.)</para>
+      <example id="eip-35">
+
+<para id="id7018473">Given the following data: n = 64, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {x}} } {}</m:annotation></m:semantics></m:math>= 36, and σ = 3, the EBM for a 80%, 90%, 95% and 99% confidence interval are: </para>
+      <para id="id5365644">80%: EBM = 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow>                        <m:msub>
+                          <m:mi>Z</m:mi>
+                          <m:mfrac>
+                            <m:mi>α</m:mi>
+                            <m:mn>2</m:mn>
+                          </m:mfrac>
+                        </m:msub>
+
+<m:mfrac><m:mi>σ</m:mi><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Z rSub { size 8{ { size 6{α} } wideslash { size 6{2} } } }  {  {σ}  over  { sqrt {n} } } } {}</m:annotation></m:semantics></m:math>= 1.28
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>3</m:mn><m:msqrt><m:mtext>64</m:mtext></m:msqrt></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {3}  over  { sqrt {"64"} } } } {}</m:annotation></m:semantics></m:math>= 0.48</para>
+      <para id="id2888782">90%: EBM = 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow>                        <m:msub>
+                          <m:mi>Z</m:mi>
+                          <m:mfrac>
+                            <m:mi>α</m:mi>
+                            <m:mn>2</m:mn>
+                          </m:mfrac>
+                        </m:msub>
+
+<m:mfrac><m:mi>σ</m:mi><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Z rSub { size 8{ { size 6{α} } wideslash { size 6{2} } } }  {  {σ}  over  { sqrt {n} } } } {}</m:annotation></m:semantics></m:math>= 1.645
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>3</m:mn><m:msqrt><m:mtext>64</m:mtext></m:msqrt></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {3}  over  { sqrt {"64"} } } } {}</m:annotation></m:semantics></m:math> = 0.616875</para>
+      <para id="id5205392">95%: EBM = 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow>                        <m:msub>
+                          <m:mi>Z</m:mi>
+                          <m:mfrac>
+                            <m:mi>α</m:mi>
+                            <m:mn>2</m:mn>
+                          </m:mfrac>
+                        </m:msub>
+
+<m:mfrac><m:mi>σ</m:mi><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Z rSub { size 8{ { size 6{α} } wideslash { size 6{2} } } }  {  {σ}  over  { sqrt {n} } } } {}</m:annotation></m:semantics></m:math>= 1.96
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>3</m:mn><m:msqrt><m:mtext>64</m:mtext></m:msqrt></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {3}  over  { sqrt {"64"} } } } {}</m:annotation></m:semantics></m:math>= 0.735</para>
+      <para id="id1169109985254">99%: EBM = 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow>                        <m:msub>
+                          <m:mi>Z</m:mi>
+                          <m:mfrac>
+                            <m:mi>α</m:mi>
+                            <m:mn>2</m:mn>
+                          </m:mfrac>
+                        </m:msub>
+
+<m:mfrac><m:mi>σ</m:mi><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Z rSub { size 8{ { size 6{α} } wideslash { size 6{2} } } }  {  {σ}  over  { sqrt {n} } } } {}</m:annotation></m:semantics></m:math>= 2.58
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>3</m:mn><m:msqrt><m:mtext>64</m:mtext></m:msqrt></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {3}  over  { sqrt {"64"} } } } {}</m:annotation></m:semantics></m:math> = 0.9675</para>
+
+</example>
+      <para id="id5110393">Note that as the confidence increases, so also does the EBM. To ensure that the error bound is small, the confidence must be decreased. Hence changing the confidence to lower the error is not a practical solution.</para>
+      <example id="eip-333">
+<para id="id3188190">What happens as the sample size is increased? Calculate the EBM for a 90% confidence interval for n = 25, 64, and 100.</para>
+      <para id="id2549868">n = 25: EBM = 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow>                        <m:msub>
+                          <m:mi>Z</m:mi>
+                          <m:mfrac>
+                            <m:mi>α</m:mi>
+                            <m:mn>2</m:mn>
+                          </m:mfrac>
+                        </m:msub>
+
+<m:mfrac><m:mi>σ</m:mi><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Z rSub { size 8{ { size 6{α} } wideslash { size 6{2} } } }  {  {σ}  over  { sqrt {n} } } } {}</m:annotation></m:semantics></m:math>= 1.645
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>3</m:mn><m:msqrt><m:mtext>25</m:mtext></m:msqrt></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {3}  over  { sqrt {"25"} } } } {}</m:annotation></m:semantics></m:math> = 0987</para>
+      <para id="id1169103260172">n = 64: EBM = 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow>                        <m:msub>
+                          <m:mi>Z</m:mi>
+                          <m:mfrac>
+                            <m:mi>α</m:mi>
+                            <m:mn>2</m:mn>
+                          </m:mfrac>
+                        </m:msub>
+
+<m:mfrac><m:mi>σ</m:mi><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Z rSub { size 8{ { size 6{α} } wideslash { size 6{2} } } }  {  {σ}  over  { sqrt {n} } } } {}</m:annotation></m:semantics></m:math>= 1.645
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>3</m:mn><m:msqrt><m:mtext>64</m:mtext></m:msqrt></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {3}  over  { sqrt {"64"} } } } {}</m:annotation></m:semantics></m:math> =0.616875</para>
+      <para id="id1169104131627">n = 100: EBM = 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow>                        <m:msub>
+                          <m:mi>Z</m:mi>
+                          <m:mfrac>
+                            <m:mi>α</m:mi>
+                            <m:mn>2</m:mn>
+                          </m:mfrac>
+                        </m:msub>
+
+<m:mfrac><m:mi>σ</m:mi><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Z rSub { size 8{ { size 6{α} } wideslash { size 6{2} } } }  {  {σ}  over  { sqrt {n} } } } {}</m:annotation></m:semantics></m:math>= 1.645
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>3</m:mn><m:msqrt><m:mtext>100</m:mtext></m:msqrt></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {3}  over  { sqrt {"100"} } } } {}</m:annotation></m:semantics></m:math> = 0.4935</para>
+
+</example>
+      <para id="id4224208">As the sample size increases, the EBM decreases. The question now becomes how large a sample is needed for a particular error?</para>
+      <para id="id7027629">Begin by solving the equation for the EBM in terms of n.</para>
+      <equation id="id1169100943616"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:mtext>EBM</m:mtext>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mo stretchy="false">=</m:mo>
+                        <m:msub>
+                          <m:mi>Z</m:mi>
+                          <m:mfrac>
+                            <m:mi>α</m:mi>
+                            <m:mn>2</m:mn>
+                          </m:mfrac>
+                        </m:msub>
+
+
+                    </m:mrow>
+                    <m:mfrac>
+                      <m:mi>σ</m:mi>
+                      <m:msqrt>
+                        <m:mi>n</m:mi>
+                      </m:msqrt>
+                    </m:mfrac>
+                    <m:mo stretchy="false">⇒</m:mo>
+                    <m:mrow>
+                      <m:mi>n</m:mi>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:msup>
+                        <m:mfenced open="(" close=")">
+                          <m:mfrac>
+                            <m:mrow>
+                        <m:msub>
+                          <m:mi>Z</m:mi>
+                          <m:mfrac>
+                            <m:mi>α</m:mi>
+                            <m:mn>2</m:mn>
+                          </m:mfrac>
+                        </m:msub>
+
+
+                              <m:mstyle fontsize="12pt">
+                                <m:mrow>
+                                  <m:mi>σ</m:mi>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mrow>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>EBM</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mfrac>
+                        </m:mfenced>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ ital "EBM"=Z rSub { size 8{ { size 6{α} } wideslash { size 6{2} } } }  {  {σ}  over  { sqrt {n} } }  drarrow n= left ( {  {Z rSub { { size 6{α} } wideslash { size 6{2} } }  size 12{σ}}  over  { ital "EBM"} }  right ) rSup {2} } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+      <list id="eip-508"><item>Where 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>Z</m:mi><m:mstyle fontsize="8pt"><m:mrow/></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Z rSub { size 8{ { size 6{α} } wideslash { size 6{2} } } } } {}</m:annotation></m:semantics></m:math>= the critical z score based on the desired confidence level</item>
+<item>EBM = desired margin of error</item>
+<item>σ = population standard deviation</item>
+
+</list>
+
+      
+      <para id="id1169109085986">Often the population standard deviation is unknown; hence the sample standard deviation from a previous sample of size greater than 30 may be used as an approximation to σ.</para>
+      <para id="id2487194">
+        <emphasis>The value found by using the formula for sample size is generally not a whole number. However the sample size must be a whole number, so ALWAYS ROUND UP to the next larger whole number.</emphasis>
+      </para>
+      <example id="eip-737">
+<para id="id5046588">Suppose for the given information, we want to be 90% confident with an error of only ±0.5, how large should n be?</para>
+      <para id="id1169108873745">Now substitute the given values:</para>
+      <equation id="id6567066"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi>n</m:mi>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:msup>
+                        <m:mfenced open="(" close=")">
+                          <m:mfrac>
+                            <m:mrow>
+                        <m:msub>
+                          <m:mi>Z</m:mi>
+                          <m:mfrac>
+                            <m:mi>α</m:mi>
+                            <m:mn>2</m:mn>
+                          </m:mfrac>
+                        </m:msub>
+
+
+                              <m:mi>σ</m:mi>
+                            </m:mrow>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>EBM</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mfrac>
+                        </m:mfenced>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                    </m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow/>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:msup>
+                            <m:mfenced open="(" close=")">
+                              <m:mfrac>
+                                <m:mrow>
+                                  <m:mn>1</m:mn>
+                                  <m:mtext>.</m:mtext>
+                                  <m:mtext>645</m:mtext>
+                                  <m:mo stretchy="false">(</m:mo>
+                                  <m:mn>3</m:mn>
+                                  <m:mo stretchy="false">)</m:mo>
+                                </m:mrow>
+                                <m:mrow>
+                                  <m:mn>0</m:mn>
+                                  <m:mtext>.</m:mtext>
+                                  <m:mn>5</m:mn>
+                                </m:mrow>
+                              </m:mfrac>
+                            </m:mfenced>
+                            <m:mn>2</m:mn>
+                          </m:msup>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mrow/>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:mn>9</m:mn>
+                          </m:mrow>
+                          <m:mtext>.</m:mtext>
+                          <m:msup>
+                            <m:mtext>87</m:mtext>
+                            <m:mn>2</m:mn>
+                          </m:msup>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mrow/>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:mtext>97</m:mtext>
+                          </m:mrow>
+                          <m:mtext>.</m:mtext>
+                          <m:mtext>4169</m:mtext>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{n= left ( {  {Z rSub { size 8{ { size 6{α} } wideslash { size 6{2} } } } σ}  over  { ital "EBM"} }  right ) rSup {2}  size 12{ {}= left ( {  {1 "." "645" \( 3 \) }  over  {0 "." 5} }  right ) rSup {2} } size 12{ {}=9 "." "87" rSup {2} } size 12{ {}="97" "." "4169"}} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+      <para id="id1169108599651">Since you can not sample less than a whole this value n = 98.</para>
+      </example>
+      <example id="eip-737a">
+      <para id="id1169107524222">How large a sample would you need if you wanted to be 95% confident with an error of ± 0.25?</para>
+      <equation id="id6368312"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi>n</m:mi>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:msup>
+                        <m:mfenced open="(" close=")">
+                          <m:mfrac>
+                            <m:mrow>
+                        <m:msub>
+                          <m:mi>Z</m:mi>
+                          <m:mfrac>
+                            <m:mi>α</m:mi>
+                            <m:mn>2</m:mn>
+                          </m:mfrac>
+                        </m:msub>
+
+
+                              <m:mi>σ</m:mi>
+                            </m:mrow>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>EBM</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mfrac>
+                        </m:mfenced>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                    </m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow/>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:msup>
+                            <m:mfenced open="(" close=")">
+                              <m:mfrac>
+                                <m:mrow>
+                                  <m:mn>1.96</m:mn>
+                                  <m:mo stretchy="false">(</m:mo>
+                                  <m:mn>3</m:mn>
+                                  <m:mo stretchy="false">)</m:mo>
+                                </m:mrow>
+                                <m:mrow>
+                                  <m:mn>0.25</m:mn>
+                                </m:mrow>
+                              </m:mfrac>
+                            </m:mfenced>
+                            <m:mn>2</m:mn>
+                          </m:msup>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mrow/>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:msup>                            
+                             <m:mn>23.52</m:mn>
+                             <m:mn>2</m:mn>
+                          </m:msup>
+                        </m:mrow>
+                      </m:mrow>
+</m:mrow>
+                    </m:mstyle>
+                    <m:mo>≈</m:mo>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow/>
+                          <m:mn>554.19</m:mn>
+                          <m:mo stretchy="false">⇒</m:mo>
+                          <m:mrow>
+                            <m:mi>n</m:mi>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:mtext>554</m:mtext>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{n= left ( {  {Z rSub { size 8{ { size 6{α} } wideslash { size 6{2} } } } σ}  over  { ital "EBM"} }  right ) rSup {2}  size 12{ {}= left ( {  {1 "." "96" \( 3 \) }  over  {0 "." "25"} }  right ) rSup {2} } size 12{ {}="23" "." "52" rSup {2} } size 12{ approx "553" "." "19" drarrow n="554"}} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+</example>
+
+      <exercise id="eip-109"><problem id="eip-357">
+<para id="id1404109">Suppose the scores on a statistics final are normally distributed with a standard deviation of 10 points. You have been asked to construct a 95% confidence interval with an error of no more than 2 points.</para>
+</problem>
+
+<solution id="eip-181">
+
+
+      <para id="id1169106862832">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>Z</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mn>0</m:mn>
+                              <m:mtext>.</m:mtext>
+                              <m:mtext>025</m:mtext>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                    <m:mtext>.</m:mtext>
+                    <m:mtext>645</m:mtext>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{Z rSub { size 8{0 "." "025"} } =1 "." "645"} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id1169103237937">EMB = 2 </para>
+      <para id="id1169113316773">σ = 10 </para>
+      <para id="id1169113148462"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mfenced open="(" close=")"><m:mfrac><m:mrow>                        <m:msub>
+                          <m:mi>Z</m:mi>
+                          <m:mfrac>
+                            <m:mi>α</m:mi>
+                            <m:mn>2</m:mn>
+                          </m:mfrac>
+                        </m:msub>
+
+<m:mi>σ</m:mi></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>EBM</m:mtext></m:mrow></m:mstyle></m:mfrac></m:mfenced><m:mn>2</m:mn></m:msup></m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow/><m:mo stretchy="false">=</m:mo><m:msup><m:mfenced open="(" close=")"><m:mfrac><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mtext>645</m:mtext><m:mo stretchy="false">(</m:mo><m:mtext>10</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:mfrac></m:mfenced><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mstyle><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow/><m:mtext>= </m:mtext><m:mo stretchy="false">(</m:mo><m:mn>8</m:mn><m:mtext>.</m:mtext><m:mtext>225</m:mtext><m:mo stretchy="false">)</m:mo><m:mtext>2 = 67</m:mtext><m:mtext>.</m:mtext><m:mtext>65 rounded up =&gt; n = 68</m:mtext></m:mrow></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{n= left ( {  {Z rSub { size 8{ { size 6{α} } wideslash { size 6{2} } } } σ}  over  { ital "EBM"} }  right ) rSup {2}  size 12{ {}=  left ( {  {1 "." "645" \( "10" \) }  over  {2} }  right ) rSup {2} } size 12{ {}"= " \( 8 "." "225" \) "2 = 67" "." "65 rounded up =&gt; n = 68"}} {}</m:annotation></m:semantics></m:math>.</para>
+      <para id="id1169109020447">Hence, a sample of size 68 must be taken to create a 95% confidence interval with an error of no more than two points.</para>
+</solution>
+</exercise>
+      <exercise id="eip-550"><problem id="eip-81">
+<para id="id1169110003500">Suppose you want to be 98% confident with an error of no more than 1.5 points, how large must your sample be?</para>
+</problem>
+
+<solution id="eip-513">
+
+
+      <para id="id6785308">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>Z</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mn>0</m:mn>
+                              <m:mtext>.</m:mtext>
+                              <m:mtext>01</m:mtext>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                    <m:mtext>.</m:mtext>
+                    <m:mtext>33</m:mtext>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{Z rSub { size 8{0 "." "01"} } =2 "." "33"} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id1169103158705">EMB = 1.5  </para>
+      <para id="id1169106468066">σ = 10 </para>
+      <equation id="id6369496"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi>n</m:mi>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:msup>
+                        <m:mfenced open="(" close=")">
+                          <m:mfrac>
+                            <m:mrow>
+                        <m:msub>
+                          <m:mi>Z</m:mi>
+                          <m:mfrac>
+                            <m:mi>α</m:mi>
+                            <m:mn>2</m:mn>
+                          </m:mfrac>
+                        </m:msub>
+
+
+                              <m:mi>σ</m:mi>
+                            </m:mrow>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>EBM</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mfrac>
+                        </m:mfenced>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                    </m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow/>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:msup>
+                            <m:mfenced open="(" close=")">
+                              <m:mfrac>
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                  <m:mtext>.</m:mtext>
+                                  <m:mtext>33</m:mtext>
+                                  <m:mo stretchy="false">(</m:mo>
+                                  <m:mtext>10</m:mtext>
+                                  <m:mo stretchy="false">)</m:mo>
+                                </m:mrow>
+                                <m:mrow>
+                                  <m:mn>1</m:mn>
+                                  <m:mtext>.</m:mtext>
+                                  <m:mn>5</m:mn>
+                                </m:mrow>
+                              </m:mfrac>
+                            </m:mfenced>
+                            <m:mn>2</m:mn>
+                          </m:msup>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mrow/>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:mo stretchy="false">(</m:mo>
+                          </m:mrow>
+                          <m:mtext>15</m:mtext>
+                          <m:mtext>.</m:mtext>
+                          <m:mtext>533</m:mtext>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mrow>
+                            <m:mtext>2 </m:mtext>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:mtext> 241</m:mtext>
+                          </m:mrow>
+                          <m:mtext>.</m:mtext>
+                          <m:mtext>28 rounded up </m:mtext>
+                          <m:mtext>=&gt;</m:mtext>
+                          <m:mrow>
+                            <m:mtext> n </m:mtext>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:mtext> 242</m:mtext>
+                          </m:mrow>
+                          <m:mtext>.</m:mtext>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{n= left ( {  {Z rSub { size 8{ { size 6{α} } wideslash { size 6{2} } } } σ}  over  { ital "EBM"} }  right ) rSup {2}  size 12{ {}= left ( {  {2 "." "33" \( "10" \) }  over  {1 "." 5} }  right ) rSup {2} } size 12{ {}=  \( "15" "." "533" \) "2 "=" 241" "." "28 rounded up ""=&gt;"" n "=" 242" "." }} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+      <para id="id2529250">Hence, a sample of size 242 must be taken to create a 98% confidence interval with an error of no more than 1.5 points.</para>
+</solution>
+</exercise>
+    </section>
+    <section id="id1169103223149"><title>Determining Sample Size Required to Estimate p.</title><para id="id5946556">Again, let’s look at the equation for the Error Bound.</para>
+      <para id="id1169100149301">
+        <m:math>
+          <m:semantics>
+            <m:mrow/>
+            <m:annotation encoding="StarMath 5.0">{}</m:annotation>
+          </m:semantics>
+        </m:math>
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:mtext>EBP</m:mtext>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mo stretchy="false">=</m:mo>
+                        <m:msub>
+                          <m:mi>Z</m:mi>
+                          <m:mfrac>
+                            <m:mi>α</m:mi>
+                            <m:mn>2</m:mn>
+                          </m:mfrac>
+                        </m:msub>
+
+
+                    </m:mrow>
+                    <m:msqrt>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mi>p</m:mi>
+                          <m:mi>'</m:mi>
+                          <m:mi>q</m:mi>
+                          <m:mi>'</m:mi>
+                        </m:mrow>
+                        <m:mi>n</m:mi>
+                      </m:mfrac>
+                    </m:msqrt>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ ital "EBP"=Z rSub { size 8{ { size 6{α} } wideslash { size 6{2} } } }  sqrt { {  {p'q'}  over  {n} } } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+
+<list id="conditionlist1" type="bulleted"><item><emphasis>where p’ = 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mi>x</m:mi><m:mi>n</m:mi></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {x}  over  {n} } } {}</m:annotation></m:semantics></m:math> is the point estimate for the true population proportion</emphasis></item>
+      <item><emphasis>x = the number of successes</emphasis></item>
+      <item><emphasis>n = the sample size</emphasis></item>
+      <item><emphasis>q’ = 1 – p’</emphasis></item>
+</list>
+      <para id="id1169101249701"><emphasis>Solving for n, we obtain: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mfenced open="(" close=")"><m:mfrac>                        <m:msub>
+                          <m:mi>Z</m:mi>
+                          <m:mfrac>
+                            <m:mi>α</m:mi>
+                            <m:mn>2</m:mn>
+                          </m:mfrac>
+                        </m:msub>
+
+<m:mstyle fontstyle="italic"><m:mrow><m:mtext>EBP</m:mtext></m:mrow></m:mstyle></m:mfrac></m:mfenced><m:mn>2</m:mn></m:msup></m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>p</m:mi><m:mi>'</m:mi><m:mi>q</m:mi><m:mi>'</m:mi></m:mrow></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{n= left ( {  {Z rSub { size 8{ { size 6{α} } wideslash { size 6{2} } } } }  over  { ital "EBP"} }  right ) rSup {2}  size 12{p'q'}} {}</m:annotation></m:semantics></m:math></emphasis></para>
+
+<example id="ex1">
+      <para id="id1169105687284">Suppose that a previous study claimed that only 25% of people recycle on a regular basis. Determine the sample size needed to create a 95% confidence interval for the true population proportion with an error of only +/- 3%.</para>
+      <para id="id3293355">p’ = 0.25 =&gt; q’ = 1 – p’ = 0.75 </para>
+      <para id="id4734710"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mfenced open="(" close=")"><m:mfrac>                        <m:msub>
+                          <m:mi>Z</m:mi>
+                          <m:mfrac>
+                            <m:mi>α</m:mi>
+                            <m:mn>2</m:mn>
+                          </m:mfrac>
+                        </m:msub>
+
+<m:mstyle fontstyle="italic"><m:mrow><m:mtext>EBP</m:mtext></m:mrow></m:mstyle></m:mfrac></m:mfenced><m:mn>2</m:mn></m:msup></m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>p</m:mi><m:mi>'</m:mi><m:mi>q</m:mi><m:mrow><m:mi>'</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mfenced open="(" close=")"><m:mfrac><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mtext>96</m:mtext></m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>03</m:mtext></m:mrow></m:mfrac></m:mfenced><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mrow></m:mstyle><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>25</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>75</m:mtext><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mtext>800</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mtext>33</m:mtext><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{n= left ( {  {Z rSub { size 8{ { size 6{α} } wideslash { size 6{2} } } } }  over  { ital "EBP"} }  right ) rSup {2}  size 12{p'q'= left ( {  {1 "." "96"}  over  {0 "." "03"} }  right ) rSup {2} } size 12{ \( 0 "." "25" \)  \( 0 "." "75" \) ="800" "." "33" "." }} {}</m:annotation></m:semantics></m:math></para>
+      <para id="id8835342">AWAYS ROUND UP, hence n = 801.</para>
+</example>
+      <para id="id8787041">
+        <emphasis>If there is no previous sample, let p’ = 0.5 and q’ = 0.5 as this gives the largest value for n. </emphasis>
+      </para>
+      <example id="eip-212">
+<para id="id1169098761628">What would n be for a 95% confidence interval with an error of only +/-3% with no sample data?</para>
+      <equation id="id1169101653049">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi>n</m:mi>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:msup>
+                        <m:mfenced open="(" close=")">
+                          <m:mfrac>
+                        <m:msub>
+                          <m:mi>Z</m:mi>
+                          <m:mfrac>
+                            <m:mi>α</m:mi>
+                            <m:mn>2</m:mn>
+                          </m:mfrac>
+                        </m:msub>
+
+
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>EBP</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mfrac>
+                        </m:mfenced>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                    </m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi>p</m:mi>
+                          <m:mi>'</m:mi>
+                          <m:mi>q</m:mi>
+                          <m:mrow>
+                            <m:mi>'</m:mi>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:msup>
+                              <m:mfenced open="(" close=")">
+                                <m:mfrac>
+                                  <m:mrow>
+                                    <m:mn>1</m:mn>
+                                    <m:mtext>.</m:mtext>
+                                    <m:mtext>96</m:mtext>
+                                  </m:mrow>
+                                  <m:mrow>
+                                    <m:mn>0</m:mn>
+                                    <m:mtext>.</m:mtext>
+                                    <m:mtext>03</m:mtext>
+                                  </m:mrow>
+                                </m:mfrac>
+                              </m:mfenced>
+                              <m:mn>2</m:mn>
+                            </m:msup>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mn>0</m:mn>
+                          <m:mtext>.</m:mtext>
+                          <m:mn>5</m:mn>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mn>0</m:mn>
+                          <m:mtext>.</m:mtext>
+                          <m:mn>5</m:mn>
+                          <m:mrow>
+                            <m:mo stretchy="false">)</m:mo>
+                            <m:mo stretchy="false">≈</m:mo>
+                            <m:mtext>1067</m:mtext>
+                          </m:mrow>
+                          <m:mtext>.</m:mtext>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{n= left ( {  {Z rSub { size 8{ { size 6{α} } wideslash { size 6{2} } } } }  over  { ital "EBP"} }  right ) rSup {2}  size 12{p'q'= left ( {  {1 "." "96"}  over  {0 "." "03"} }  right ) rSup {2} } size 12{ \( 0 "." 5 \)  \( 0 "." 5 \)  approx "1067" "." 1}} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+      <para id="id1169104367565">AWAYS ROUND UP, hence n = 1068 </para>
+      <para id="id1169107951744">Note that not having a previous sample greatly increases the number of data values needed in a sample. Often a pilot study is done to generate an approximation for p.</para>
+</example>
+      <exercise id="eip-317"><problem id="eip-799">
+<para id="id1169110120686">The Mesa College mathematics department has noticed that a number of students place in a non-transfer level course and only need a 6 week refresher rather than an entire semester long course. If it is thought that about 10% of the students fall in this category, how many must the department survey is they wish to be 95% certain that the true population proportion is within +/-5%?</para>
+</problem>
+
+<solution id="eip-227">
+
+
+      <equation id="id1169110177564">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi>n</m:mi>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:msup>
+                        <m:mfenced open="(" close=")">
+                          <m:mfrac>
+                        <m:msub>
+                          <m:mi>Z</m:mi>
+                          <m:mfrac>
+                            <m:mi>α</m:mi>
+                            <m:mn>2</m:mn>
+                          </m:mfrac>
+                        </m:msub>
+
+
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>EBP</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mfrac>
+                        </m:mfenced>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                    </m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi>p</m:mi>
+                          <m:mi>'</m:mi>
+                          <m:mi>q</m:mi>
+                          <m:mrow>
+                            <m:mi>'</m:mi>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:msup>
+                              <m:mfenced open="(" close=")">
+                                <m:mfrac>
+                                  <m:mrow>
+                                    <m:mn>1</m:mn>
+                                    <m:mtext>.</m:mtext>
+                                    <m:mtext>96</m:mtext>
+                                  </m:mrow>
+                                  <m:mrow>
+                                    <m:mn>0</m:mn>
+                                    <m:mtext>.</m:mtext>
+                                    <m:mtext>05</m:mtext>
+                                  </m:mrow>
+                                </m:mfrac>
+                              </m:mfenced>
+                              <m:mn>2</m:mn>
+                            </m:msup>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mn>0</m:mn>
+                          <m:mtext>.</m:mtext>
+                          <m:mn>1</m:mn>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mn>0</m:mn>
+                          <m:mtext>.</m:mtext>
+                          <m:mn>9</m:mn>
+                          <m:mrow>
+                            <m:mo stretchy="false">)</m:mo>
+                            <m:mo stretchy="false">≈</m:mo>
+                            <m:mtext>138</m:mtext>
+                          </m:mrow>
+                          <m:mtext>.</m:mtext>
+                          <m:mn>3</m:mn>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{n= left ( {  {Z rSub { size 8{ { size 6{α} } wideslash { size 6{2} } } } }  over  { ital "EBP"} }  right ) rSup {2}  size 12{p'q'= left ( {  {1 "." "96"}  over  {0 "." "05"} }  right ) rSup {2} } size 12{ \( 0 "." 1 \)  \( 0 "." 9 \)  approx "138" "." 3}} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+      <para id="id6008485">AWAYS ROUND UP, hence n = 139 </para>
+</solution>
+</exercise>
+
+
+      <exercise id="eip-113"><problem id="eip-852">
+<para id="id1169101454512">Suppose the math department has no previous information. How many students should be surveyed?</para>
+</problem>
+
+<solution id="eip-493">
+
+
+      <equation id="id4478998">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi>n</m:mi>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:msup>
+                        <m:mfenced open="(" close=")">
+                          <m:mfrac>
+                        <m:msub>
+                          <m:mi>Z</m:mi>
+                          <m:mfrac>
+                            <m:mi>α</m:mi>
+                            <m:mn>2</m:mn>
+                          </m:mfrac>
+                        </m:msub>
+
+
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>EBP</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mfrac>
+                        </m:mfenced>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                    </m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi>p</m:mi>
+                          <m:mi>'</m:mi>
+                          <m:mi>q</m:mi>
+                          <m:mrow>
+                            <m:mi>'</m:mi>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:msup>
+                              <m:mfenced open="(" close=")">
+                                <m:mfrac>
+                                  <m:mrow>
+                                    <m:mn>1</m:mn>
+                                    <m:mtext>.</m:mtext>
+                                    <m:mtext>96</m:mtext>
+                                  </m:mrow>
+                                  <m:mrow>
+                                    <m:mn>0</m:mn>
+                                    <m:mtext>.</m:mtext>
+                                    <m:mtext>05</m:mtext>
+                                  </m:mrow>
+                                </m:mfrac>
+                              </m:mfenced>
+                              <m:mn>2</m:mn>
+                            </m:msup>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mn>0</m:mn>
+                          <m:mtext>.</m:mtext>
+                          <m:mn>5</m:mn>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mn>0</m:mn>
+                          <m:mtext>.</m:mtext>
+                          <m:mn>5</m:mn>
+                          <m:mrow>
+                            <m:mo stretchy="false">)</m:mo>
+                            <m:mo stretchy="false">≈</m:mo>
+                            <m:mtext>384</m:mtext>
+                          </m:mrow>
+                          <m:mtext>.</m:mtext>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{n= left ( {  {Z rSub { size 8{ { size 6{α} } wideslash { size 6{2} } } } }  over  { ital "EBP"} }  right ) rSup {2}  size 12{p'q'= left ( {  {1 "." "96"}  over  {0 "." "05"} }  right ) rSup {2} } size 12{ \( 0 "." 5 \)  \( 0 "." 5 \)  approx "384" "." 2}} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+      <para id="id5033751">AWAYS ROUND UP, hence n = 385 </para>
+</solution>
+</exercise>
+      <exercise id="eip-594"><problem id="eip-375">
+<para id="id5744342">Suppose Cardmart wish to know what proportion of men buy their wife a Mother’s Day Card. How many people must be sampled is they wish to be 95% certain that the proportion is within 2%? Suppose that a previous sample of 500 men reported that 421 of them bought their wife a Mother’s Day Card.</para>
+</problem>
+
+<solution id="eip-229">
+
+      <para id="id8414754"><equation id="eq1"><m:math>
+ <m:mi>p'</m:mi>
+ <m:mo>=</m:mo>
+ <m:mfrac>
+  <m:mi>421</m:mi>
+  <m:mi>500</m:mi>
+ </m:mfrac>
+ <m:mo>=</m:mo>
+ <m:mn>0.842</m:mn>
+</m:math></equation>, hence <equation id="eq2"><m:math>
+ <m:mi>q'</m:mi>
+ <m:mo>=</m:mo>
+ <m:mn>1</m:mn>
+ <m:mo>-</m:mo>
+ <m:mi>p'</m:mi>
+ <m:mo>=</m:mo>
+ <m:mn>1</m:mn>
+ <m:mo>-</m:mo>
+ <m:mn>0.842</m:mn>
+ <m:mo>=</m:mo>
+ <m:mn>0.158</m:mn>
+</m:math></equation></para>
+      
+      <para id="id3602380">E = 0.02</para>
+      <equation id="id1169101462406">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi>n</m:mi>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:msup>
+                        <m:mfenced open="(" close=")">
+                          <m:mfrac>
+                        <m:msub>
+                          <m:mi>Z</m:mi>
+                          <m:mfrac>
+                            <m:mi>α</m:mi>
+                            <m:mn>2</m:mn>
+                          </m:mfrac>
+                        </m:msub>
+
+
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>EBP</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mfrac>
+                        </m:mfenced>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                    </m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi>p</m:mi>
+                          <m:mi>'</m:mi>
+                          <m:mi>q</m:mi>
+                          <m:mrow>
+                            <m:mi>'</m:mi>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:msup>
+                              <m:mfenced open="(" close=")">
+                                <m:mfrac>
+                                  <m:mrow>
+                                    <m:mn>1</m:mn>
+                                    <m:mtext>.</m:mtext>
+                                    <m:mtext>645</m:mtext>
+                                  </m:mrow>
+                                  <m:mrow>
+                                    <m:mn>0</m:mn>
+                                    <m:mtext>.</m:mtext>
+                                    <m:mtext>02</m:mtext>
+                                  </m:mrow>
+                                </m:mfrac>
+                              </m:mfenced>
+                              <m:mn>2</m:mn>
+                            </m:msup>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mn>0</m:mn>
+                          <m:mtext>.</m:mtext>
+                          <m:mtext>842</m:mtext>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mn>0</m:mn>
+                          <m:mtext>.</m:mtext>
+                          <m:mtext>158</m:mtext>
+                          <m:mrow>
+                            <m:mo stretchy="false">)</m:mo>
+                            <m:mo stretchy="false">≈</m:mo>
+                            <m:mtext>899</m:mtext>
+                          </m:mrow>
+                          <m:mtext>.</m:mtext>
+                          <m:mtext>997</m:mtext>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{n= left ( {  {Z rSub { size 8{ { size 6{α} } wideslash { size 6{2} } } } }  over  { ital "EBP"} }  right ) rSup {2}  size 12{p'q'= left ( {  {1 "." "645"}  over  {0 "." "02"} }  right ) rSup {2} } size 12{ \( 0 "." "842" \)  \( 0 "." "158" \)  approx "899" "." "997"}} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+      <para id="id1169109091413">AWAYS ROUND UP, n = 900. Hence 900 people need to be surveyed to ensure a 95% confidence interval with an error of at most 2%.</para>
+
+</solution>
+</exercise>
+
+      <exercise id="eip-500"><problem id="eip-25">
+<para id="id1169102500998">Suppose there is no previous sample. How many men will need to be surveyed?</para>
+</problem>
+
+<solution id="eip-696">
+
+
+      <equation id="id1169106740938">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi>n</m:mi>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:msup>
+                        <m:mfenced open="(" close=")">
+                          <m:mfrac>
+                        <m:msub>
+                          <m:mi>Z</m:mi>
+                          <m:mfrac>
+                            <m:mi>α</m:mi>
+                            <m:mn>2</m:mn>
+                          </m:mfrac>
+                        </m:msub>
+
+
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>EBP</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mfrac>
+                        </m:mfenced>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                    </m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi>p</m:mi>
+                          <m:mi>'</m:mi>
+                          <m:mi>q</m:mi>
+                          <m:mrow>
+                            <m:mi>'</m:mi>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:msup>
+                              <m:mfenced open="(" close=")">
+                                <m:mfrac>
+                                  <m:mrow>
+                                    <m:mn>1</m:mn>
+                                    <m:mtext>.</m:mtext>
+                                    <m:mtext>645</m:mtext>
+                                  </m:mrow>
+                                  <m:mrow>
+                                    <m:mn>0</m:mn>
+                                    <m:mtext>.</m:mtext>
+                                    <m:mtext>05</m:mtext>
+                                  </m:mrow>
+                                </m:mfrac>
+                              </m:mfenced>
+                              <m:mn>2</m:mn>
+                            </m:msup>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mn>0</m:mn>
+                          <m:mtext>.</m:mtext>
+                          <m:mn>5</m:mn>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mn>0</m:mn>
+                          <m:mtext>.</m:mtext>
+                          <m:mn>5</m:mn>
+                          <m:mrow>
+                            <m:mo stretchy="false">)</m:mo>
+                            <m:mo stretchy="false">≈</m:mo>
+                            <m:mtext>1691</m:mtext>
+                          </m:mrow>
+                          <m:mtext>.</m:mtext>
+                          <m:mtext>27</m:mtext>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{n= left ( {  {Z rSub { size 8{ { size 6{α} } wideslash { size 6{2} } } } }  over  { ital "EBP"} }  right ) rSup {2}  size 12{p'q'= left ( {  {1 "." "645"}  over  {0 "." "05"} }  right ) rSup {2} } size 12{ \( 0 "." 5 \)  \( 0 "." 5 \)  approx "1691" "." "27"}} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+      <para id="id7120515">AWAYS ROUND UP, n = 1692. Hence 1692 people need to be surveyed to ensure a 95% confidence interval with an error of at most 2%. </para>
+</solution>
+</exercise>
+      
+    </section>
+  </content>
+</document>

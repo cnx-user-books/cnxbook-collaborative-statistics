@@ -1,0 +1,101 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Sampling and Data: More on Sampling (edited: Teegarden)</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>9db42082-5761-4e3b-aa9c-dcd82b3afc85</md:uuid>
+</metadata>
+  <content>
+    <note id="idm366448">This module is a DRAFT.</note><section id="id-779765411457">
+
+      <para id="id7645179">If we were to examine two samples representing the same population, they would, more than likely, not be the same. Just as there is variation in data, there is variation in samples. As you become accustomed to sampling, the variability will seem natural. </para>
+      
+      <example id="element-575"><para id="element-62">
+		Suppose ABC College has 10,000 part-time students (the population). We are interested in the average amount of money a part-time student spends on books in the fall term. Asking all 10,000 students is an almost impossible task.
+	</para><para id="element-199">Suppose we take two different samples. </para><para id="element-499">First, we use convenience sampling and survey 10 students from a first term organic chemistry class. Many of these students are taking first term calculus in addition to the organic chemistry class . The amount of money they spend is as follows:</para><div id="idp6710752"><list id="set-element-195" list-type="labeled-item" display="inline"><item>$128</item>
+<item>$87</item>
+<item>$173</item>
+<item>$116</item>
+<item>$130</item>
+<item>$204</item>
+<item>$147</item>
+<item>$189</item>
+<item>$93</item>
+<item>$153</item></list></div><para id="element-849">The second sample is taken by using a list from the P.E. department of senior citizens who take P.E. classes and taking every 5th senior citizen on the list, for a total of 10 senior citizens. They spend:</para><div id="idp8435744"><list id="set-element-865" list-type="labeled-item" display="inline"><item>$50</item>
+<item>$40</item>
+<item>$36</item>
+<item>$15</item>
+<item>$50</item>
+<item>$100</item>
+<item>$40</item>
+<item>$53</item>
+<item>$22</item>
+<item>$22</item></list></div><exercise id="element-536"><problem id="idp7695968">
+		<para id="element-377">
+			Do you think that either of these samples is representative of (or is characteristic of) the entire 10,000 part-time student population?
+		</para>
+	</problem>
+
+	<solution id="idp17875120">
+		<para id="element-335"><emphasis>No</emphasis>. The first sample probably consists of science-oriented students.  Besides the chemistry course, some of them are taking firm-term calculus.  Books for these classes tend to be expensive.  Most of these students are, more than likely, paying more than the average part-time student for their books.  The second sample is a group of senior citizens who are, more than likely, taking courses for health and interest.  The amount of money they spend on books is probably much less than the average part-time student.  Both samples are biased.  Also, in both cases, not all students have a chance to be in either sample.
+		</para>
+	</solution>
+</exercise><exercise id="element-179"><problem id="idp13696704">
+		<para id="element-546">
+			Since these samples are not representative of the entire population, is it wise to use the results to describe the entire population?
+		</para>
+	</problem>
+
+	<solution id="idp9818704">
+		<para id="element-480"><emphasis>No.</emphasis> Never use a sample that is not representative or does not have the characteristics of the population.
+		</para>
+	</solution>
+</exercise><para id="element-513">Now, suppose we take a third sample. We choose ten different part-time students from the disciplines of chemistry, math, English, psychology, sociology, history, nursing, physical education, art, and early childhood development. Each student is chosen using simple random sampling. Using a calculator, random numbers are generated and a student from a particular discipline is selected if he/she has a corresponding number. The students spend:</para><div id="idp6532704"><list id="set-element-651" list-type="labeled-item" display="inline"><item>$180</item>
+<item>$50</item>
+<item>$150</item>
+<item>$85</item>
+<item>$260</item>
+<item>$75</item>
+<item>$180</item>
+<item>$200</item>
+<item>$200</item>
+<item>$150</item></list></div><exercise id="element-887"><problem id="idp810624">
+		<para id="element-666">
+			Do you think this sample is representative of the population?
+		</para>
+	</problem>
+
+	<solution id="idp7732976">
+		<para id="element-971"><emphasis>Yes.</emphasis> It is chosen from different disciplines across the population.
+		</para>
+	</solution>
+</exercise><para id="element-577">Students often ask if it is "good enough" to take a sample, instead of surveying the entire population. If the survey is done well, the answer is yes. </para>
+</example>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <section id="id-425122345235">
+        
+<exercise id="lastex"><problem id="idp8445392">
+        <para id="id7878578">As a class, determine whether or not the following samples are representative. If they are not, discuss the reasons.</para>
+        
+        
+        
+        <list id="element-785" list-type="enumerated"><item>To find the average GPA of all students in a university, use all honor students at the university as the sample.</item>
+	<item>To find out the most popular cereal among young people under the age of 10, stand outside a large supermarket for three hours and speak to every 20th child under age 10 who enters the supermarket.</item>
+	<item>To find the average annual income of all adults in the United States, sample U.S. congressmen. Create a cluster sample by considering each state as a stratum (group).  By using simple random sampling, select states to be part of the cluster.  Then survey every U.S. congressman in the cluster.</item>
+<item>To determine the proportion of people taking public transportation to work, survey 20 people in New York City. Conduct the survey by sitting in Central Park on a bench and interviewing every person who sits next to you.</item>
+<item>To determine the average cost of a two day stay in a hospital in Massachusetts, survey 100 hospitals across the state using simple random sampling.</item></list> </problem></exercise>
+        
+      </section>
+    </section>
+  </content>
+</document>

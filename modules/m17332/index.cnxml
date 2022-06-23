@@ -1,0 +1,134 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Linear Regression and Correlation: Regression Lab II (edited: Teegarden)</title>
+  <metadata>
+  <md:content-id>m17332</md:content-id><md:title>Linear Regression and Correlation: Regression Lab II (edited: Teegarden)</md:title>
+  <md:abstract>This module provides a lab of Linear Regression and Correlation as a part of Collaborative Statistics collection (col10522) by Barbara Illowsky and Susan Dean. Labs changed to incorporate mini-tabs.</md:abstract>
+  <md:uuid>9c0c5b83-6948-418d-abaf-e851c4218313</md:uuid>
+</metadata>
+
+<content>
+    <para id="id2955783">
+      <emphasis>Correlation/Regression Lab</emphasis>
+    </para>
+    <para id="id3055400">Name:<emphasis effect="underline"/><emphasis effect="underline"/><space count="50" effect="underline"/> </para>
+    <section id="id1166031668153">
+      <title>Student Learning Outcomes: </title>
+      <para id="id8766572">* The student will calculate and construct the line of best fit between two variables.</para>
+      <para id="id1166029717240">* The student will evaluate the relationship between two variables to determine if that relationship is significant. </para>
+    </section>
+    <section id="id6593481">
+      <title>I. Collect the Data</title>
+      <para id="id1166029927022">Select 15 textbooks and record the number of pages in the textbook and the cost. Be sure to select books from a variety of disciplines.  Be sure to select either all hard cover or all soft cover books as the binding is a factor in the cost. The data may be collected from the college bookstore or a website, however indicate where the data was obtained.<emphasis effect="underline"/></para>
+      <para id="id2458936">1. Complete the table.</para>
+      <table id="id5817118" summary="">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <tbody>
+            <row>
+              <entry>Discipline</entry>
+              <entry>Number of pages</entry>
+              <entry>Cost of textbook</entry>
+            </row>
+            <row>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+            <row>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+            <row>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+            <row>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+            <row>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+            <row>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+            <row>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+            <row>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+            <row>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+            <row>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+            <row>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+            <row>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+            <row>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+            <row>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+            <row>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="id1166027484617"/>
+      <para id="id1166029881559">2. Which variable should be the dependent variable and which should be the independent variable? Why?</para>
+      
+      
+      <para id="eip-754">dependent variable:<space count="80" effect="underline"/> </para><para id="eip-910">independent variable:<space count="80" effect="underline"/> </para><para id="id1166021431533">3. Enter your data into your Minitab, and create a scatter plot and attach it to this lab.</para>
+      <para id="id1166027590673">Does there appear to be a relationship between the size of the book and the cost? dependent variable:<space count="10" effect="underline"/> Explain using complete sentences.</para>
+    </section>
+    <section id="id1166029665965">
+      <title>II. Analyze the Data </title>
+      <para id="id1166029635276">Using Minitab, determine the following information: <emphasis effect="italics">(Include your session window with this lab.)</emphasis></para>
+      <para id="id3128636">1. correlation coefficient = <space count="20" effect="underline"/><space count="5"/>   2. p-value = <space count="20" effect="underline"/> </para>
+      <para id="id1166029652121">3. Is there significant correlation? <space count="20" effect="underline"/> <emphasis effect="underline"/>Why or why not? Answer with 1-3 complete sentences.</para>
+      <para id="id5600534">4. What does the correlation imply about the relationship between the number of pages and the cost? Answer with 1-3 complete sentences.</para>
+      <para id="id2781237">5. Using Minitab, calculate the regression line: <emphasis effect="underline"/><space count="50" effect="underline"/> </para>
+      <para id="id4454248">6. Create a scatter plot with the regression line and include it with this lab.</para>
+      <para id="id1166022811598">Does the line seem to fit the data? <emphasis effect="underline"/> <space count="20" effect="underline"/> Why? Answer with 1-3 complete sentences.</para>
+      <para id="id1166023031602">7. Using the data you obtained, supply an answer for the following scenarios: </para>
+      <para id="id6623318">a. For a textbook with 400 pages, predict the cost:<emphasis effect="underline"/><space count="20" effect="underline"/> </para>
+      <para id="id1166027483226">b. For a textbook with 600 pages, predict the cost: <emphasis effect="underline"/><space count="20" effect="underline"/> </para>
+      <para id="id3406626">c. How many pages would you expect a book to have if it cost $58? <emphasis effect="underline"/><space count="20" effect="underline"/> </para>
+    </section>
+  </content>
+</document>

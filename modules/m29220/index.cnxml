@@ -1,0 +1,383 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Confidence Interval Lab 4</title>
+  <metadata>
+  <md:content-id>m29220</md:content-id><md:title>Confidence Interval Lab 4</md:title>
+  <md:abstract>This lab incorporate both lab 1 and lab 2 with minitab.</md:abstract>
+  <md:uuid>c9e580b4-333e-4196-8230-7bf9b83acbde</md:uuid>
+</metadata>
+
+<content>
+    <para id="id3779025">
+      <emphasis>Confidence Interval Lab</emphasis>
+    </para>
+    <para id="id1167054979812">Name:<emphasis effect="underline"/><space count="50" effect="underline"/></para>
+    <section id="id1167051852941">
+      <title>Student Learning Outcomes: </title>
+      <list id="id1167051392291" list-type="bulleted">
+        <item>The student will calculate the 90% confidence intervals. </item>
+        <item>The student will interpret confidence intervals.</item>
+        <item>The student will examine the effects that changing conditions has on the confidence interval.</item>
+        <item>The student will examine the relationship between the confidence level and the percent of constructed intervals that contain the population average. </item>
+      </list>
+    </section>
+    <section id="id6794227">
+      <title>Part I</title>
+      <section id="id1167061313237"><title>Collect the Data</title><para id="id1167061070452">Check the Real Estate section in your local newspaper or website. (Note: many papers only list them</para>
+        <para id="id1167052182550">one day per week. Also, we will assume that homes come up for sale randomly.) Record the</para>
+        <para id="id1167056233471">sales prices for 36 randomly selected homes recently listed in the county and indicate whether you found them in the paper or on the website. Include the reference.</para>
+        <para id="id1167062687096">Complete the table:</para>
+        <table id="id1167051387875" summary="" pgwide="1">
+          <tgroup cols="6">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <colspec colnum="5" colname="c5"/>
+            <colspec colnum="6" colname="c6"/>
+            <tbody>
+              <row>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <para id="id8328194"/>
+      </section>
+      <section id="id1167063116912">
+        <title>Describe the Data</title>
+        <para id="id1167064293964">1. Compute the following: (include the session window)</para>
+        <para id="id1167064059718"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {x}} } {}</m:annotation></m:semantics></m:math>= <space count="10" effect="underline"/>  <space count="5"/> s = <space count="10" effect="underline"/> <space count="5"/> n = <space count="10" effect="underline"/></para>
+        <para id="id1167053435431">2. Define the Random Variable 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover accent="true"><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {X}} } {}</m:annotation></m:semantics></m:math>  in words:</para>
+        <para id="id1167061965540">3. State the estimated distribution to use. Use both words and symbols.</para>
+      </section>
+      <section id="id1167051589824">
+        <title>Find the Confidence Interval</title>
+        <para id="id5566932">1. Using Minitab, calculate the 90% confidence interval and determine the error bound. (include in the session window)</para>
+        <para id="id1167063530733">a. Confidence Interval: <emphasis effect="underline"/><space count="30" effect="underline"/></para>
+        <para id="id1167061881825">b. Error Bound: <emphasis effect="underline"/> <space count="30" effect="underline"/></para>
+        <para id="id1167061674095">2. How much area is in both tails (combined)? α = <emphasis effect="underline"/><space count="10" effect="underline"/></para>
+        <para id="id1167056691820">3. How much area is in each tail? 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mi>α</m:mi><m:mn>2</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {α}  over  {2} } } {}</m:annotation></m:semantics></m:math>= <emphasis effect="underline"/><space count="10" effect="underline"/></para>
+        <para id="id6213989"/>
+        <para id="id1167064170550">4. Using Minitab, create the graph for the 90% confidence interval created above. (Graph → Prbability Distribution Plot→View Probability) Include the graph with this lab.</para>
+        <para id="id1216805">5. Some students think that a 90% confidence interval contains 90% of the data. Use the list of data on the first page and count how many of the data values lie within the confidence interval. What percent is this?  <space count="10" effect="underline"/> Is this percent close to 90%? <space count="10" effect="underline"/> Explain why this percent should or should not be close to 90%.</para>
+        <para id="id1167063221562">6. How many house prices would be needed in the sample to ensure that the error was no more than $2000 for the 90% confidence interval?</para>
+      </section>
+      <section id="id1167057819985">
+        <title>Describe the Confidence Interval</title>
+        <para id="id5824253">1. In two to three complete sentences, explain what a Confidence Interval means (in general), as if you were talking to someone who has not taken statistics.</para>
+        <para id="id1167062276878">2. In one to two complete sentences, explain what this Confidence Interval means for this particular study.</para>
+      </section>
+      <section id="id1167064043672">
+        <title>Use the Data to Construct Confidence Intervals</title>
+        <para id="id1167063615672">1. Using the above information, construct a confidence interval for each confidence level given. (include the session window information)</para>
+        <table id="id1167063450679" summary="">
+          <tgroup cols="3">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <tbody>
+              <row>
+                <entry>Confidence Level</entry>
+                <entry>Error Bound</entry>
+                <entry>Confidence Interval</entry>
+              </row>
+              <row>
+                <entry>85%</entry>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>95%</entry>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>98%</entry>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>99%</entry>
+                <entry/>
+                <entry/>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <para id="id1167056907508"/>
+        <para id="id1167061744339">2. What happens to the EBM as the confidence level increases? <space count="30" effect="underline"/>Does the width of the confidence interval increase or decrease? <space count="30" effect="underline"/>Explain why this happens.</para>
+      </section>
+      <section id="id1167052769846">
+        <title>Effect of an Outlier</title>
+        <para id="id1167062516926">Suppose one of the values input incorrectly. Choose one data value and increase the amount by adding two extra zeroes. (include in the session window)</para>
+        <para id="id1167064188960">1. Calculate the 90% confidence interval: _____________</para>
+        <para id="id2051820">2. Calculate the Error Bound: ____________</para>
+        <para id="id1167062599076">3. How does the outlier affect the width of the confidence interval? Use complete sentences.</para>
+      </section>
+    </section>
+    <section id="id1167063764652">
+      <title>Part II</title>
+      <para id="id1167063577961">Heights of 100 Women (in Inches)</para>
+      <table id="id1167063499994" summary="">
+        <tgroup cols="10">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <colspec colnum="5" colname="c5"/>
+          <colspec colnum="6" colname="c6"/>
+          <colspec colnum="7" colname="c7"/>
+          <colspec colnum="8" colname="c8"/>
+          <colspec colnum="9" colname="c9"/>
+          <colspec colnum="10" colname="c10"/>
+          <tbody>
+            <row>
+              <entry>59.4</entry>
+              <entry>63.8</entry>
+              <entry>61.8</entry>
+              <entry>61.3</entry>
+              <entry>61.5</entry>
+              <entry>62.9</entry>
+              <entry>64.3</entry>
+              <entry>60.8</entry>
+              <entry>57.9</entry>
+              <entry>64.0</entry>
+            </row>
+            <row>
+              <entry>71.6</entry>
+              <entry>62.9</entry>
+              <entry>60.6</entry>
+              <entry>59.2</entry>
+              <entry>64.3</entry>
+              <entry>63.1</entry>
+              <entry>65.0</entry>
+              <entry>65.5</entry>
+              <entry>58.5</entry>
+              <entry>66.4</entry>
+            </row>
+            <row>
+              <entry>69.3</entry>
+              <entry>63.0</entry>
+              <entry>69.8</entry>
+              <entry>64.1</entry>
+              <entry>62.9</entry>
+              <entry>62.2</entry>
+              <entry>64.1</entry>
+              <entry>62.3</entry>
+              <entry>63.4</entry>
+              <entry>61.2</entry>
+            </row>
+            <row>
+              <entry>65.0</entry>
+              <entry>63.9</entry>
+              <entry>60.0</entry>
+              <entry>59.3</entry>
+              <entry>60.6</entry>
+              <entry>58.7</entry>
+              <entry>61.1</entry>
+              <entry>65.5</entry>
+              <entry>69.2</entry>
+              <entry>60.4</entry>
+            </row>
+            <row>
+              <entry>62.9</entry>
+              <entry>68.7</entry>
+              <entry>64.9</entry>
+              <entry>64.9</entry>
+              <entry>63.8</entry>
+              <entry>64.7</entry>
+              <entry>65.3</entry>
+              <entry>64.7</entry>
+              <entry>65.9</entry>
+              <entry>58.7</entry>
+            </row>
+            <row>
+              <entry>66.5</entry>
+              <entry>65.5</entry>
+              <entry>66.1</entry>
+              <entry>62.4</entry>
+              <entry>58.8</entry>
+              <entry>66.0</entry>
+              <entry>64.6</entry>
+              <entry>58.8</entry>
+              <entry>62.2</entry>
+              <entry>66.7</entry>
+            </row>
+            <row>
+              <entry>61.7</entry>
+              <entry>61.9</entry>
+              <entry>66.8</entry>
+              <entry>63.5</entry>
+              <entry>64.9</entry>
+              <entry>60.5</entry>
+              <entry>59.2</entry>
+              <entry>66.1</entry>
+              <entry>60.0</entry>
+              <entry>67.5</entry>
+            </row>
+            <row>
+              <entry>55.2</entry>
+              <entry>69.6</entry>
+              <entry>60.6</entry>
+              <entry>60.9</entry>
+              <entry>65.7</entry>
+              <entry>64.7</entry>
+              <entry>61.4</entry>
+              <entry>64.9</entry>
+              <entry>58.1</entry>
+              <entry>63.2</entry>
+            </row>
+            <row>
+              <entry>67.2</entry>
+              <entry>58.7</entry>
+              <entry>65.6</entry>
+              <entry>63.3</entry>
+              <entry>62.5</entry>
+              <entry>65.4</entry>
+              <entry>62.0</entry>
+              <entry>66.9</entry>
+              <entry>62.5</entry>
+              <entry>56.6</entry>
+            </row>
+            <row>
+              <entry>66.5</entry>
+              <entry>63.4</entry>
+              <entry>63.8</entry>
+              <entry>66.3</entry>
+              <entry>70.9</entry>
+              <entry>60.2</entry>
+              <entry>63.5</entry>
+              <entry>57.9</entry>
+              <entry>62.4</entry>
+              <entry>67.7</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="id1167062957627"/>
+      <para id="id1167064130158">1. Listed above are the heights of 100 women. These are in the student data file in the lab. Use MiniTab to randomly select 10 data values. (Calc → Random data → data from a column)</para>
+      <para id="id1167057091324"/>
+      <para id="id1167052169706">2. Calculate the sample mean and sample standard deviation and record our answer below. Assuming that the population standard deviation is known to be 3.3. Construct a 90% confidence interval for your sample of 10 values. Write the confidence interval you obtained below.</para>
+      <para id="id1167062932912">3. Repeat #1 and #2 nine more times, and record the 90% confidence interval for each of your samples. (Note: since you are randomly selecting the 10 data values you may use the same one in more than one sample. Include this portion of your session window)</para>
+      <para id="id1167066504655"/>
+      <para id="id1167054956391"><list id="eip-id2315485" list-type="labeled-item"><item>
+ <label>
+Sample 1
+ </label> 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {x}} } {}</m:annotation></m:semantics></m:math>= <space count="10" effect="underline"/> <space count="5"/>  s = <space count="10" effect="underline"/> <space count="5"/> CI = <space count="30" effect="underline"/> 
+</item>
+<item>
+ <label>
+Sample 2
+ </label> 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {x}} } {}</m:annotation></m:semantics></m:math>= <space count="10" effect="underline"/> <space count="5"/>  s = <space count="10" effect="underline"/> <space count="5"/> CI = <space count="30" effect="underline"/> 
+</item>
+<item>
+ <label>
+Sample 3
+ </label> 
+
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {x}} } {}</m:annotation></m:semantics></m:math>= <space count="10" effect="underline"/> <space count="5"/>  s = <space count="10" effect="underline"/> <space count="5"/> CI = <space count="30" effect="underline"/> 
+</item>
+<item>
+ <label>
+Sample 4
+ </label> 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {x}} } {}</m:annotation></m:semantics></m:math>= <space count="10" effect="underline"/> <space count="5"/>  s = <space count="10" effect="underline"/> <space count="5"/> CI = <space count="30" effect="underline"/>
+</item>
+<item>
+ <label>
+Sample 5
+ </label> 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {x}} } {}</m:annotation></m:semantics></m:math>= <space count="10" effect="underline"/> <space count="5"/>  s = <space count="10" effect="underline"/> <space count="5"/> CI = <space count="30" effect="underline"/> 
+</item>
+<item>
+ <label>
+Sample 6
+ </label>  
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {x}} } {}</m:annotation></m:semantics></m:math>= <space count="10" effect="underline"/> <space count="5"/>  s = <space count="10" effect="underline"/> <space count="5"/> CI = <space count="30" effect="underline"/> 
+</item>
+<item>
+ <label>
+Sample 7
+ </label>  
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {x}} } {}</m:annotation></m:semantics></m:math>= <space count="10" effect="underline"/> <space count="5"/>  s = <space count="10" effect="underline"/> <space count="5"/> CI = <space count="30" effect="underline"/> 
+</item>
+<item>
+ <label>
+Sample 8
+ </label> 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {x}} } {}</m:annotation></m:semantics></m:math>= <space count="10" effect="underline"/> <space count="5"/>  s = <space count="10" effect="underline"/> <space count="5"/> CI = <space count="30" effect="underline"/> 
+</item>
+<item>
+ <label>
+Sample 9
+ </label>  
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {x}} } {}</m:annotation></m:semantics></m:math>= <space count="10" effect="underline"/> <space count="5"/>  s = <space count="10" effect="underline"/> <space count="5"/> CI = <space count="30" effect="underline"/>
+</item>
+<item>
+ <label>
+Sample 10
+ </label>
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {x}} } {}</m:annotation></m:semantics></m:math>= <space count="10" effect="underline"/> <space count="5"/>  s = <space count="10" effect="underline"/> <space count="5"/> CI = <space count="30" effect="underline"/>
+</item></list></para>
+      
+      <section id="id1167055886384">
+        <title>Discussion Questions</title>
+        <para id="id8486060">1. The actual population mean for the 100 heights given above is μ = 63.3. Using the samples above, for how many intervals does the value of μ lie between the endpoints of the confidence interval? <emphasis effect="underline"/>. <space count="10" effect="underline"/></para>
+        <para id="id3654402">2. What percentage of the total number of confidence intervals generated contain the mean μ?  <space count="10" effect="underline"/></para>
+        <para id="id1167054727354">3. Is the percent of confidence intervals that contain the population mean μ close to 90%? <emphasis effect="underline"/><space count="10" effect="underline"/></para>
+        <para id="id3944649">4. Suppose we had generated 100 confidence intervals. What do you think would happen to the percent of confidence intervals that contained the population mean? Use 2 – 3 complete sentences.</para>
+        <para id="id6818164">5. When we construct a 90% confidence interval, we say that we are 90% confident that the true population mean lies within the confidence interval. Using complete sentences, explain what we mean by this phrase in terms a non-statistician would understand.</para>
+        <para id="id1167066479190">6. Some students think that a 90% confidence interval contains 90% of the data. Use the first confidence interval calculated and count how many of the 100 data values lie within that confidence interval? <emphasis effect="underline"/><space count="10" effect="underline"/>What percent is this? <emphasis effect="underline"/><space count="10" effect="underline"/>Is this percent close to 90%? <space count="10" effect="underline"/><emphasis effect="underline"/>Using 3 – 4 sentences to explain why it should or should not be close to 90%.</para>
+      </section>
+    </section>
+  </content>
+</document>

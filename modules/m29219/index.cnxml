@@ -1,0 +1,68 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Dice lab</title>
+  <metadata>
+  <md:content-id>m29219</md:content-id><md:title>Dice lab</md:title>
+  <md:abstract>Using minitab, students will explore the central limit theorem.</md:abstract>
+  <md:uuid>1e8428d9-38bd-40d2-8e84-ef01c6e84d0e</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1165063921855">
+      <emphasis>Central Limit Theorem Lab</emphasis>
+    </para>
+    <para id="id1165059195524">Name: ___________________________</para>
+    <section id="id1165062866303">
+      <title>Student Learning Outcomes:</title>
+      <para id="id1165059769073">The student will examine properties of the Central Limit Theorem.</para>
+    </section>
+    <section id="id1165059794261">
+      <title>Theoretical Distribution: Tossing a Single Die</title>
+      <para id="id1165059472580"> 1. Is the distribution continuous or discrete? __________________</para>
+      <para id="id8383772"> 2. In words, state the theoretical distribution for the tossing of a single die? </para>
+      <para id="id1165058695767"> X~ _____________________________________________</para>
+      <para id="id1165058915177">3. Calculate μ = _____________________________________________________________(indicate the formula)</para>
+      <para id="id6353485">4. Calculate σ = _____________________________________________________________(indicate the formula)</para>
+      <para id="id7214999"/>
+    </section>
+    <section id="id1165062848361">
+      <title>Collect the Data</title>
+      <para id="id1165059921787">1. Using the random number generator in Minitab, simulate the tossing of a single die 360 times. </para>
+      <para id="id1165062933945">Calc -&gt; Random Data -&gt; Integer.</para>
+      <para id="id1165059930687"/>
+      <para id="id7653461">2. Construct a histogram using Minitab and include it with this lab. Be sure that you label the graph and axis.</para>
+      <para id="id1165064691386">3. Calculate the following: (include the session window)</para>
+      <para id="id1165063635635"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {x}} } {}</m:annotation></m:semantics></m:math> = ______________ s = ______________ n = 1 (single die)</para>
+      <para id="id1165059009716">4. Draw a smooth curve through the tops of the bars of the histogram. Use 1 – 2 complete sentences, describe the general shape of the curve.</para>
+    </section>
+    <section id="id7344440">
+      <title>Collecting Averages of Pairs</title>
+      <para id="id1165059281081">Repeat step #1 (of the section above titled "Collect the Data") with one exception. Instead of recording the value of a single die, record the average of two dice. Use Minitab and generate 360 rows with two columns. Then use the Calc -&gt; Row Statistics and select mean. This will give you a column with the ‘average’ of the two tosses. </para>
+      <para id="id1165061879625">1. Construct a histogram. Scale the axes using the same scaling and labeling for the axis as you did for the first graph and include it with this lab. (This is done by selecting both the original data column and the mean2 column to graph. Then select multiple graphs → separate graphs → same x-scale. This will redraw your first graph, however the computer needs that graph as a reference to draw the second.)</para>
+      <para id="id1165059199224">2. Calculate the following:</para>
+      <para id="id8812401"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {x}} } {}</m:annotation></m:semantics></m:math> = ______________ s = ______________ n = 2 (a pair of dice)</para>
+      <para id="id1165059431240">3. Draw a smooth curve through tops of the bars of the histogram. Use 1 – 2 complete sentences, describe the general shape of the curve.</para>
+    </section>
+    <section id="id1165059013950">
+      <title>Collecting Averages of Groups of Five</title>
+      <para id="id6571328">Repeat step #1 (of the section above titled "Collect the Data") with one exception. Instead of recording the value of a single die, record the average of five dice. Use Minitab and generate 360 rows with five columns. Then use the Calc -&gt; Row Statistics and select mean. This will give you a column with the ‘average’ of the five tosses. </para>
+      <para id="id1165058629137">1. Construct a histogram. Scale the axes using the same scaling and labeling for the axis as you did for the first graph and include it with this lab. (Again you need to graph both the first data set with this as multiple graphs.)</para>
+      <para id="id1165058375892">2. Calculate the following:</para>
+      <para id="id1165059177249"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {x}} } {}</m:annotation></m:semantics></m:math> = ______________ s = ______________ n = 5 (5 dice)</para>
+      <para id="id1165059224146">3. Draw a smooth curve through tops of the bars of the histogram. Use 1 – 2 complete sentences, describe the general shape of the curve.</para>
+    </section>
+    <section id="id8799377">
+      <title>Collecting Averages of Groups of 20</title>
+      <para id="id1292379">Repeat step #1 (of the section above titled "Collect the Data") with one exception. Instead of recording the value of a single die, record the average of two dice. Use Minitab and generate 360 rows with twenty columns. Then use the Calc -&gt; Row Statistics and select mean. This will give you a column with the ‘average’ of the twenty tosses. </para>
+      <para id="id5745577">1. Construct a histogram. Scale the axes using the same scaling and labeling for the axis as you did for the first graph and include it with this lab. (Again you need to graph both the first data set with this as multiple graphs.)</para>
+      <para id="id1165061062104">2. Calculate the following:</para>
+      <para id="id1165063953034"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {x}} } {}</m:annotation></m:semantics></m:math> = ______________ s = ______________ n = 20 (20 dice)</para>
+      <para id="id1165058900712">3. Draw a smooth curve through tops of the bars of the histogram. Use 1 – 2 complete sentences, describe the general shape of the curve.</para>
+    </section>
+    <section id="id8490352">
+      <title>Discussion Questions: </title>
+      <para id="id1165059849744">1. As <emphasis effect="bold">n</emphasis> (the number of dice being averaged) changed, how did the shape of the graph change? (Be sure you have the same x axis for all graphs or you will not be able to correctly answer this question.) Use 1 – 2 complete sentences to explain what happened.</para>
+      <para id="id1165062229605">2. Looking at the values for the sample mean and standard deviation, explain what happens as n increases. Use 1 – 2 complete sentences to explain what happened.</para>
+      <para id="id1165059012442">3. State the Central Limit Theorem. How do your simulations demonstrate this theorem? Use 3 – 4 complete sentences</para>
+    </section>
+  </content>
+</document>
