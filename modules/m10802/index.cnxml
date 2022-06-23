@@ -1,0 +1,210 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+
+  <title>Variables</title>
+
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>4c4009fc-6cc1-489c-995b-d31f94466e3f</md:uuid>
+</metadata>
+
+  <content>
+    <section id="sec">
+      <title>Independent and dependent variables</title>
+      <para id="para1">
+	Variables are properties or characteristics of some event,
+	object, or person that can take on different values or amounts
+	(as opposed to constants such as
+	<m:math><m:ci>p</m:ci></m:math> which do not vary).  When
+	conducting research, experimenters often manipulate variables.
+	For example, an experimenter might compare the effectiveness
+	of four types of antidepressants.  In this case, the variable
+	is the "type of antidepressant".
+	<definition id="def1">
+	  <term>Independent variable</term>
+	  <meaning id="idp301952">
+	    When a variable is manipulated by an experimenter
+	  </meaning>
+	</definition>
+	<definition id="def2">
+	  <term>Dependent variable</term>
+	  <meaning id="idm689424">
+	    The experiment seeks to determine the effect of the
+	    independent variable on relief from depression.  In this
+	    example, relief from depression is called a dependent
+	    variable.
+	  </meaning>
+	</definition>
+	In general the independent variable is manipulated by the
+	experimenter and its effects on the dependent variable are
+	measured.
+      </para>
+
+      <example id="xpl1">
+	<para id="paraxpl11">
+	  Can blueberries slow down aging?
+	</para>
+	<para id="paraxpl12">
+	  A study indicates that antioxidants found in blueberries may
+	  slow down the process of aging. In this study, 19-month old
+	  rats (equivalent to 60-year old humans) were fed either
+	  their standard diet or a diet supplemented by either
+	  blueberry, strawberry, or spinach powder. After eight weeks,
+	  the rats were given memory and motor tests. Although all
+	  supplemented rats showed improvement, those supplemented
+	  with blueberry powder showed the most notable improvement.
+	  <list id="list1" list-type="enumerated">
+	    <item>What is the independent variable? (diet: blueberries or no 
+	      blueberries)</item>
+	    <item>What are the dependent variables? (memory test and
+	      motor skills test)</item>
+	  </list>
+	  <link url="http://www.apa.org/monitor/dec01/blueberries.html">More
+	    information on the blueberry study</link>
+	</para>
+      </example>
+      <example id="xpl2">
+	<para id="paraxpl21">
+	  Does <link url="http://psych.rice.edu/online_stat/glossary/beta_carotene.html">beta-carotene</link>
+	  protect against cancer?
+	</para>
+	<para id="paraxpl22">
+	  Beta-carotene supplements have been thought to protect
+	  against cancer.  However, a study published in the Journal
+	  of the National Cancer Institute suggests this is false. The
+	  study was conducted with 39,000 women aged 45 and up. These
+	  women were randomly assigned to receive a beta-carotene
+	  supplement or a <link url="http://psych.rice.edu/online_stat/glossary/placebo.html">placebo</link>,
+	  and their health was studied over their lifetime. Cancer
+	  rates for women taking the beta-carotene supplement did not
+	  differ systematically from the cancer rates of those women
+	  taking the placebo.
+	  <list id="list2" list-type="enumerated">
+	    <item>
+	      What is the independent variable? (supplements:
+	      beta-carotene or placebo)
+	    </item>
+	    <item>
+	      What is the dependent variable? (occurrence of cancer)
+	    </item>
+	  </list>
+	</para>
+      </example>
+
+      <example id="xpl3">
+	<para id="paraxpl111">
+	  How bright is right?
+	</para>
+	<para id="paraxpl121">
+	  An automobile manufacturer wants to know how bright brake
+	  lights should be in order to minimize the time required for
+	  the driver of a following car to realize that the car in front
+	  is stopping and to hit the brakes.
+	  <list id="list3" list-type="enumerated">
+	    <item>
+	      What is the independent variable? (brightness of brake
+	      light)
+	    </item>
+	    <item>
+	      What is the dependent variable? (time to hit brake)
+	    </item>
+	  </list>
+	</para>
+      </example>
+
+      <section id="sec3">
+	<title>Levels of an Independent Variable</title>
+	<para id="s3p1">
+	  If an experiment compares an experimental treatment with a
+	  control treatment, then the independent variable (type of
+	  treatment) has two levels: experimental and control.  If an
+	  experiment were comparing five types of diets, then the
+	  independent variable (type of diet) would have 5 levels.  In
+	  general, the number of levels of an independent variable is
+	  the number of experimental conditions.
+	</para>
+      </section>
+    </section>
+
+    <section id="sec1">
+      <title>Qualitative and Quantitative Variables</title>
+      <para id="s1p1">
+	An important distinction between variables is between <link url="http://psych.rice.edu/online_stat/glossary/qualitative_variable.html">qualitative</link>
+	and <link url="http://psych.rice.edu/online_stat/glossary/quantitative_variable.html">quantitative</link>
+	variables.
+	<definition id="qualvar">
+	  <term>Qualitative variable</term>
+	  <meaning id="idp2620736">Variables that express a qualitative attribute 
+	  </meaning>
+	  <example id="qualvarxpl">
+	    <para id="qualvarp1">
+	      Some examples of qualitative variables are hair color,
+	      eye color, religion, favorite movie, gender, and so on.
+	    </para>
+	  </example>
+	</definition>
+	The values of a qualitative variable do not imply a numerical
+	ordering. Values of the variable "religion" differ
+	qualitatively; no ordering of religions is
+	implied. Qualitiative variables are sometimes referred to as
+	<term>categorical variables</term>.  Values on qualitative
+	variables do not imply order, they are simply categories.
+	<definition id="quanvar">
+	  <term>Quantitative variables</term>
+	  <meaning id="idm7483008">Variables that are measured in terms of numbers.
+	  </meaning>
+	  <example id="quanvarxpl">
+	    <para id="qaunvarp1">
+	      Some examples of quantitative variables are height,
+	      weight, and shoe size.
+	    </para>
+	  </example>
+	</definition>
+      </para>
+
+      <para id="s1p2">
+	In the study on the effect of diet discussed <link target-id="xpl1" strength="2">above</link>, the independent
+	variable was type of supplement: none, strawberry, blueberry,
+	and spinach. The variable "type of supplement" is a
+	qualitative variable; there is nothing quantitative about
+	it. In contrast, the dependent variable "memory test" is a
+	quantitative variable since memory performance was measured on
+	a quantitative scale (number correct).
+      </para>
+    </section>
+
+    <section id="sec11">
+      <title>Discrete and Continuous Variables</title>
+      <para id="s11p1">
+	Variables such as number of children in a household are
+	called <link url="http://psych.rice.edu/online_stat/glossary/discrete_variables.html">discrete variables</link>.
+	<definition id="disvar">
+	  <term>Discrete variable</term>
+	  <meaning id="idp1548352">Variable with possible scores of discrete points
+	    on the scale.
+	  </meaning>
+	  <example id="disvarXpl">
+	    <para id="disvarp1">
+	      A household could have three children or six children,
+	      but not 4.53 children. 
+	    </para>
+	  </example>
+	</definition>
+	Other variables such as "time to respond to a question" are
+	<link url="http://psych.rice.edu/online_stat/glossary/continuous_variables.html">continuous variables</link>. 
+	<definition id="convar">
+	  <term>Continous variable</term>
+	  <meaning id="idp1928976">Variable where the scale is continuous and not made
+	    up of discrete steps.
+	  </meaning>
+	  <example id="convarxpl">
+	    <para id="convarp1">
+	      The response time could be 1.64 seconds, or it could
+	      be 1.64237123922121 seconds. 
+	    </para>
+	  </example>
+	</definition>
+	Of course, the practicalities of measurement preclude most measured
+	variables from being truly continuous.
+      </para>
+    </section>
+    
+  </content>  
+</document>

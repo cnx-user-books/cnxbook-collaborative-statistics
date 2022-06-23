@@ -1,0 +1,234 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+<title>The Coefficient of Determination: Family Wealth and Student Achievement Scores</title>
+<metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>7e3f5443-f6cc-400c-8e94-eccc9f4a1b2d</md:uuid>
+</metadata>
+<content>
+
+
+
+
+<para id="element-20"><media id="idm3771088" alt=""><image src="../../media/logo.gif" mime-type="image/gif"/></media></para><note id="idm5505648">This module has been peer-reviewed, accepted, and sanctioned by the National Council of Professors of Educational Administration (NCPEA) as a scholarly contribution to the knowledge base in educational administration.
+</note><para id="id20392966">The “coefficient of determination” is equal
+to the correlation squared. When multiplied by 100, the coefficient
+of determination becomes the percentage of the variance that is
+associated with, determined by, or accounted for by the
+variance.</para>
+<para id="id18372702">For example, if the correlation between two
+variables (X and Y) is .5, and if a causal relationship between the
+two variables can be established, then the percentage of the
+variance in Y that is accounted for by the variance in X is 25, or
+one-fourth.</para>
+<para id="id18835360">Application:</para>
+<para id="id18432889">The “No Child Left Behind” Act requires an
+annual review of each school served. If adequate yearly progress by
+a school is not made for two consecutive years, the school is
+designated for “school improvement.” A school that continues to
+fail to achieve adequate yearly progress for two years after being
+designated for school improvement must be identified by the local
+education agency for “corrective action.” If after being designated
+for “corrective action” a school fails to make adequate yearly
+progress, the school is to be designated for
+“restructuring.”</para>
+<para id="id18228687">Teaching or administering a school designated
+for “school improvement,” “corrective action,” or “restructuring”
+is professionally embarrassing. However, since both James Coleman
+(1966) and Christopher Jenks (1972) found that there is often a
+strong correlation between family wealth and student standardized
+achievement test scores, punishing low-achieving schools in
+economically poor neighborhoods is questionable at best.</para>
+<para id="id20063606">Coleman collected data on 600,000 children in
+all fifty states. He noticed that there were large differences in
+school quality, and believed that this was because schools in the
+affluent suburbs were well financed, whereas schools in the inner
+cities were deteriorating. The Civil Rights Act of 1964 ordered the
+Commissioner of Education to investigate, and Coleman was asked to
+head that investigation. He predicted that it was the difference in
+the quality of schools that accounted for the difference in the
+academic achievement of the poor and minorities.</para>
+<para id="id20387200">To his surprise, he found that non-school
+factors, particularly family background, accounted for the
+difference:</para>
+<para id="id20381872">One implication stands out above all: That
+schools bring little influence to bear on a child’s achievement
+that is independent of his background and general social context;
+and that this very lack of an independent effect means that the
+inequalities imposed on children by their home, neighborhood, and
+peer environment are carried along to become the inequalities with
+which they confront adult life at the end of school. (Coleman,
+1966)</para>
+<para id="id18291576">A subsequent large three-year study by
+Christopher Jenks confirmed Coleman’s findings. (Jenks,
+1972)</para>
+<para id="id20381785">Additional Evidence:</para>
+<para id="id20387304">Given the findings of Coleman and Jenks, here
+is additional evidence, utilizing data from high schools in Kern
+County (California):</para>
+<table id="id20382563" summary="">
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<tbody>
+<row>
+<entry>High School</entry>
+<entry>2006 California AcademicPerformance Index</entry>
+<entry>2006 Percentage of Students Qualifying for Free and Reduced
+Meals</entry>
+</row>
+<row>
+<entry>Stockdale High</entry>
+<entry>770</entry>
+<entry>12.2</entry>
+</row>
+<row>
+<entry>Burroughs High</entry>
+<entry>746</entry>
+<entry>24.5</entry>
+</row>
+<row>
+<entry>Desert High</entry>
+<entry>736</entry>
+<entry>10.7</entry>
+</row>
+<row>
+<entry>Liberty High</entry>
+<entry>710</entry>
+<entry>9.1</entry>
+</row>
+<row>
+<entry>Tehachapi High</entry>
+<entry>708</entry>
+<entry>25.9</entry>
+</row>
+<row>
+<entry>Frazier Mountain High</entry>
+<entry>699</entry>
+<entry>37.3</entry>
+</row>
+<row>
+<entry>Kern Valley High</entry>
+<entry>698</entry>
+<entry>46.2</entry>
+</row>
+<row>
+<entry>Centennial High</entry>
+<entry>694</entry>
+<entry>22.6</entry>
+</row>
+<row>
+<entry>Bakersfield High</entry>
+<entry>672</entry>
+<entry>43.1</entry>
+</row>
+<row>
+<entry>Boron High</entry>
+<entry>668</entry>
+<entry>39.4</entry>
+</row>
+<row>
+<entry>Delano High</entry>
+<entry>667</entry>
+<entry>79.3</entry>
+</row>
+<row>
+<entry>Ridgeview High</entry>
+<entry>664</entry>
+<entry>39.0</entry>
+</row>
+<row>
+<entry>Chavez High</entry>
+<entry>663</entry>
+<entry>76.0</entry>
+</row>
+<row>
+<entry>North High</entry>
+<entry>658</entry>
+<entry>45.6</entry>
+</row>
+<row>
+<entry>Rosamond High</entry>
+<entry>657</entry>
+<entry>47.4</entry>
+</row>
+<row>
+<entry>Mojave High</entry>
+<entry>653</entry>
+<entry>54.8</entry>
+</row>
+<row>
+<entry>Shafter High</entry>
+<entry>650</entry>
+<entry>68.8</entry>
+</row>
+<row>
+<entry>Taft High</entry>
+<entry>650</entry>
+<entry>50.3</entry>
+</row>
+<row>
+<entry>Highland High</entry>
+<entry>636</entry>
+<entry>51.5</entry>
+</row>
+<row>
+<entry>West High</entry>
+<entry>634</entry>
+<entry>53.5</entry>
+</row>
+<row>
+<entry>McFarland High</entry>
+<entry>617</entry>
+<entry>79.3</entry>
+</row>
+<row>
+<entry>Golden Valley High</entry>
+<entry>614</entry>
+<entry>82.2</entry>
+</row>
+<row>
+<entry>Wasco High</entry>
+<entry>600</entry>
+<entry>73.9</entry>
+</row>
+<row>
+<entry>Arvin High</entry>
+<entry>600</entry>
+<entry>82.2</entry>
+</row>
+<row>
+<entry>Foothill High</entry>
+<entry>596</entry>
+<entry>62.3</entry>
+</row>
+<row>
+<entry>East Bakersfield High</entry>
+<entry>592</entry>
+<entry>55.7</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="id20387519">The correlation between these two variables
+is -.812 (Notice that this inverse relationship is not perfect, in
+which case the correlation would have been -1.00, but very close.)
+Squaring this correlation coefficient allows one to compute the
+coefficient of determination. In this case the coefficient of
+determination is .6592 Multiplying by 100 (and rounding), this
+suggests that about 66% of the variability in the achievement test
+scores is strongly related to family wealth. High scoring schools
+have a low percentage of students qualifying for free and reduced
+price meals, whereas low scoring schools have a high percentage of
+students qualifying for free and reduced price meals.</para>
+<para id="id20387550">This implies that family wealth—a variable
+not controlled by educators—is having a large impact on student
+achievement test scores. It suggests that improving student
+academic achievement in impoverished areas is, and will be, very
+difficult.</para>
+<para id="id20387566">References</para>
+<para id="id20387574">Coleman, James et al. (1966). Equality of
+Educational Opportunity. Washington, D.C.: U.S. Government Printing
+Office, 235.</para>
+<para id="id20387592">Jenks, Christopher (1972). Inequality. New
+York: Harper &amp; Row.</para>
+</content>
+</document>

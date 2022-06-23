@@ -1,0 +1,129 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+
+  <title>Introduction to Normal Distributions</title>
+
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>6fa872e1-395e-41df-a4a8-67dc306b47f0</md:uuid>
+</metadata>
+
+  <content>
+    <para id="para1">
+      The normal distribution is the most important and widely used
+    distribution in statistics. It is sometimes called the <term>bell
+    curve</term> although the tonal qualities of such a bell would be
+    less than pleasing. It is also called the <term>Gaussian
+    curve</term> after the mathematician Karl-Friedrich Gauss.  As you
+    will see in the section on the history of the normal distribution,
+    although Gauss played an imporant role in its history, de Movire
+    first discorved the normal distribution.  </para>
+
+    <para id="para2">
+      Strictly speaking, it is not correct to talk about
+      <term><emphasis>the</emphasis> normal distribution</term> since
+      there are many normal distributions. Normal distributions can
+      differ in their means and in their standard deviations. <link target-id="figure1" strength="3"/> shows two normal
+      distributions. The blue distribution has a mean of 50 and a
+      standard deviation of 10; the distribution in red has a mean of
+      60 and a standard deviation of 5. Both distributions are
+      symmetric with relatively more values at the center of the
+      distribution and relatively few in the tails.
+    </para>
+
+    <figure id="figure1">
+      <title>Varieties of Normal Distributions</title>
+      <media id="idp10175760" alt=""><image src="../../media/varieties.png" mime-type="image/png"/></media>
+      <caption>
+	Normal distributions differing in mean and standard deviation.
+      </caption>
+    </figure>
+
+    <para id="para3">
+      The density of the normal distribution (the height for a given
+      value on the x axis) of the normal distribution is shown below (<link target-id="onlyeq" strength="3"/>). The parameters
+      <m:math><m:ci>μ</m:ci></m:math> and
+      <m:math><m:ci>σ</m:ci></m:math> are the mean and standard
+      deviation repectively and define the normal distribution. The
+      symbol <m:math><m:exponentiale/></m:math> is the base of the natural
+      logarithm and <m:math><m:pi/></m:math> is the constant pi.
+      </para>
+
+    <equation id="onlyeq">
+      <m:math>
+	<m:apply>
+	  <m:times/>
+	<m:apply>
+	  <m:divide/>
+	  <m:cn>1</m:cn>
+	  <m:apply>
+	    <m:root/>
+	      <m:apply>
+		<m:times/>
+		  <m:cn>2</m:cn>
+		  <m:pi/>
+		  <m:apply>
+		    <m:power/>
+		    <m:ci>σ</m:ci>
+		    <m:cn>2</m:cn>
+		  </m:apply>
+	      </m:apply>
+	  </m:apply>
+	</m:apply>
+	  <m:apply>
+	    <m:exp/>
+	    <m:apply>
+	      <m:divide/>
+	      <m:apply>
+		<m:minus/>
+		<m:apply>
+		  <m:power/>
+		  <m:apply>
+		    <m:minus/>
+		    <m:ci>x</m:ci>
+		    <m:ci>μ</m:ci>
+		  </m:apply>
+		  <m:cn>2</m:cn>
+		</m:apply>
+	      </m:apply>
+	      <m:apply>
+		<m:times/>
+		<m:cn>2</m:cn>
+		<m:apply>
+		  <m:power/>
+		  <m:ci>σ</m:ci>
+		  <m:cn>2</m:cn>
+		</m:apply>
+	      </m:apply>
+	    </m:apply>
+	  </m:apply>
+	</m:apply>
+      </m:math>
+    </equation>
+
+    <para id="para4">
+      Since this is a non-mathematical treatment of statistics, do not
+      worry if this expression confuses you. We will
+      <emphasis>not</emphasis> be referring back to it in later
+      sections.
+    </para>
+    
+    <para id="para5">
+      Six features of normal distributions are listed below. These
+      features are illustrated in more detail in the remaining
+      sections of this chapter.
+    </para>
+
+    <list id="distributions" list-type="enumerated">
+      <item>Normal distributions are symmetric around their mean.</item> 
+      <item>The mean, median, and mode of a normal distribution 
+      are equal.</item> 
+      <item>The area under the normal curve is equal to 1.0.</item> 
+      <item>Normal distributions are denser in the center and 
+      less dense in the tails.</item>
+      <item>Normal distributions are defined by two parameters, the
+      mean (m) and the standard deviation (s).</item> 
+      <item>68% of the area of a normal distribution is within one 
+      standard deviation of the mean</item>
+      </list>
+      
+  </content>
+  
+</document>

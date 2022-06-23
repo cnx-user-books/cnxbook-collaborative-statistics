@@ -1,0 +1,33 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Understanding and Measuring Variability</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m47652</md:content-id>
+  <md:title>Understanding and Measuring Variability</md:title>
+  <md:abstract>This module seeks to explain variability and describe its importance in statistical analysis.</md:abstract>
+  <md:uuid>71ad720e-5e35-4c61-a0dd-f642033b172e</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-id1165233057464">
+      <title>Variability</title>
+      <para id="import-auto-id1165233016542">When we measure people or other subjects the scores usually vary; they are not all the same. Note in the table below that all the students have the same class rank so these data do not tell us much. However, when we use a different type of data we see that the scores are spread out; we can say that they vary. </para>
+      <figure id="import-auto-id1165233058193">
+        <media id="import-auto-id1165233066108" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics1-eeda.jpg" height="157" width="234"/>
+        </media>
+      </figure>
+      <para id="import-auto-id1165233053268">I like to think of explaining variability as the essence of using data to understand psychology. If we all had the same score that score would contain little or no information. However, if each person has a different score then that tells us something. In the table below we can see that Americans differ on the amount of education they have. They also vary in terms of employment status and income. We can look at the way the scores vary and see that, in general, people who have more education are less likely to be unemployed and tend to have higher incomes. 
+
+One way to describe the variability is the <emphasis effect="bold">range</emphasis> which is simply the difference between the highest value and the lowest value. In the case of income the range is $1,735 - $471 or $1,264.</para><figure id="import-auto-id1165233019300">
+        <media id="import-auto-id1165233041113" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics2.jpg" height="156" width="504"/>
+        </media>
+      </figure>
+      <para id="import-auto-id1165233065263">These two groups of students have the same mean height but it would be silly to say that, with regards to height, the two groups are the same. What is the difference? They have differing amounts of variability. One set of scores (heights) are spread out more than the other.  The <emphasis effect="bold">standard deviation</emphasis> is our favorite measure of variability.  </para><figure id="import-auto-id1165233057836">
+        <media id="import-auto-id1165233041748" alt="">
+          <image mime-type="image/jpg" src="../../media/Picture 1.jpg" height="225" width="300"/>
+        </media>
+      </figure>
+    </section>
+  </content>
+</document>

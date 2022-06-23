@@ -1,0 +1,50 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Effect Size</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m47711</md:content-id>
+  <md:title>Effect Size</md:title>
+  <md:abstract>A brief discussion of Effect Size for an intro statistics class.</md:abstract>
+  <md:uuid>5ab4b13f-0c8a-432a-82d0-484fb2b791e2</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-id1168622944065">
+      <title>Effect Size</title>
+      <para id="import-auto-id1168630299425">When we say that a finding is statistically significant we must remember that we mean only that it probably did not occur by chance. However, saying that a finding is statistically significant does not tell us if the observed result is meaningful or important as in the more general usage of the word significant. </para>
+      <para id="import-auto-id1168623170453">Researchers use the term <emphasis effect="bold">effect size</emphasis> to measure the strength of the relationship between two variables.</para>
+      <para id="import-auto-id1168623222073">There are many different effect sizes in use. Different statistical analyses also use different measure of effect size. </para>
+      <para id="import-auto-id1168623214086">The most popular measure of effect size for t-tests is Cohen’s <emphasis effect="italics">d</emphasis>. </para>
+      <para id="import-auto-id1168626033175">For t-test with independent samples Cohen’s <emphasis effect="italics">d</emphasis> =  mean of experimental group – mean of control group divided by the standard deviation of control group. </para>
+      <figure id="import-auto-id1168625243513">
+        <media id="import-auto-id1168637772898" alt="">
+          <image mime-type="image/png" src="../../media/graphics1.png" height="80" width="132"/>
+        </media>
+      </figure>
+      <para id="import-auto-id1168622777339">For repeated measures t-test researchers often use Coehn’s <emphasis effect="italics">d</emphasis> with the mean of the pre-test minus the mean of the post-test divided by the mean of the pre-test. </para>
+      <figure id="import-auto-id1168622775553">
+        <media id="import-auto-id1168627492643" alt="">
+          <image mime-type="image/png" src="../../media/graphics2.png" height="85" width="189"/>
+        </media>
+      </figure>
+      <para id="import-auto-id1168625310744">For single sample t-tests Choen’s <emphasis effect="italics">d</emphasis> is equal to the mean of the sample minus the hypothesized population mean divided by the standard deviation of the sample. </para>
+      <figure id="import-auto-id1168637679405">
+        <media id="import-auto-id1168635869156" alt="">
+          <image mime-type="image/png" src="../../media/graphics3.png" height="73" width="109"/>
+        </media>
+      </figure>
+      <figure id="import-auto-id1168624609794">
+        <media id="import-auto-id1168625243728" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics4.jpg" height="135" width="547"/>
+        </media>
+      </figure>
+      <para id="import-auto-id1168628176208">For correlations we use the Coefficient of Determination or R <sup>2</sup> as a measure of effect size. </para><figure id="import-auto-id1168635936143">
+        <media id="import-auto-id1168632188322" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics5.jpg" height="144" width="547"/>
+        </media>
+      </figure>
+      <para id="import-auto-id1168620943943">Cohen, J. (1988). <emphasis effect="italics">Statistical Power Analysis for the Behaviroal Sciences.</emphasis> Hillsdale, NJ: Erlbaum. </para>
+      <para id="import-auto-id1168620290092">Cohen, J. (1992). A Power Primer. <emphasis effect="italics">Psychological Bulletin, 112</emphasis>, 155-159.</para>
+      <para id="import-auto-id1168619959040">Grissom, R. J. &amp; Kim, J. J. (2005). <emphasis effect="italics">Effect Sizes for Research.</emphasis> Mahway, NJ: Erlbaum.</para>
+    </section>
+  </content>
+</document>
