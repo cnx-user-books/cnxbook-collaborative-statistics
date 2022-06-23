@@ -1,0 +1,295 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml" class="review">
+  <title>Review</title>
+  <metadata>
+  <md:content-id>m31851</md:content-id><md:title>Review</md:title>
+  <md:abstract/>
+  <md:uuid>67c16a44-59c7-498a-b8f8-6dd69ac6c635</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="Continuous Random Variables _review.pdf" strength="3">Download handout (.pdf)</link>
+      <link url="Confidence Intervals (review).doc" strength="3">Download handout (.doc)</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+    <para id="id8674950"><emphasis>The next three problems refer to the following situation:</emphasis> Suppose that a sample of 15 randomly chosen people were put on a special weight loss diet. The amount of weight lost, in pounds, follows an unknown distribution with mean equal to 12 pounds and standard deviation equal to 3 pounds.</para>
+    <para id="id12239766"><exercise id="exer1"><problem id="id8517336"><para id="paragraph">To find the probability that the average of the 15 people lose no more than 14 pounds, the random variable should be:</para>
+
+<list id="list1" list-type="labeled-item" mark-suffix="."><item><label>A</label> The number of people who lost weight on the special weight loss diet</item>
+
+<item><label>B</label>The number of people who were on the diet</item>
+<item><label>C</label>The average amount of weight lost by 15 people on the special weight loss diet</item>
+<item><label>D</label>The total amount of weight lost by 15 people on the special weight loss diet</item></list>
+
+</problem>
+
+<solution id="id8517169"><para id="solution">C</para></solution></exercise></para>
+    
+    
+    
+    
+    <para id="id12674166"><exercise id="exer2"><problem id="id8517118"><para id="paragraph3">Find the probability asked for in the previous problem.</para></problem>
+
+<solution id="id8517056"><para id="solutionff">0.9951</para></solution></exercise></para>
+    <para id="id13486998"><exercise id="exer3"><problem id="id8516988"><para id="paragraph4">Find the 90th percentile for the average amount of weight lost by 15 people.</para></problem>
+
+<solution id="id8516965"><para id="solutiond">12.99</para></solution></exercise></para>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <para id="id9622505"><emphasis>The next five problems refer to the following study:</emphasis> Twenty percent of the students at a local community college live in within five miles of the campus. Thirty percent of the students at the same community college receive some kind of financial aid. Of those who live within five miles of the campus, 75% receive some kind of financial aid.</para>
+    <para id="id9152895"><exercise id="exer10"><problem id="id8509771"><para id="paragraph17">Find the probability that a randomly chosen student at the local community college does not live within five miles of the campus.</para>
+
+<para id="paragraph18"><list id="list16" list-type="labeled-item" mark-suffix="."><item><label>A</label> 80%</item><item><label>B</label> 20%</item><item><label>C</label> 30%</item><item><label>D</label> Cannot be determined</item>
+
+</list></para></problem>
+
+
+<solution id="id8509602"><para id="solutsdfdsion">A</para></solution></exercise></para>
+    
+    <para id="id3318292"><exercise id="exer16"><problem id="id8509554"><para id="paragraph19">Find the probability that a randomly chosen student at the local community college lives within five miles of the campus or receives some kind of financial aid.</para>
+
+<para id="paragraph20"><list id="list17" list-type="labeled-item" mark-suffix="."><item><label>A</label> 50%</item><item><label>B</label> 35%</item><item><label>C</label> 27.5%</item><item><label>D</label> 75%</item></list></para></problem>
+
+
+<solution id="id8509346"><para id="solasdfution">B</para></solution></exercise></para>
+    
+    <para id="id9622503"><exercise id="exer18"><problem id="id8509279"><para id="paragraph21">Based upon the above information, are living in student housing within five miles of the campus and receiving some kind of financial aid mutually exclusive?</para>
+
+<para id="paragraph22"><list id="list18" list-type="labeled-item" mark-suffix="."><item><label>A</label> Yes</item><item><label>B</label> No</item><item><label>C</label> Cannot be determined</item></list></para></problem>
+
+
+<solution id="id8509154"><para id="soasdasfution">B</para></solution></exercise></para>
+    
+    <para id="id10738938"><exercise id="exer12343125123"><problem id="id8509052"><para id="paragraph23">The interest rate charged on the financial aid is _______ data.</para>
+
+<para id="paragraph24"><list id="list19" list-type="labeled-item" mark-suffix="."><item><label>A</label> quantitative discrete</item><item><label>B</label> quantitative continuous</item><item><label>C</label>qualitative discrete </item><item><label>D</label> qualitative</item></list></para></problem>
+
+
+<solution id="id8508882"><para id="solutasdfaion">B</para></solution></exercise></para>
+    
+    
+    <para id="id12941118"><exercise id="exxxercise"><problem id="id8508835"><para id="paragraph25">What follows is information about the students who receive financial aid at the local community college. </para>
+
+<list id="list12325135213423"><item>1st quartile = $250 </item><item>2nd quartile = $700 </item><item>3rd quartile = $1200</item></list>
+
+<para id="mondo">(These amounts are for the school year.) If a sample of 200 students is taken, how many are expected to receive $250 or more?</para>
+
+<para id="paragraph26"><list id="list20" list-type="labeled-item" mark-suffix="."><item><label>A</label> 50</item><item><label>B</label> 250</item><item><label>C</label> 150 </item><item><label>D</label> Cannot be determined</item>
+
+</list></para></problem>
+
+
+<solution id="id8508550"><para id="soasdfeeelution"><list id="lasdfaist2" list-type="labeled-item" mark-suffix="."><item><label>C</label> 150</item></list></para></solution></exercise></para>
+    
+    
+    <para id="id13859286"><emphasis>The next two problems refer to the following information: </emphasis>
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>P</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>A</m:mi>
+                  <m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                  <m:mtext>.</m:mtext>
+                  <m:mn>2</m:mn>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{P \( A \) =0 "." 2} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    , 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>P</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>B</m:mi>
+                  <m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                  <m:mtext>.</m:mtext>
+                  <m:mn>3</m:mn>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{P \( B \) =0 "." 3} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    , 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mi>A</m:mi>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+     and 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mi>B</m:mi>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{B} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+     are independent events.</para>
+    <para id="id3953278"><exercise id="exerrly1"><problem id="id8507974"><para id="para1"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>A</m:mi><m:mspace width="2pt"/><m:mtext>AND</m:mtext><m:mspace width="2pt"/><m:mi>B</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P \( A} {}</m:annotation></m:semantics></m:math></para>
+
+<para id="paragraphh"><list id="listular" list-type="labeled-item" mark-suffix="."><item><label>A</label> 0.5</item><item><label>B</label> 0.6</item><item><label>C</label>0</item><item><label>D</label>0.06</item></list></para>
+</problem>
+
+
+<solution id="id8507707"><para id="solutiafdsson">D</para></solution></exercise></para>
+    
+    <para id="id6377085"><exercise id="exerrcisely"><problem id="id8507657"><para id="paragram"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>A</m:mi><m:mspace width="2pt"/><m:mtext>OR</m:mtext><m:mspace width="2pt"/><m:mi>B</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P \( A} {}</m:annotation></m:semantics></m:math></para>
+
+<para id="paragraphzz"><list id="listulation" list-type="labeled-item" mark-suffix="."><item><label>A</label> 0.56</item><item><label>B</label> 
+0.5</item><item><label>C</label>0.44</item><item><label>D</label>1</item></list></para>
+
+</problem>
+
+
+<solution id="id8507407"><para id="soluasdfation">C</para></solution></exercise></para>
+    
+    <para id="id5352906"><exercise id="exerrrly"><problem id="id8507343"><para id="parrra">If 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mi>H</m:mi>
+
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{H} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+     and 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mi>D</m:mi>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{D} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+     are mutually exclusive events, 
+      <m:math>
+        <m:semantics>
+          <m:mrow/>
+          <m:annotation encoding="StarMath 5.0">{}</m:annotation>
+        </m:semantics>
+      </m:math>
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>P</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>H</m:mi>
+                  <m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>25</m:mtext>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{P \( H \) =0 "." "25"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    , 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>P</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>D</m:mi>
+                  <m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>15</m:mtext>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{P \( D \) =0 "." "15"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    , then <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>H</m:mi><m:mo>|</m:mo>
+<m:mi>D</m:mi>
+<m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P \( H} {}</m:annotation></m:semantics></m:math>
+</para>
+
+
+<para id="paaara"><list id="list243566" list-type="labeled-item" mark-suffix="."><item><label>A</label> 1</item><item><label>B</label> 0</item><item><label>C</label> 0.40</item><item><label>D</label> 0.0375</item></list></para>
+</problem>
+
+
+<solution id="id8506633"><para id="solasdfaeeesaution">B</para></solution></exercise></para>
+    
+  </content>
+</document>

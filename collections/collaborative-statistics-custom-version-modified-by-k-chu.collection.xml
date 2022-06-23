@@ -1,0 +1,1254 @@
+<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xmlns:cnxml="http://cnx.rice.edu/cnxml" xml:lang="en" type="Textbook">
+  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>col10966</md:content-id>
+  <md:title>Elementary Statistics</md:title>
+  
+  
+  <md:license url="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License 3.0</md:license>
+  <md:language>en</md:language>
+
+  
+
+  
+  
+  <md:uuid>7c25472c-19f0-413a-a561-9168925edd9d</md:uuid>
+<md:slug>collaborative-statistics-custom-version-modified-by-k-chu</md:slug>
+</metadata>
+
+  <col:content>
+    
+      <col:module document="m16305"/>
+        
+      
+    
+    
+      
+        
+      <col:subcollection>
+        <md:title>Sampling and Data</md:title>
+        
+        
+        
+
+        <col:content>
+          
+    
+      <col:module document="m31742">
+        <col:featured-links>
+          
+            <cnxml:link-group type="supplemental">
+              <cnxml:link url="http://cnx.org/content/m17561/latest/">View the Video Lecture for this Chapter</cnxml:link>
+            </cnxml:link-group>
+          
+        </col:featured-links>
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m16020"/>
+        
+      
+    
+    
+      <col:module document="m16015"/>
+        
+      
+    
+    
+      <col:module document="m16007"/>
+        
+      
+    
+    
+      <col:module document="m16005"/>
+        
+      
+    
+    
+      <col:module document="m16014"/>
+        
+      
+    
+    
+      <col:module document="m16021"/>
+        
+      
+    
+    
+      <col:module document="m16006"/>
+        
+      
+    
+    
+      <col:module document="m31406"/>
+        
+      
+    
+    
+      <col:module document="m31364">
+        <col:featured-links>
+          
+            <cnxml:link-group type="supplemental">
+              <cnxml:link url="m16016_Practice_download.pdf">Download handout (.pdf)</cnxml:link>
+              <cnxml:link url="m16016_Practice_download.doc">Download handout (.doc)</cnxml:link>
+            </cnxml:link-group>
+          
+        </col:featured-links>
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m31413">
+        <col:featured-links>
+          
+            <cnxml:link-group type="supplemental">
+              <cnxml:link url="m16010_Homework_download.doc">Download handout (.doc)</cnxml:link>
+              <cnxml:link url="m16010_Homework_download.pdf">Download handout (.pdf)</cnxml:link>
+            </cnxml:link-group>
+          
+        </col:featured-links>
+      </col:module>
+        
+      
+    
+        </col:content>
+      </col:subcollection>
+    
+    
+      
+        
+      <col:subcollection>
+        <md:title>Descriptive Statistics</md:title>
+        
+        
+        
+
+        <col:content>
+          
+    
+      <col:module document="m16300">
+        <col:featured-links>
+          
+            <cnxml:link-group type="supplemental">
+              <cnxml:link url="http://cnx.org/content/m16802/latest/">View the Teacher's Guide Online</cnxml:link>
+              <cnxml:link url="http://cnx.org/content/m17562/latest/">View the Video Lecture for this Chapter</cnxml:link>
+            </cnxml:link-group>
+          
+        </col:featured-links>
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m16297"/>
+        
+      
+    
+    
+      <col:module document="m16849"/>
+        
+      
+    
+    
+      <col:module document="m16298"/>
+        
+      
+    
+    
+      <col:module document="m16296"/>
+        
+      
+    
+    
+      <col:module document="m16314"/>
+        
+      
+    
+    
+      <col:module document="m17102"/>
+        
+      
+    
+    
+      <col:module document="m17104"/>
+        
+      
+    
+    
+      <col:module document="m17103"/>
+        
+      
+    
+    
+      <col:module document="m16310"/>
+        
+      
+    
+    
+      <col:module document="m16312">
+        <col:featured-links>
+          
+            <cnxml:link-group type="supplemental">
+              <cnxml:link url="chap 2.1 practice.doc">Download handout (.doc)</cnxml:link>
+              <cnxml:link url="chap 2.1 practice.pdf">Download handout (.pdf)</cnxml:link>
+            </cnxml:link-group>
+          
+        </col:featured-links>
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m17105">
+        <col:featured-links>
+          
+            <cnxml:link-group type="supplemental">
+              <cnxml:link url="chap 2.2 practice.doc">Download handout (.doc)</cnxml:link>
+              <cnxml:link url="chap 2.2 practice.pdf">Download handout (.pdf)</cnxml:link>
+            </cnxml:link-group>
+          
+        </col:featured-links>
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m16801">
+        <col:featured-links>
+          
+            <cnxml:link-group type="supplemental">
+              <cnxml:link url="Descriptive Statistics.doc">Download handout (.doc)</cnxml:link>
+              <cnxml:link url="Descriptive Statistics.pdf">Download handout (.pdf)</cnxml:link>
+            </cnxml:link-group>
+          
+        </col:featured-links>
+      </col:module>
+        
+      
+    
+        </col:content>
+      </col:subcollection>
+    
+    
+      
+        
+      <col:subcollection>
+        <md:title>Linear Regression and Correlation</md:title>
+        
+        
+        
+
+        <col:content>
+          
+    
+      <col:module document="m17089">
+        <col:featured-links>
+          
+            <cnxml:link-group type="example">
+              <cnxml:link url="http://cnx.org/content/m17572/latest/">View the Video Lecture for this Chapter</cnxml:link>
+            </cnxml:link-group>
+          
+          
+            <cnxml:link-group type="supplemental">
+              <cnxml:link url="http://cnx.org/content/m17084/latest/">View the Teacher's Guide Online</cnxml:link>
+            </cnxml:link-group>
+          
+        </col:featured-links>
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m17086"/>
+        
+      
+    
+    
+      <col:module document="m17083"/>
+        
+      
+    
+    
+      <col:module document="m17082"/>
+        
+      
+    
+    
+      <col:module document="m17090"/>
+        
+      
+    
+    
+      <col:module document="m17092"/>
+        
+      
+    
+    
+      <col:module document="m31693"/>
+        
+      
+    
+    
+      <col:module document="m17095"/>
+        
+      
+    
+    
+      <col:module document="m17094"/>
+        
+      
+    
+    
+      <col:module document="m17081"/>
+        
+      
+    
+    
+      <col:module document="m17088">
+        <col:featured-links>
+          
+            <cnxml:link-group type="supplemental">
+              <cnxml:link url="chapter 12.1 practice.doc">Download handout (.doc)</cnxml:link>
+              <cnxml:link url="chapter 12.1 practice.pdf">Download handout (.pdf)</cnxml:link>
+            </cnxml:link-group>
+          
+        </col:featured-links>
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m31692">
+        <col:featured-links>
+          
+            <cnxml:link-group type="supplemental">
+              <cnxml:link url="Linear Regression and Correlation.pdf">Download handout (.pdf)</cnxml:link>
+              <cnxml:link url="Linear Regression and Correlation.doc">Download handout (.doc)</cnxml:link>
+            </cnxml:link-group>
+          
+        </col:featured-links>
+      </col:module>
+        
+      
+    
+        </col:content>
+      </col:subcollection>
+    
+    
+      
+        
+      <col:subcollection>
+        <md:title>Probability Topics</md:title>
+        
+        
+        
+
+        <col:content>
+          
+    
+      <col:module document="m31695">
+        <col:featured-links>
+          
+            <cnxml:link-group type="supplemental">
+              <cnxml:link url="http://cnx.org/content/m17563/latest/">View the Video Lecture for this Chapter</cnxml:link>
+            </cnxml:link-group>
+          
+        </col:featured-links>
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m16845"/>
+        
+      
+    
+    
+      <col:module document="m16837"/>
+        
+      
+    
+    
+      <col:module document="m16835"/>
+        
+      
+    
+    
+      <col:module document="m31697"/>
+        
+      
+    
+    
+      <col:module document="m16839">
+        <col:featured-links>
+          
+            <cnxml:link-group type="supplemental">
+              <cnxml:link url="chap 3 practice.doc">Download handout (.doc)</cnxml:link>
+              <cnxml:link url="chap 3 practice.pdf">Download handout (.pdf)</cnxml:link>
+            </cnxml:link-group>
+          
+        </col:featured-links>
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m31724">
+        <col:featured-links>
+          
+            <cnxml:link-group type="supplemental">
+              <cnxml:link url="Probability topics.doc">Download handout (.doc)</cnxml:link>
+              <cnxml:link url="Probability topics.pdf">Download handout (.pdf)</cnxml:link>
+            </cnxml:link-group>
+          
+        </col:featured-links>
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m16842">
+        <col:featured-links>
+          
+            <cnxml:link-group type="supplemental">
+              <cnxml:link url="Probability Topics _review.pdf">Download handout (.pdf)</cnxml:link>
+              <cnxml:link url="Probability Topics (review).doc">Download handout (.doc)</cnxml:link>
+            </cnxml:link-group>
+          
+        </col:featured-links>
+      </col:module>
+        
+      
+    
+        </col:content>
+      </col:subcollection>
+    
+    
+      
+        
+      <col:subcollection>
+        <md:title>Discrete Random Variables</md:title>
+        
+        
+        
+
+        <col:content>
+          
+    
+      <col:module document="m31731">
+        <col:featured-links>
+          
+            <cnxml:link-group type="supplemental">
+              <cnxml:link url="http://cnx.org/content/m17565/latest/">View the Video Lecture for this Chapter</cnxml:link>
+            </cnxml:link-group>
+          
+        </col:featured-links>
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m16831"/>
+        
+      
+    
+    
+      <col:module document="m16828"/>
+        
+      
+    
+    
+      <col:module document="m16821"/>
+        
+      
+    
+    
+      <col:module document="m16820"/>
+        
+      
+    
+    
+      <col:module document="m31733"/>
+        
+      
+    
+    
+      <col:module document="m16830">
+        <col:featured-links>
+          
+            <cnxml:link-group type="supplemental">
+              <cnxml:link url="Chap 4.1 practice.doc">Download handout (.doc)</cnxml:link>
+              <cnxml:link url="Chap 4.1 practice.pdf">Download handout (.pdf)</cnxml:link>
+            </cnxml:link-group>
+          
+        </col:featured-links>
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m17107">
+        <col:featured-links>
+          
+            <cnxml:link-group type="supplemental">
+              <cnxml:link url="chap 4.2 practice.doc">Download handout (.doc)</cnxml:link>
+              <cnxml:link url="chap 4.2 practice.pdf">Download handout (.pdf)</cnxml:link>
+            </cnxml:link-group>
+          
+        </col:featured-links>
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m23227"/>
+        
+      
+    
+    
+      <col:module document="m31734">
+        <col:featured-links>
+          
+            <cnxml:link-group type="supplemental">
+              <cnxml:link url="Discrete Random Variables (review).doc">Download handout (.doc)</cnxml:link>
+              <cnxml:link url="Discrete Random Variables _review.pdf">Download handout (.pdf)</cnxml:link>
+            </cnxml:link-group>
+          
+        </col:featured-links>
+      </col:module>
+        
+      
+    
+        </col:content>
+      </col:subcollection>
+    
+    
+      
+        
+      <col:subcollection>
+        <md:title>Continuous Random Variables</md:title>
+        
+        
+        
+
+        <col:content>
+          
+    
+      <col:module document="m31735">
+        <col:featured-links>
+          
+            <cnxml:link-group type="supplemental">
+              <cnxml:link url="http://cnx.org/content/m17566/latest/">View the Video Lecture for this Chapter</cnxml:link>
+            </cnxml:link-group>
+          
+        </col:featured-links>
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m16805"/>
+        
+      
+    
+    
+      <col:module document="m16819"/>
+        
+      
+    
+    
+      <col:module document="m16812">
+        <col:featured-links>
+          
+            <cnxml:link-group type="supplemental">
+              <cnxml:link url="chap 5.1 practice.doc">Download handout (.doc)</cnxml:link>
+              <cnxml:link url="chap 5.1 practice.pdf">Download handout (.pdf)</cnxml:link>
+            </cnxml:link-group>
+          
+        </col:featured-links>
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m31737"/>
+        
+      
+    
+    
+      <col:module document="m31736">
+        <col:featured-links>
+          
+            <cnxml:link-group type="supplemental">
+              <cnxml:link url="Continuous Random Variables.doc">Download handout (.doc)</cnxml:link>
+              <cnxml:link url="Continuous Random Variables.pdf">Download handout (.pdf)</cnxml:link>
+            </cnxml:link-group>
+          
+        </col:featured-links>
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m31738">
+        <col:featured-links>
+          
+            <cnxml:link-group type="supplemental">
+              <cnxml:link url="Continuous Random Variables (review).doc">Download handout (.doc)</cnxml:link>
+              <cnxml:link url="Continuous Random Variables _review.pdf">Download handout (.pdf)</cnxml:link>
+            </cnxml:link-group>
+          
+        </col:featured-links>
+      </col:module>
+        
+      
+    
+        </col:content>
+      </col:subcollection>
+    
+    
+      
+        
+      <col:subcollection>
+        <md:title>The Normal Distribution</md:title>
+        
+        
+        
+
+        <col:content>
+          
+    
+      <col:module document="m16979">
+        <col:featured-links>
+          
+            <cnxml:link-group type="example">
+              <cnxml:link url="http://cnx.org/content/m17567/latest/">View the Video Lecture for this Chapter</cnxml:link>
+            </cnxml:link-group>
+          
+          
+            <cnxml:link-group type="supplemental">
+              <cnxml:link url="http://cnx.org/content/m16990/latest/">View the Teacher's Guide Online</cnxml:link>
+            </cnxml:link-group>
+          
+        </col:featured-links>
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m16986"/>
+        
+      
+    
+    
+      <col:module document="m16991"/>
+        
+      
+    
+    
+      <col:module document="m16976"/>
+        
+      
+    
+    
+      <col:module document="m16977"/>
+        
+      
+    
+    
+      <col:module document="m16987"/>
+        
+      
+    
+    
+      <col:module document="m16983">
+        <col:featured-links>
+          
+            <cnxml:link-group type="supplemental">
+              <cnxml:link url="chap 6 practice.doc">Download handout (.doc)</cnxml:link>
+              <cnxml:link url="chap 6 practice.pdf">Download handout (.pdf)</cnxml:link>
+            </cnxml:link-group>
+          
+        </col:featured-links>
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m16978">
+        <col:featured-links>
+          
+            <cnxml:link-group type="supplemental">
+              <cnxml:link url="The Normal Distribution.doc">Download handout (.doc)</cnxml:link>
+              <cnxml:link url="The Normal Distribution.pdf">Download handout (.pdf)</cnxml:link>
+            </cnxml:link-group>
+          
+        </col:featured-links>
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m31741">
+        <col:featured-links>
+          
+            <cnxml:link-group type="supplemental">
+              <cnxml:link url="The Normal Distribution _review.pdf">Download handout (.pdf)</cnxml:link>
+              <cnxml:link url="The Normal Distribution (review).doc">Download handout (.doc)</cnxml:link>
+            </cnxml:link-group>
+          
+        </col:featured-links>
+      </col:module>
+        
+      
+    
+        </col:content>
+      </col:subcollection>
+    
+    
+      
+        
+      <col:subcollection>
+        <md:title>The Central Limit Theorem</md:title>
+        
+        
+        
+
+        <col:content>
+          
+    
+      <col:module document="m16953">
+        <col:featured-links>
+          
+            <cnxml:link-group type="example">
+              <cnxml:link url="http://cnx.org/content/m17568/latest/">View the Video Lecture for this Chapter</cnxml:link>
+            </cnxml:link-group>
+          
+          
+            <cnxml:link-group type="supplemental">
+              <cnxml:link url="http://cnx.org/content/m16957/latest/">View the Teacher's Guide Online</cnxml:link>
+            </cnxml:link-group>
+          
+        </col:featured-links>
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m16947"/>
+        
+      
+    
+    
+      <col:module document="m16948"/>
+        
+      
+    
+    
+      <col:module document="m16958"/>
+        
+      
+    
+    
+      <col:module document="m16956"/>
+        
+      
+    
+    
+      <col:module document="m16954">
+        <col:featured-links>
+          
+            <cnxml:link-group type="supplemental">
+              <cnxml:link url="chap 7 practice.doc">Download handout (.doc)</cnxml:link>
+              <cnxml:link url="chap 7 practice.pdf">Download handout (.pdf)</cnxml:link>
+            </cnxml:link-group>
+          
+        </col:featured-links>
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m16952">
+        <col:featured-links>
+          
+            <cnxml:link-group type="supplemental">
+              <cnxml:link url="The Central Limit Theorem.doc">Download handout (.doc)</cnxml:link>
+              <cnxml:link url="The Central Limit Theorem.pdf">Download handout (.pdf)</cnxml:link>
+            </cnxml:link-group>
+          
+        </col:featured-links>
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m31740">
+        <col:featured-links>
+          
+            <cnxml:link-group type="supplemental">
+              <cnxml:link url="The Central Limit Theorem (review).doc">Download handout (.doc)</cnxml:link>
+              <cnxml:link url="The Central Limit Theorem _review.pdf">Download handout (.pdf)</cnxml:link>
+            </cnxml:link-group>
+          
+        </col:featured-links>
+      </col:module>
+        
+      
+    
+        </col:content>
+      </col:subcollection>
+    
+    
+      
+        
+      <col:subcollection>
+        <md:title>Confidence Intervals</md:title>
+        
+        
+        
+
+        <col:content>
+          
+    
+      <col:module document="m16967">
+        <col:featured-links>
+          
+            <cnxml:link-group type="example">
+              <cnxml:link url="http://cnx.org/content/m17569/latest/">View the Video Lecture for this Chapter</cnxml:link>
+            </cnxml:link-group>
+          
+          
+            <cnxml:link-group type="supplemental">
+              <cnxml:link url="http://cnx.org/content/m16975/latest/">View the Teacher's Guide Online</cnxml:link>
+            </cnxml:link-group>
+          
+        </col:featured-links>
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m16962"/>
+        
+      
+    
+    
+      <col:module document="m16959"/>
+        
+      
+    
+    
+      <col:module document="m16963"/>
+        
+      
+    
+    
+      <col:module document="m16973"/>
+        
+      
+    
+    
+      <col:module document="m16970">
+        <col:featured-links>
+          
+            <cnxml:link-group type="supplemental">
+              <cnxml:link url="chap 8.1 practice.doc">Download handout (.doc)</cnxml:link>
+              <cnxml:link url="chap 8.1 practice.pdf">Download handout (.pdf)</cnxml:link>
+            </cnxml:link-group>
+          
+        </col:featured-links>
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m16971">
+        <col:featured-links>
+          
+            <cnxml:link-group type="supplemental">
+              <cnxml:link url="chap 8.2 practice.doc">Download handout (.doc)</cnxml:link>
+              <cnxml:link url="chap 8.2 practice.pdf">Download handout (.pdf)</cnxml:link>
+            </cnxml:link-group>
+          
+        </col:featured-links>
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m16968">
+        <col:featured-links>
+          
+            <cnxml:link-group type="supplemental">
+              <cnxml:link url="chap 8.3 practice.doc">Download handout (.doc)</cnxml:link>
+              <cnxml:link url="chap 8.3 practice.pdf">Download handout (.pdf)</cnxml:link>
+            </cnxml:link-group>
+          
+        </col:featured-links>
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m16966">
+        <col:featured-links>
+          
+            <cnxml:link-group type="supplemental">
+              <cnxml:link url="Confidence Intervals.doc">Download handout (.doc)</cnxml:link>
+              <cnxml:link url="Confidence Intervals.pdf">Download handout (.pdf)</cnxml:link>
+            </cnxml:link-group>
+          
+        </col:featured-links>
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m31851">
+        <col:featured-links>
+          
+            <cnxml:link-group type="supplemental">
+              <cnxml:link url="Confidence Intervals (review).doc">Download handout (.doc)</cnxml:link>
+              <cnxml:link url="Continuous Random Variables _review.pdf">Download handout (.pdf)</cnxml:link>
+            </cnxml:link-group>
+          
+        </col:featured-links>
+      </col:module>
+        
+      
+    
+        </col:content>
+      </col:subcollection>
+    
+    
+      
+        
+      <col:subcollection>
+        <md:title>Hypothesis Testing: Single Mean and Single Proportion</md:title>
+        
+        
+        
+
+        <col:content>
+          
+    
+      <col:module document="m16997">
+        <col:featured-links>
+          
+            <cnxml:link-group type="example">
+              <cnxml:link url="http://cnx.org/content/m17570/latest/">View the Video Lecture for this Chapter</cnxml:link>
+            </cnxml:link-group>
+          
+          
+            <cnxml:link-group type="supplemental">
+              <cnxml:link url="http://cnx.org/content/m17008/latest/">View the Teacher's Guide Online</cnxml:link>
+            </cnxml:link-group>
+          
+        </col:featured-links>
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m16998"/>
+        
+      
+    
+    
+      <col:module document="m17006"/>
+        
+      
+    
+    
+      <col:module document="m17017"/>
+        
+      
+    
+    
+      <col:module document="m17002"/>
+        
+      
+    
+    
+      <col:module document="m16994"/>
+        
+      
+    
+    
+      <col:module document="m16995"/>
+        
+      
+    
+    
+      <col:module document="m16992"/>
+        
+      
+    
+    
+      <col:module document="m16999"/>
+        
+      
+    
+    
+      <col:module document="m16993"/>
+        
+      
+    
+    
+      <col:module document="m17005"/>
+        
+      
+    
+    
+      <col:module document="m16996"/>
+        
+      
+    
+    
+      <col:module document="m17004">
+        <col:featured-links>
+          
+            <cnxml:link-group type="supplemental">
+              <cnxml:link url="chap 9.1 practice.doc">Download handout (.doc)</cnxml:link>
+              <cnxml:link url="chap 9.1 practice.pdf">Download handout (.pdf)</cnxml:link>
+            </cnxml:link-group>
+          
+        </col:featured-links>
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m17016">
+        <col:featured-links>
+          
+            <cnxml:link-group type="supplemental">
+              <cnxml:link url="chap 9.2 practice.doc">Download handout (.doc)</cnxml:link>
+              <cnxml:link url="chap 9.2 practice.pdf">Download handout (.pdf)</cnxml:link>
+            </cnxml:link-group>
+          
+        </col:featured-links>
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m17003">
+        <col:featured-links>
+          
+            <cnxml:link-group type="supplemental">
+              <cnxml:link url="chap 9.3 practice.doc">Download handout (.doc)</cnxml:link>
+              <cnxml:link url="chap 9.3 practice.pdf">Download handout (.pdf)</cnxml:link>
+            </cnxml:link-group>
+          
+        </col:featured-links>
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m17001">
+        <col:featured-links>
+          
+            <cnxml:link-group type="supplemental">
+              <cnxml:link url="Hypothesis Testing of Single Mean and Single Proportion.doc">Download handout (.doc)</cnxml:link>
+              <cnxml:link url="Hypothesis Testing of Single Mean and Single Proportion.pdf">Download handout (.pdf)</cnxml:link>
+            </cnxml:link-group>
+          
+        </col:featured-links>
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m17013">
+        <col:featured-links>
+          
+            <cnxml:link-group type="supplemental">
+              <cnxml:link url="Hypothesis Testing of Single Mean and Single Proportion_review.doc">Download handout (.doc)</cnxml:link>
+              <cnxml:link url="Hypothesis Testing of Single Mean and Single Proportion_review.pdf">Download handout (.pdf)</cnxml:link>
+            </cnxml:link-group>
+          
+        </col:featured-links>
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m17007">
+        <col:featured-links>
+          
+            <cnxml:link-group type="supplemental">
+              <cnxml:link url="Hypothesis Testing of Single Mean and Single Proportion- Lab I.doc">Download handout (.doc)</cnxml:link>
+              <cnxml:link url="Hypothesis Testing of Single Mean and Single Proportion- Lab I.pdf">Download handout (.pdf)</cnxml:link>
+            </cnxml:link-group>
+          
+        </col:featured-links>
+      </col:module>
+        
+      
+    
+        </col:content>
+      </col:subcollection>
+    
+    
+      
+        
+      <col:subcollection>
+        <md:title>Hypothesis Testing: Two Means, Paired Data, Two Proportions</md:title>
+        
+        
+        
+
+        <col:content>
+          
+    
+      <col:module document="m17029">
+        <col:featured-links>
+          
+            <cnxml:link-group type="example">
+              <cnxml:link url="http://cnx.org/content/m17577/latest/">View the Video Lecture for this Chapter</cnxml:link>
+            </cnxml:link-group>
+          
+          
+            <cnxml:link-group type="supplemental">
+              <cnxml:link url="http://cnx.org/content/m17020/latest/">View the Teacher's Guide Online</cnxml:link>
+            </cnxml:link-group>
+          
+        </col:featured-links>
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m17025"/>
+        
+      
+    
+    
+      <col:module document="m17042"/>
+        
+      
+    
+    
+      <col:module document="m17043"/>
+        
+      
+    
+    
+      <col:module document="m17033"/>
+        
+      
+    
+    
+      <col:module document="m17044"/>
+        
+      
+    
+    
+      <col:module document="m17027">
+        <col:featured-links>
+          
+            <cnxml:link-group type="supplemental">
+              <cnxml:link url="chap 10.1 practice.doc">Download handout (.doc)</cnxml:link>
+              <cnxml:link url="chap 10.1 practice.pdf">Download handout (.pdf)</cnxml:link>
+            </cnxml:link-group>
+          
+        </col:featured-links>
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m17039">
+        <col:featured-links>
+          
+            <cnxml:link-group type="supplemental">
+              <cnxml:link url="chap 10.2 practice.doc">Download handout (.doc)</cnxml:link>
+              <cnxml:link url="chap 10.2 practice.pdf">Download handout (.pdf)</cnxml:link>
+            </cnxml:link-group>
+          
+        </col:featured-links>
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m17023">
+        <col:featured-links>
+          
+            <cnxml:link-group type="supplemental">
+              <cnxml:link url="Hypothesis Testing of Two Means and Two Proportions.doc">Download handout (.doc)</cnxml:link>
+              <cnxml:link url="Hypothesis Testing of Two Means and Two Proportions.pdf">Download handout (.pdf)</cnxml:link>
+            </cnxml:link-group>
+          
+        </col:featured-links>
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m17021">
+        <col:featured-links>
+          
+            <cnxml:link-group type="supplemental">
+              <cnxml:link url="Hypothesis Testing of Two Means and Two Proportions_review.doc">Download handout (.doc)</cnxml:link>
+              <cnxml:link url="Hypothesis Testing of Two Means and Two Proportions_review.pdf">Download handout (.pdf)</cnxml:link>
+            </cnxml:link-group>
+          
+        </col:featured-links>
+      </col:module>
+        
+      
+    
+        </col:content>
+      </col:subcollection>
+    
+    
+      
+        
+      <col:subcollection>
+        <md:title>Appendix</md:title>
+        
+        
+        
+
+        <col:content>
+          
+    
+      <col:module document="m16302"/>
+        
+      
+    
+    
+      <col:module document="m16301"/>
+        
+      
+    
+    
+      <col:module document="m19710">
+        <col:featured-links>
+          
+            <cnxml:link-group type="supplemental">
+              <cnxml:link url="02_calc.pdf">Download the original notes for distributions (PDF)</cnxml:link>
+              <cnxml:link url="01_calc.pdf">Download the original notes (PDF)</cnxml:link>
+            </cnxml:link-group>
+          
+        </col:featured-links>
+      </col:module>
+        
+      
+    
+        </col:content>
+      </col:subcollection>
+    
+    
+      <col:module document="m19138"/>
+        
+      
+    
+  </col:content>
+</col:collection>

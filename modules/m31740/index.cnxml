@@ -1,0 +1,264 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml" class="review">
+  <title>Review</title>
+  <metadata>
+  <md:content-id>m31740</md:content-id><md:title>Review</md:title>
+  <md:abstract/>
+  <md:uuid>964713a8-8f2b-4810-a9c3-32a55adb0344</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="The Central Limit Theorem _review.pdf" strength="3">Download handout (.pdf)</link>
+      <link url="The Central Limit Theorem (review).doc" strength="3">Download handout (.doc)</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+    <para id="delete_me"><emphasis>The next three questions refer to the following information:</emphasis> 
+Richard’s Furniture Company delivers furniture from 10 A.M. to 2 P.M. continuously and uniformly.  We are interested in how long (in hours) past the 10 A.M. start time that individuals wait for their delivery.
+</para><exercise id="element-725"><problem id="id10684324">
+  <para id="element-386"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mstyle fontsize="12pt">
+					<m:mrow>
+						<m:mrow>
+							<m:mi>X</m:mi>
+						</m:mrow>
+					</m:mrow>
+				</m:mstyle>
+				<m:mrow/>
+			</m:mrow>
+			<m:annotation encoding="StarMath 5.0"> size 12{X "~" } {}</m:annotation>
+		</m:semantics>
+	</m:math> ~
+</para><list id="element-596" mark-suffix="." list-type="labeled-item"><item><label>A</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>U</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mn>0,4</m:mn>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{U \( 0,4 \) } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>B</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>U</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mtext>10</m:mtext>
+                  <m:mi>,</m:mi>
+                  <m:mn>2</m:mn>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{U \( "10",2 \) } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+
+<item><label>C</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>N</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mn>2,1</m:mn>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{N \( 2,1 \) } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item></list>
+</problem>
+
+<solution id="id11298039">
+  <para id="element-98">A</para>
+</solution>
+</exercise><exercise id="element-407"><problem id="id11298063">
+  <para id="element-498">The average wait time is:</para><list id="element-143" list-type="labeled-item" mark-suffix="."><item><label>A</label> 1 hour</item>
+<item><label>B</label> 2 hour</item>
+<item><label>C</label> 2.5 hour</item>
+<item><label>D</label> 4 hour</item></list>
+</problem>
+
+<solution id="id11298138">
+  <para id="element-117">B
+  </para>
+</solution>
+</exercise><exercise id="element-999"><problem id="id11212728">
+  <list id="element-216" list-type="bulleted"><item>40% of full-time students took 4 years to graduate</item>
+<item>30% of full-time students took 5 years to graduate</item>
+<item>20% of full-time students took 6 years to graduate</item>
+<item>10% of full-time students took 7 years to graduate</item>
+</list><para id="element-44">The expected time for full-time students to graduate is:
+
+</para><list id="element-1" list-type="labeled-item" mark-suffix="."><item><label>A</label> 4 years	</item>
+<item><label>B</label> 4.5 years	</item>
+<item><label>C</label> 5 years	</item>
+<item><label>D</label> 5.5 years	</item>
+</list>
+</problem>
+
+<solution id="id11212846">
+  <para id="element-995">C</para>
+</solution>
+</exercise><exercise id="element-597"><problem id="id7128045">
+  <para id="element-783">The length of time to brush one’s teeth is generally thought to be exponentially distributed with a mean of 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mfrac>
+                  <m:mn>3</m:mn>
+                  <m:mn>4</m:mn>
+                </m:mfrac>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ {  {3}  over  {4} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+     minutes.  Find the probability that a randomly selected person brushes his/her teeth less than 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mfrac>
+                  <m:mn>3</m:mn>
+                  <m:mn>4</m:mn>
+                </m:mfrac>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ {  {3}  over  {4} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+     minutes.
+  </para><list id="element-329" list-type="labeled-item" mark-suffix="."><item><label>A</label> 0.5</item>
+<item><label>B</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mfrac>
+                  <m:mn>3</m:mn>
+                  <m:mn>4</m:mn>
+                </m:mfrac>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ {  {3}  over  {4} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>C</label> 0.43</item>
+<item><label>D</label> 0.63</item>
+</list>
+</problem>
+
+<solution id="id7128236">
+  <para id="element-233">D</para>
+</solution>
+</exercise><exercise id="element-146"><problem id="id7128260">
+  <para id="element-772">
+  Which distribution accurately describes the following situation?
+  </para>
+  <para id="element-773">
+The chance that a teenage boy regularly gives his mother a kiss goodnight (and he should!!) is about 20%.  Fourteen teenage boys are randomly surveyed.
+</para>
+  <para id="element-774">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>X</m:mi><m:mo stretchy="false">=</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X={}} {}</m:annotation></m:semantics></m:math>the number of teenage boys that regularly give their mother a kiss goodnight
+</para><list id="element-283" mark-suffix="." list-type="labeled-item"><item><label>A</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>B</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mtext>14</m:mtext>
+                  <m:mi>,</m:mi>
+                  <m:mn>0</m:mn>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>20</m:mtext>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{B \( "14",0 "." "20" \) } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+
+                  
+<item><label>B</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>N</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:mtext>.</m:mtext>
+                  <m:mn>8,2</m:mn>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>24</m:mtext>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{N \( 2 "." 8,2 "." "24" \) } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+</list>
+</problem>
+
+<solution id="id11309508">
+  <para id="element-315">A</para>
+</solution>
+</exercise>   
+  </content>
+  
+</document>
