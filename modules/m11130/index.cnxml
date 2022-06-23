@@ -1,0 +1,691 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  
+  <title>Introduction to Sampling Distributions</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>01f96695-7b3d-4817-aa03-2e79a89155e7</md:uuid>
+</metadata>
+  
+  <content>
+    <para id="para1">
+      Suppose you randomly sampled 10 people from the population of
+      women in Houston Texas between the ages of 21 and 35 years and
+      computed the mean height of your sample. You would not expect
+      your sample mean to be equal to the mean of all women in
+      Houston. It might be somewhat lower or it might be somewhat
+      higher, but it would not equal the population mean
+      exactly. Similarly, if you took a second sample of 10 people
+      from the same population, you would not expect the mean of this
+      second sample to equal the mean of the first sample. 
+    </para>
+
+    <para id="para2">
+      Recall that <term>inferential statistics</term> concerns
+      generalizing from a <emphasis>sample</emphasis> to a
+      <emphasis>population</emphasis>. A critical part of inferential
+      statistics involves determining how far sample statistics are
+      likely to vary from each other and from the population
+      <emphasis>parameter</emphasis>. (In this example, the sample
+      means are sample statistics and the sample parameter is the
+      population mean.) As the later portions of this chapter show
+      (<link document="m11131">Sampling Distribution of the Mean</link>
+      and <link document="m11132">Sampling Distribution of Difference Between
+      Means</link>), these determinations are based on <term>sampling
+      distributions</term>.
+    </para>
+  
+    <section id="sec1">
+      <title>Discrete Distributions</title>
+      <para id="sec1para1">
+	We will illustrate the concept of sampling distributions with
+	a simple example. <link target-id="figure1"/> shows three pool
+	balls, each with a number on it. Two of the balls are selected
+	randomly (with replacement) and the average of their numbers
+	is computed.
+      </para>
+      
+      <figure id="figure1">
+	<media id="idp899600" alt=""><image src="../../media/figure1.png" mime-type="image/png"/></media>
+	<caption>
+	  The pool balls.
+	</caption>
+      </figure>
+
+      <para id="sec1para2">
+	All possible outcomes are shown in <link target-id="table1"/>.
+      </para>
+ 
+      <table frame="all" id="table1" summary="">
+	<title>All possible outcomes when two balls are sampled</title>
+	<tgroup cols="4" align="left" colsep="1" rowsep="1">
+	  <thead valign="top">
+	    <row>
+	      <entry align="center">
+		Outcome
+	      </entry>
+	      <entry align="center">
+		Ball 1
+	      </entry>
+	      <entry align="center">
+		Ball 2
+	      </entry>
+	      <entry align="center">
+		Mean
+	      </entry>
+	    </row>
+	  </thead>
+	  <tbody valign="top">
+	    <row>
+	      <entry align="center">
+		1
+	      </entry>
+	      <entry align="center">
+		1
+	      </entry>
+	      <entry align="center">
+		1
+	      </entry>
+	      <entry align="center">
+		1.0
+	      </entry>
+	    </row>
+	    <row>
+	      <entry align="center">
+		2
+	      </entry>
+	      <entry align="center">
+		1
+	      </entry>
+	      <entry align="center">
+		2
+	      </entry>
+	      <entry align="center">
+		1.5
+	      </entry>
+	    </row>
+	    <row>
+	      <entry align="center">
+		3
+	      </entry>
+	      <entry align="center">
+		1
+	      </entry>
+	      <entry align="center">
+		3
+	      </entry>
+	      <entry align="center">
+		2.0
+	      </entry>
+	    </row>
+	    <row>
+	      <entry align="center">
+		4
+	      </entry>
+	      <entry align="center">
+		2
+	      </entry>
+	      <entry align="center">
+		1
+	      </entry>
+	      <entry align="center">
+		1.5
+	      </entry>
+	    </row>
+	    <row>
+	      <entry align="center">
+		5
+	      </entry>
+	      <entry align="center">
+		2
+	      </entry>
+	      <entry align="center">
+		2
+	      </entry>
+	      <entry align="center">
+		2.0
+	      </entry>
+	    </row>
+	    <row>
+	      <entry align="center">
+		6
+	      </entry>
+	      <entry align="center">
+		2
+	      </entry>
+	      <entry align="center">
+		3
+	      </entry>
+	      <entry align="center">
+		2.5
+	      </entry>
+	    </row>
+	    <row>
+	      <entry align="center">
+		7
+	      </entry>
+	      <entry align="center">
+		3
+	      </entry>
+	      <entry align="center">
+		1
+	      </entry>
+	      <entry align="center">
+		2.0
+	      </entry>
+	    </row>
+	    <row>
+	      <entry align="center">
+		8
+	      </entry>
+	      <entry align="center">
+		3
+	      </entry>
+	      <entry align="center">
+		2
+	      </entry>
+	      <entry align="center">
+		2.5
+	      </entry>
+	    </row>
+	    <row>
+	      <entry align="center">
+		9
+	      </entry>
+	      <entry align="center">
+		3
+	      </entry>
+	      <entry align="center">
+		3
+	      </entry>
+	      <entry align="center">
+		3.0
+	      </entry>
+	    </row>
+	  </tbody>
+	</tgroup>
+      </table>
+
+      <para id="sec1para3">
+	Notice that all the means are either 1.0, 1.5, 2.0, 2.5, or
+	  3.0. The frequencies of these means are shown in <link target-id="table2"/>.  The relative frequencies are equal to
+	  the frequencies divided by nine because there are nine
+	  possible outcomes.
+      </para>
+
+      <table frame="all" id="table2" summary="">
+	<title>Frequencies of means for N = 2.</title>
+	<tgroup cols="3" align="left" colsep="1" rowsep="1">
+	  <thead valign="top">
+	    <row>
+	      <entry align="center">
+		Mean
+	      </entry>
+	      <entry align="center">
+		Frequency
+	      </entry>
+	      <entry align="center">
+		Relative Frequency
+	      </entry>
+	    </row>
+	  </thead>
+	  <tbody valign="top">
+	    <row>
+	      <entry align="center">
+		1.0
+	      </entry>
+	      <entry align="center">
+		1
+	      </entry>
+	      <entry align="center">
+		0.111
+	      </entry>
+	    </row>
+	    <row>
+	      <entry align="center">
+		1.5
+	      </entry>
+	      <entry align="center">
+		2
+	      </entry>
+	      <entry align="center">
+		0.222
+	      </entry>
+	    </row>
+	    <row>
+	      <entry align="center">
+		2.0
+	      </entry>
+	      <entry align="center">
+		3
+	      </entry>
+	      <entry align="center">
+		0.333
+	      </entry>
+	    </row>
+	    <row>
+	      <entry align="center">
+		2.5
+	      </entry>
+	      <entry align="center">
+		2
+	      </entry>
+	      <entry align="center">
+		0.222
+	      </entry>
+	    </row>
+	    <row>
+	      <entry align="center">
+		3.0
+	      </entry>
+	      <entry align="center">
+		1
+	      </entry>
+	      <entry align="center">
+		0.111
+	      </entry>
+	    </row>
+	  </tbody>
+	</tgroup>
+      </table>
+
+      <para id="sec1para4">
+	<link target-id="figure2"/> shows a <term>relative frequency
+	  distribution</term> of the means based on <link target-id="table2"/>. This distribution is also a
+	  <term>probability distribution</term> since the Y-axis is
+	  the probability of obtaining a given mean from a sample of
+	  two balls in addition to being the relative frequency.
+      </para>
+
+      <figure id="figure2">
+	<media id="idp77120" alt=""><image src="../../media/figure2.gif" mime-type="image/gif"/></media>
+	<caption>
+	  Distribution of means for 
+	  <m:math>
+	    <m:apply>
+	      <m:eq/>
+	      <m:ci>N</m:ci>
+	      <m:cn>2</m:cn>
+	    </m:apply>
+	  </m:math>.
+	</caption>
+      </figure>
+
+      <para id="sec1para5">
+	The distribution shown in <link target-id="figure2"/> is called
+	the <term>sampling distribution of the mean</term>.
+	Specifically, it is the sampling distribution of the mean for
+	a sample size of 2 (
+	<m:math>
+	  <m:apply>
+	    <m:eq/>
+	    <m:ci>N</m:ci>
+	    <m:cn>2</m:cn>
+	  </m:apply>
+	</m:math> ). For this simple example, the distribution of pool
+	balls and the sampling distribution are both discrete
+	distribution. The pool balls have only the numbers 1, 2, and
+	3, and a sample mean can have one of only five possible
+	values.  
+      </para>
+
+      <para id="sec1para6">
+	There is an alternative way of conceptualizing a sampling
+	distribution that will be useful for more complex
+	distributions. Imagine that two balls are sampled (with
+	replacement) and the mean of the two balls is computed and
+	recorded. Then this process is repeated for a second sample, a
+	third sample, and eventually thousands of a samples. After
+	thousands of samples are taken and the mean computed for each,
+	a relative frequency distribution is drawn. The more samples,
+	the closer the relative frequency distribution will come to
+	the sampling distribution shown in <link target-id="figure2"/>. As the number of samples approaches
+	infinity, the frequency distribution will approach the
+	sampling distribution. This means that you can conceive of a
+	sampling distribution as being a frequency distribution based
+	on a very large number of samples. To be strictly correct, the
+	sampling distribution only equals the frequency distribution
+	exactly when there is an infinite number of samples.
+      </para>
+
+      <para id="sec1para7">
+	It is important to keep in mind that every statistic, not just
+	the mean has a sampling distribution. For example, <link target-id="table3"/> shows all possible outcomes for the range of
+	two numbers (larger number minus the smaller number). <link target-id="table4"/> shows the frequencies for each of the
+	possible ranges and <link target-id="figure3"/> shows the
+	sampling distribution of the range.
+      </para>
+
+      <table frame="all" id="table3" summary="">
+	<title>All possible outcomes when two balls are sampled.</title>
+	<tgroup cols="4" align="left" colsep="1" rowsep="1">
+	  <thead valign="top">
+	    <row>
+	      <entry align="center">
+		Outcome
+	      </entry>
+	      <entry align="center">
+		Ball 1
+	      </entry>
+	      <entry align="center">
+		Ball 2
+	      </entry>
+	      <entry align="center">
+		Range
+	      </entry>
+	    </row>
+	  </thead>
+	  <tbody valign="top">
+	    <row>
+	      <entry align="center">
+		1
+	      </entry>
+	      <entry align="center">
+		1
+	      </entry>
+	      <entry align="center">
+		1
+	      </entry>
+	      <entry align="center">
+		0
+	      </entry>
+	    </row>
+	    <row>
+	      <entry align="center">
+		2
+	      </entry>
+	      <entry align="center">
+		1
+	      </entry>
+	      <entry align="center">
+		2
+	      </entry>
+	      <entry align="center">
+		1
+	      </entry>
+	    </row>
+	    <row>
+	      <entry align="center">
+		3
+	      </entry>
+	      <entry align="center">
+		1
+	      </entry>
+	      <entry align="center">
+		3
+	      </entry>
+	      <entry align="center">
+		2
+	      </entry>
+	    </row>
+	    <row>
+	      <entry align="center">
+		4
+	      </entry>
+	      <entry align="center">
+		2
+	      </entry>
+	      <entry align="center">
+		1
+	      </entry>
+	      <entry align="center">
+		1
+	      </entry>
+	    </row>
+	    <row>
+	      <entry align="center">
+		5
+	      </entry>
+	      <entry align="center">
+		2
+	      </entry>
+	      <entry align="center">
+		2
+	      </entry>
+	      <entry align="center">
+		0
+	      </entry>
+	    </row>
+	    <row>
+	      <entry align="center">
+		6
+	      </entry>
+	      <entry align="center">
+		2
+	      </entry>
+	      <entry align="center">
+		3
+	      </entry>
+	      <entry align="center">
+		1
+	      </entry>
+	    </row>
+	    <row>
+	      <entry align="center">
+		7
+	      </entry>
+	      <entry align="center">
+		3
+	      </entry>
+	      <entry align="center">
+		1
+	      </entry>
+	      <entry align="center">
+		2
+	      </entry>
+	    </row>
+	    <row>
+	      <entry align="center">
+		8
+	      </entry>
+	      <entry align="center">
+		3
+	      </entry>
+	      <entry align="center">
+		2
+	      </entry>
+	      <entry align="center">
+		1
+	      </entry>
+	    </row>
+	    <row>
+	      <entry align="center">
+		9
+	      </entry>
+	      <entry align="center">
+		3
+	      </entry>
+	      <entry align="center">
+		3
+	      </entry>
+	      <entry align="center">
+		0
+	      </entry>
+	    </row>
+	  </tbody>
+	</tgroup>
+      </table>
+
+      <table frame="all" id="table4" summary="">
+	<title>Frequencies of ranges for N = 2.</title>
+	<tgroup cols="3" align="left" colsep="1" rowsep="1">
+	  <thead valign="top">
+	    <row>
+	      <entry align="center">
+		Range
+	      </entry>
+	      <entry align="center">
+		Frequency
+	      </entry>
+	      <entry align="center">
+		Relative Frequency
+	      </entry>
+	    </row>
+	  </thead>
+	  <tbody valign="top">
+	    <row>
+	      <entry align="center">
+		0
+	      </entry>
+	      <entry align="center">
+		3
+	      </entry>
+	      <entry align="center">
+		0.333
+	      </entry>
+	    </row>
+	    <row>
+	      <entry align="center">
+		1
+	      </entry>
+	      <entry align="center">
+		4
+	      </entry>
+	      <entry align="center">
+		0.444
+	      </entry>
+	    </row>
+	    <row>
+	      <entry align="center">
+		2
+	      </entry>
+	      <entry align="center">
+		2
+	      </entry>
+	      <entry align="center">
+		0.222
+	      </entry>
+	    </row>
+	  </tbody>
+	</tgroup>
+      </table>
+
+      <figure id="figure3">
+	<media id="idm6531216" alt=""><image src="../../media/figure3.gif" mime-type="image/gif"/></media>
+	<caption>
+	  Distribution of ranges for 
+	  <m:math>
+	    <m:apply>
+	      <m:eq/>
+	      <m:ci>N</m:ci>
+	      <m:cn>2</m:cn>
+	    </m:apply>
+	  </m:math>.
+	</caption>
+      </figure>
+
+      <para id="sec1para8">
+	It is also important to keep in mind that there is a sampling
+	distribution for various sample sizes. For simplicity, we have
+	been using 
+	<m:math>
+	  <m:apply>
+	    <m:eq/>
+	    <m:ci>N</m:ci>
+	    <m:cn>2</m:cn>
+	  </m:apply>
+	</m:math>. The sampling distribution of the range for 
+	<m:math>
+	  <m:apply>
+	    <m:eq/>
+	    <m:ci>N</m:ci>
+	    <m:cn>3</m:cn>
+	  </m:apply>
+	</m:math> is shown in <link target-id="figure4"/>. 
+      </para>
+     
+      <figure id="figure4">
+	<media id="idm6522112" alt=""><image src="../../media/figure4.gif" mime-type="image/gif"/></media>
+	<caption>
+	  Distribution of ranges for 
+	  <m:math>
+	    <m:apply>
+	      <m:eq/>
+	      <m:ci>N</m:ci>
+	      <m:cn>3</m:cn>
+	    </m:apply>
+	  </m:math>.
+	</caption>
+      </figure>
+
+    </section>
+
+    <section id="sec2">
+      <title>Continuous Distributions</title>
+      <para id="sec2para1">
+	In the previous section, the population consisted of three
+	pool balls. Now we will consider sampling distributions when
+	the population distribution is continuous. What if we had a
+	thousand pool balls with numbers ranging from 0.001 to 1.000
+	in equal steps. (Although this distribution is not really
+	continuous, it is close enough to be considered continuous for
+	practical purposes.) As before, we are interested in the
+	distribution of means we would get if we sampled two balls and
+	computed the mean of these two. In the previous example, we
+	started by computing the mean for each of the nine possible
+	outcomes. This would get a bit tedious for this problem since
+	there are 1,000,000 possible outcomes (1,000 for the first
+	ball x 1,000 for the second.) Therefore, it is more convenient
+	to use our second conceptualization of sampling distributions
+	which conceives of sampling distributions in terms of relative
+	frequency distributions. Specifically, the relative frequency
+	distribution that would occur if samples of two balls were
+	repeatedly taken and the mean of each sample computed. 
+      </para>
+      
+      <para id="sec2para2">
+	When we have a truly continuous distribution, it is not only
+	impractical but actually impossible to enumerate all possible
+	outcomes. Moreover, in continuous distributions, the
+	probability of obtaining any single value is zero. Therefore,
+	as discussed in our introduction to <link document="m10868">Distributions</link>, these values are
+	called <term>probability densities</term> rather than
+	probabilities.
+      </para>
+    </section>
+
+    <section id="sec3">
+      <title>Sampling Distributions and Inferential Statistics</title>
+
+      <para id="sec3para1">
+	As we stated in the beginning of this chapter, sampling
+	distributions are important for inferential statistics. In the
+	examples given so far, a population was specified and the
+	sampling distribution of the mean and the range were
+	determined.  In practice, the process proceeds the other way:
+	you collect sample data and, from these data, you estimate
+	parameters of the sampling distribution. This knowledge of the
+	sampling distribution can be very useful. For example, knowing
+	the degree to which means from different samples would differ
+	from each other and from the population mean would give you a
+	sense of how close your particular sample mean is likely to be
+	to the population mean. Fortunately, this information is
+	directly available from a sampling distribution: The most
+	common measure of how much sample means differ from each other
+	is the standard deviation of the sampling distribution of the
+	mean. This standard deviation is called the <term>standard
+	error of the mean</term>. If all the sample means were very
+	close to the population mean, then the standard error of the
+	mean would be small. On the other hand, if the sample means
+	varied considerably, then the standard error of the mean would
+	be large.
+      </para>
+
+      <para id="sec3para2">
+	To be specific, assume your sample mean were 125 and you estimated
+	that the standard error of the mean were 5 (using a method
+	shown in a later section). If you had a normal distribution,
+	then it would be likely that your sample mean would be within
+	10 units of the population mean since most of a normal
+	distribution is within two standard deviations of the mean. 
+      </para>
+
+      <para id="sec3para3">
+	Keep in mind that all statistics have sampling distributions,
+	not just the mean. In later sections we will be discussing
+	<link document="m11131">the sampling distribution of the
+	variance</link>, <link document="m11132">the sampling distribution of
+	the difference between means</link>, and <link document="m11133">the sampling distribution of Pearson's
+	correlation</link>, among others.
+      </para>
+    </section>
+  </content>
+  
+</document>

@@ -1,0 +1,114 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+
+  <title>Areas of Normal Distributions</title>
+
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>3a08ec4d-680e-450d-91a7-14d8686a067a</md:uuid>
+</metadata>
+
+
+
+  <content>
+    
+    <para id="intro">
+      Areas under portions of a normal distribution can be computed by
+      using calculus. Since this is a non-mathematical treatment of
+      statistics, we will rely on computer programs and tables to
+      determine these areas. <link target-id="area1" strength="3"/> shows a normal distribution with a mean of 50 and a
+      standard deviation of 10. The shaded area between 40 and 60
+      contains 68% of the distribution.
+    </para>
+    
+    <figure id="area1">
+      <media id="idp6733728" alt=""><image src="../../media/area1.png" mime-type="image/png"/></media>
+      <caption>
+	Normal distribution with a mean of 50 and standard deviation
+	of 10. 68% of the area is within one standard deviation (10)
+	of the mean (50).
+      </caption>
+    </figure>
+    
+    <para id="fig2">
+      <link target-id="area2" strength="3"/> shows a normal
+      distribution with a mean of 100 and a standard deviation of
+      20. As in Figure 1, 68% of the distribution is within one
+      standard deviation of the mean.
+    </para>
+    
+    <figure id="area2"> 
+      <media id="idp6155808" alt=""><image src="../../media/area2.png" mime-type="image/png"/></media>
+      <caption>
+	Normal distribution with a mean of 100 and standard
+	deviation of 20. 68% of the area is within one standard
+	deviation (20) of the mean (100). 
+      </caption>
+    </figure>
+
+    <para id="para3">
+      The normal distributions shown in <link target-id="area1" strength="3"/> and <link target-id="area2" strength="3"/>
+      are specific examples of the general rule
+      that 68% of the area of any normal distribution is within one
+      standard deviation of the mean.
+      <note type="General Rule" id="idm662096"><label>General Rule</label>
+	68% of the area of any normal distribution is within one
+	standard deviation of the mean
+      </note>
+    </para>
+    
+    <para id="fig3">
+      <link target-id="area3" strength="3"/> shows a normal
+      distribution with a mean of 75 and a standard deviation of
+      10. The shaded area contains 95% of the area and extends from
+      55.4 to 94.6. For all normal distributions, 95% of the area is
+      within 1.96 standard deviations of the mean. For quick
+      approximations, it is sometimes useful to round off and use 2
+      rather than 1.96 as the number of standard deviations you need
+      to extend from the mean so as to include 95% of the area.
+    </para>
+
+    <figure id="area3">
+      <media id="idm1156752" alt=""><image src="../../media/area3.png" mime-type="image/png"/></media>
+      <caption>
+	A normal distribution with a mean of 75 and a standard
+	deviation of 10. 95% of the area is within 1.96 standard
+	deviations of the mean.
+      </caption>
+    </figure>
+
+    <para id="aboveapp1">
+      The Java applet "Calculate Area for a given X " can be used to
+      calculate areas under the normal distribution. Use it to find
+      the proportion of a normal distribution with a mean of 90 and
+      a standard deviation of 12 that is above 110. Set the mean to
+      90 and the standard deviation to 12. Then enter "110" in the
+      box to the right of the radio button "Above." At the bottom of
+      the display you will see that the shaded area is 0.04779. See
+      if you can use the applet to find that the area between 115
+      and 120 is 0.012401.
+    </para>
+
+    <figure id="applet1">  
+      <media id="idp8951712" alt=""><image src="../../media/applet1.png" mime-type="image/png"/></media>
+      <caption>
+	Display from applet showing the area above 110.
+      </caption>
+    </figure>
+
+    <para id="aboveapp2">
+      The applet "Calculate X for a given Area" works in
+      reverse. For example, say you wanted to find the score
+      corresponding to the 75th percentile of a normal distribution
+      with a mean of 90 and a standard deviation of 12. You enter 90
+      for the mean and 12 for the standard deviation. Then, enter
+      0.75 for the shaded area and click the "Below" button. The
+      area below 98.0939 is 0.75.
+    </para>
+    
+    <figure id="applet2">
+      <media id="idp198384" alt=""><image src="../../media/applet2.png" mime-type="image/png"/></media>
+      <caption>
+	Display from applet showing that the 75th percentile is 98.093.
+      </caption>
+    </figure>
+
+  </content>
+</document>

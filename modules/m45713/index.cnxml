@@ -1,0 +1,203 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>The Standard Normal Distribution</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m45713</md:content-id>
+  <md:title>The Standard Normal Distribution</md:title>
+  <md:abstract>This module introduces standard normal distribution and standardizing the distribution.</md:abstract>
+  <md:uuid>c65d2401-7b2c-4ce3-962b-d7ef29fc156b</md:uuid>
+</metadata>
+
+<content>
+    <para id="intro">As previously discussed, normal distributions
+      do not necessarily have the same means and standard
+      deviations. A normal distribution with a mean of 0 and a
+      standard deviation of 1 is called a <term target-id="standard">standard normal distribution</term>
+      and is typically represented by <m:math><m:ci>Z</m:ci> </m:math>.
+    </para><para id="tablestandard">Areas underneath the normal distribution are often represented by tables
+      of the standard normal distribution. A portion of a table of the
+      standard normal distribution is shown in <link target-id="standardtable"/>.
+    </para><table id="standardtable" frame="all" summary="Table of areas to the left of Z."><title>A portion of a table of the standard normal distribution.</title>
+<tgroup cols="2" colsep="1" rowsep="1"><thead>
+	  <row>
+	    <entry>Z</entry>
+	    <entry>Area left of Z</entry>
+	  </row>
+	</thead>
+	<tbody>
+	  <row>
+	    <entry align="center">-2.50</entry>
+	    <entry align="center">0.0062</entry>
+	  </row>
+	  <row>
+	    <entry align="center">-2.49</entry>
+	    <entry align="center">0.0064</entry>
+	  </row>
+	  <row>
+	    <entry align="center">-2.48</entry>
+	    <entry align="center">0.0066</entry>
+	  </row>
+	  <row>
+	    <entry align="center">-2.47</entry>
+	    <entry align="center">0.0068</entry>
+	  </row>
+	  <row>
+	    <entry align="center">-2.46</entry>
+	    <entry align="center">0.0069</entry>
+	  </row>
+	  <row>
+	    <entry align="center">-2.45</entry>
+	    <entry align="center">0.0071</entry>
+	  </row>
+	  <row>
+	    <entry align="center">-2.44</entry>
+	    <entry align="center">0.0073</entry>
+	  </row>
+	  <row>
+	    <entry align="center">-2.43</entry>
+	    <entry align="center">0.0075</entry>
+	  </row>
+	  <row>
+	    <entry align="center">-2.42</entry>
+	    <entry align="center">0.0078</entry>
+	  </row>
+	  <row>
+	    <entry align="center">-2.41</entry>
+	    <entry align="center">0.0080</entry>
+	  </row>
+	  <row>
+	    <entry align="center">-2.40</entry>
+	    <entry align="center">0.0082</entry>
+	  </row>
+	  <row>
+	    <entry align="center">-2.39</entry>
+	    <entry align="center">0.0084</entry>
+	  </row>
+	  <row>
+	    <entry align="center">-2.38</entry>
+	    <entry align="center">0.0087</entry>
+	  </row>
+	  <row>
+	    <entry align="center">-2.37</entry>
+	    <entry align="center">0.0089</entry>
+	  </row>
+	  <row>
+	    <entry align="center">-2.36</entry>
+	    <entry align="center">0.0091</entry>
+	  </row>
+	  <row>
+	    <entry align="center">-2.35</entry>
+	    <entry align="center">0.0094</entry>
+	  </row>
+	  <row>
+	    <entry align="center">-2.34</entry>
+	    <entry align="center">0.0096</entry>
+	  </row>
+	  <row>
+	    <entry align="center">-2.33</entry>
+	    <entry align="center">0.0099</entry>
+	  </row>
+	  <row>
+	    <entry align="center">-2.32</entry>
+	    <entry align="center">0.0102</entry>
+	  </row>
+	</tbody>
+      
+</tgroup>
+</table><para id="tablecomments">The first column titled <m:math><m:ci>Z</m:ci> </m:math>
+      contains values of the standard normal random variable; the second
+      column contains the area below the curve to the left of <m:math><m:ci>z</m:ci>
+      </m:math>. Since the distribution has a mean of 0 and a standard
+      deviation of 1, the <m:math><m:ci>Z</m:ci> </m:math> column is
+      equal to the number of standard deviations below (or above) the
+      mean. For example, a <m:math><m:ci>z</m:ci> </m:math> of -2.5
+      represents a value 2.5 standard deviations below the mean. The
+      area below the curve to the left of <m:math><m:ci>z=-2.5</m:ci> </m:math> is 0.0062.
+    </para><para id="javaexample">The same information can be obtained using a calculator or the following Java
+      applet. <link target-id="javaexamplefig"/> shows how it
+      can be used to compute the area below the standard normal curve to the left of -2.5. Note that the mean is set to 0 and
+      the standard deviation is set to 1.
+    </para><figure id="javaexamplefig">
+      <media id="id1167240958542" alt=""><image src="../../media/standard.png" mime-type="image/png"/></media>
+      <caption>An example from the applet.</caption>
+    </figure>
+    <note id="id1167263766970" type="java applet"><label>Java applet</label><link target-id="java">Calculate
+	Areas</link></note>
+    <para id="formula">A value from any normal distribution can be transformed into its
+      corresponding value on a standard normal distribution using the
+      following formula:
+      <m:math display="block">
+	<m:apply>
+	  <m:eq/>
+	  <m:ci>z</m:ci>
+	  <m:apply>
+	    <m:divide/>
+	    <m:apply>
+	      <m:minus/>
+	      <m:ci>x</m:ci>
+	      <m:ci>μ</m:ci>
+	    </m:apply>
+	    <m:ci>σ</m:ci>
+	  </m:apply>
+	</m:apply>
+      </m:math>
+      where <m:math><m:ci>z</m:ci> </m:math> is the value on the
+      standard normal distribution, <m:math><m:ci>x</m:ci> </m:math> is
+      the value on the original distribution, <m:math><m:ci>μ</m:ci>
+      </m:math> is the mean of the original distribution and
+      <m:math><m:ci>σ</m:ci> </m:math> is the standard deviation of
+      the original distribution.
+    </para><para id="application">As a simple application, what portion of a normal distribution
+      with a mean of 50 and a standard deviation of 10 is below
+      26? Applying the formula we obtain
+      <m:math display="block">
+	<m:apply>
+	  <m:eq/>
+	  <m:ci>z</m:ci>
+	  <m:apply>
+	    <m:divide/>
+	    <m:apply>
+	      <m:minus/>
+	      <m:cn>25</m:cn>
+	      <m:cn>50</m:cn>
+	    </m:apply>
+	    <m:cn>10</m:cn>
+	  </m:apply>
+	  <m:cn>-2.4</m:cn>
+	</m:apply>
+      </m:math>
+    </para><para id="tinywithfigure">From <link target-id="standardtable"/>, we can see
+      that 0.0082 of the distribution is below -2.4. There is no need
+      to transform to <m:math><m:ci>Z</m:ci> </m:math> if you are using a technology or the
+      applet shown in <link target-id="standard2"/>.
+      <figure id="standard2">
+	<media id="id1167245920965" alt=""><image src="../../media/standard2.png" mime-type="image/png"/></media> 
+	<caption>
+	  Area below 36 in a normal distribution with a mean of 50 and
+	  a standard deviation of 10.
+	</caption>
+      </figure>
+    If all the values in a distribution are transformed to
+    <m:math><m:ci>z</m:ci> </m:math>-scores, then the distribution
+    will have a mean of 0 and a standard distribution. This process of
+    transforming a distribution to one with a mean of 0 and a standard
+    deviation of 1 is called <term>standardizing</term> the
+    distribution.
+    </para><section id="java">
+      <title>Calculate Areas</title>
+      <media id="id1167239143859" alt="" display="block"><java-applet src="normal_cutoff.Applet1.class" mime-type="application/x-java-applet" height="360" width="426" code="normal_cutoff.Applet1.class" archive="normal_cutoff.jar"><param name="name" value="TestApplet"/><param name="hspace" value="0"/><param name="vspace" value="0"/><param name="align" value="middle"/></java-applet></media>
+    </section>
+  </content>
+  <glossary>
+       
+    <definition id="standard">
+      <term>standard normal distribution</term>
+      <meaning id="id1167238200666">
+	The standard normal distribution is a <term target-id="normal">normal distribution</term> with a mean of 0 and
+	a standard deviation of 1.
+      </meaning>
+    </definition>
+
+   
+  </glossary>
+
+</document>

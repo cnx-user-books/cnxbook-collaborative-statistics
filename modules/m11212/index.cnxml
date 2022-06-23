@@ -1,0 +1,66 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+
+  <title>Guessing Correlations Simulation</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>e7d12a2f-2ba7-4fdf-85d7-79bbf99ff42b</md:uuid>
+</metadata>
+
+  <content>
+    <para id="beginby">
+      Begin by answering the questions, even if you have to guess. The
+      first time you answer the questions you will not be told whether
+      you are correct or not.
+    </para>
+
+    <para id="onceyou">
+      Once you have answered all the questions, answer them again
+      using the simulation to help you. This time you will get
+      feedback about each individual answer.
+    </para>
+
+    <para id="showsim">
+      <link target-id="genins">Show Simulation</link>
+    </para>
+    
+    <para id="applet">
+      This demonstration does not have questions associated with
+      it. Use it to improve your understanding of what scatter plots
+      of data with different values of r lool like.
+    </para>
+    
+    <section id="genins">
+      <title>General Instructions</title>
+      <para id="thisdem">
+	This demonstration allows you to learn about Pearson's
+	correlation by viewing scatter plots with different values of
+	Pearson's r. In each case, you will have an opportunity to
+	guess the correlation. With a little practice, you should get
+	pretty good at it.
+      </para>
+    </section>
+    
+    <section id="stepbystep">
+      <title>Step by Step Instructions</title>
+      <para id="link">
+	<link target-id="beginby">Show Questions</link>
+      </para>
+      
+      <para id="clickthe">
+	Click the button next to the correlation that you think is
+	present in the scatter plot. You will find out if you were
+	right or wrong. If you were wrong, try another value. Then
+	click the "New data" button.
+      </para>
+
+      <media id="idp2792128" alt="" display="block"><java-applet src="regr.regr.class" mime-type="application/x-java-applet" height="360" width="425" code="regr.regr.class" archive="regr.jar"><param name="name" value="regr"/></java-applet></media>
+      
+    </section>
+    <section id="summary">
+      <title>Summary</title>
+      <para id="summ">
+	After looking at a series of scatterplots, you should have a
+	pretty good feel for what a certain value of r means.
+      </para>
+    </section> 
+  </content>
+  
+</document>

@@ -1,0 +1,321 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+
+  <title>Introduction to Bivariate Data</title>
+
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>d872f5b6-3cff-4cd6-afa8-eaa4ae8dd1cb</md:uuid>
+</metadata>
+  
+  
+  <content>
+    <para id="para1">
+      Measures of central tendency, variability, and spread summarize a single 
+      variable by providing important information about its distribution. Often, 
+      more than one variable is collected on each individual. For example, in 
+      large health studies of populations it is common to obtain variables such 
+      as age, sex, height, weight, blood pressure, and total cholesterol on each 
+      individual. Economic studies may be interested in, among other things, 
+      personal income and years of education. As a third example, most university 
+      admissions committees ask for an applicant's high school grade point average 
+      and standardized admission test scores (e.g., SAT). In this chapter we 
+      consider bivariate data, which for now consists of two <term target-id="quantitative-variables">quantitative variables</term>
+      for each individual. Our first interest is in summarizing such data in a 
+      way that is analogous to summarizing univariate (single variable) data.
+    </para>   
+
+    <para id="para2">
+      By way of illustration, let's consider something with which we are all 
+      familiar: age. It helps to discuss something familiar since knowing the 
+      subject matter goes a long way in making judgments about statistical results. 
+      Let's begin by asking if people tend to marry other people of about the same 
+      age. Our experience tells us "yes," but how good is the correspondence? One 
+      way to address the question is to look at pairs of ages for a sample of 
+      married couples. Table 1 below shows the ages of 10 married couples. Going 
+      across the columns we see that, yes, husbands and wives tend to be of about 
+      the same age, with men having a tendency to be slightly older than their 
+      wives. This is no big surprise, but at least the data bear out our experiences, 
+      which is not always the case. 
+    </para>
+
+    <table frame="all" id="tab1" summary="">
+      <title>Sample of spousal ages of 10 White American Couples.</title>
+      <tgroup cols="11" align="left" colsep="1" rowsep="1">
+	<tbody valign="top">
+	  <row>
+	    <entry align="center">Husband</entry>
+	    <entry align="center">36</entry>
+	    <entry align="center">72</entry>
+	    <entry align="center">37</entry>
+	    <entry align="center">36</entry>
+	    <entry align="center">51</entry>
+	    <entry align="center">50</entry>
+	    <entry align="center">47</entry>
+	    <entry align="center">50</entry>
+	    <entry align="center">37</entry>
+	    <entry align="center">41</entry>
+	  </row>
+	  <row>
+	    <entry align="center">Wife</entry>
+	    <entry align="center">35</entry>
+	    <entry align="center">67</entry>
+	    <entry align="center">33</entry>
+	    <entry align="center">35</entry>
+	    <entry align="center">50</entry>
+	    <entry align="center">46</entry>
+	    <entry align="center">47</entry>
+	    <entry align="center">42</entry>
+	    <entry align="center">36</entry>
+	    <entry align="center">41</entry>
+	  </row>
+	</tbody>
+      </tgroup>
+    </table>
+
+    <para id="para3">
+      The pairs of ages in <link target-id="tab1" strength="3"/>
+      are from a dataset consisting of 282 pairs of spousal ages, too many 
+      to make sense of from a table. What we need is a way to summarize the 
+      282 pairs of ages. We know that each variable can be summarized by a 
+      <term target-id="histogram">histogram</term> (see <link target-id="fig1" strength="3"/>) and by a mean and 
+      standard deviation (See <link target-id="tab2" strength="3"/>).
+    </para>
+
+    <figure id="fig1">
+      <media id="idp706288" alt=""><image src="../../media/spousal_age_hist.gif" mime-type="image/gif"/></media>
+      <caption>Histograms of spousal ages.</caption>
+    </figure>
+
+    <table frame="all" id="tab2" summary="">
+      <title>Means and standard deviations of spousal ages.</title>
+      <tgroup cols="3" align="left" colsep="1" rowsep="1">
+	<thead valign="top">
+	  <row>
+	    <entry align="center"/>
+	    <entry align="center">Mean</entry>
+	    <entry align="center">Standard Deviation</entry>
+	  </row>
+	</thead>
+	<tbody valign="top">
+	  <row>
+	    <entry align="center">Husband</entry>
+	    <entry align="center">49</entry>
+	    <entry align="center">11</entry>
+	  </row>
+	  <row>
+	    <entry align="center">Wife</entry>
+	    <entry align="center">47</entry>
+	    <entry align="center">11</entry>
+	  </row>
+	</tbody>
+      </tgroup>
+    </table>
+
+    <para id="para4">Each distribution is fairly skewed with a long right tail. 
+      From <link target-id="tab1" strength="3"/> we see 
+      that not all husbands are older than their wives and it is 
+      important to see that this fact is lost when we separate the 
+      variables. That is, even though we provide summary statistics 
+      on each variable, the pairing within couple is lost by separating 
+      the variables. We cannot say, for example, based on the means 
+      alone what percentage of couples have younger husbands than wives. 
+      We have to count across pairs to find this out. Only by maintaining 
+      the pairing can meaningful answers be found about couples per se. 
+      Another example of information not available from the separate 
+
+      descriptions of husbands and wives' ages is the mean age of husbands 
+      with wives of a certain age. For instance, what is the average 
+      age of husbands with 45-year-old wives? Finally, we do not know the 
+      relationship between the husband's age and the wife's age.
+    </para>
+
+    <para id="para5">
+      We can learn much more by displaying the <term target-id="bivariate">bivariate</term> 
+      data in a graphical form that maintains the pairing. 
+      <link target-id="fig2"/> shows a <term target-id="scatter-plot">scatter plot</term> of the paired ages. 
+      The x-axis represents the age of the husband and the y-axis the age of the wife. 
+    </para>
+
+    <figure id="fig2">
+      <media id="idp1161408" alt=""><image src="../../media/age_scatterplot.gif" mime-type="image/gif"/></media>
+      <caption>Scatterplot showing wife age as a function of husband age.</caption>
+    </figure>
+
+    <para id="para6">
+      There are two important characteristics of the data revealed by 
+      <link target-id="fig2" strength="3"/>. First, it is clear that there is a strong 
+      relationship between the husband's age and the wife's age: the older the husband, 
+      the older the wife. When one variable (<m:math><m:ci>y</m:ci></m:math>) increases 
+      with the second variable (<m:math><m:ci>v</m:ci></m:math>), we say that 
+      <m:math><m:ci>x</m:ci></m:math> and <m:math><m:ci>y</m:ci></m:math> have a 
+      <term target-id="positive_association">positive association</term>. Conversely, when <m:math><m:ci>y</m:ci></m:math> 
+      decreases as <m:math><m:ci>x</m:ci></m:math> increases, we say that they have a 
+      <term target-id="negative_association">negative association</term>.
+    </para>
+
+    <para id="para7">
+      Second, the points cluster along a straight line. When this occurs, the relationship 
+      is called a <term target-id="linear_relationship">linear relationship</term>.
+    </para>
+
+    <para id="para8">
+      <link target-id="fig3" strength="3"/> shows a scatterplot of Arm Strength and Grip Strength 
+      from 149 individuals working in physically demanding jobs including electricians, 
+      construction and maintenance workers, and auto mechanics. Not surprisingly, the stronger 
+      someone's grip, the stronger their arm tends to be. There is therefore a positive 
+      association between these variables. Although the points cluster along a line, they 
+      are not clustered quite as closely as they are for the scatter plot of spousal age.
+    </para>
+
+    <figure id="fig3">
+      <media id="idm7349664" alt=""><image src="../../media/strength.gif" mime-type="image/gif"/></media>
+      <caption>Scatter plot of Grip Strength and Arm Strength.</caption>
+    </figure>
+
+    <para id="para9">
+      Not all scatter plots show linear relationships. <link target-id="fig4" strength="3"/> 
+      shows the results of an experiment conducted by Galileo on projectile motion. 
+      In the experiment, Galileo rolled balls down incline and measured how far they 
+      traveled as a function of the release height. It is clear from 
+      <link target-id="fig4" strength="3"/> that the relationship between 
+      "Release Height" and "Distance Traveled" is not described well by a 
+      straight line: If you drew a line connecting the lowest point and the highest 
+      point, all of the remaining points would be above the line. The data are 
+      better fit by a parabola.
+    </para>
+
+    <para id="para10">
+      <list id="links">
+	<item><link url="http://www.amstat.org/publications/jse/v3n1/datasets.dickey.html">
+	    D. Dickey and T. Arnold's description of the study including a movie</link></item>
+	<item><link url="http://es.rice.edu/ES/humsoc/Galileo/Student_Work/Experiment95/paraintr.html">
+	    Rice University's Galilieo Project, section by S. Jennings</link></item>
+      </list>
+    </para>
+
+    <figure id="fig4">
+      <media id="idp939968" alt=""><image src="../../media/galileo.gif" mime-type="image/gif"/></media>
+      <caption>Galileo's data showing a non-linear relationship.</caption>
+    </figure>
+
+    <para id="para11">
+      Scatter plots that show linear relationships between variables can differ 
+      in several ways including the slope of the line about which they cluster 
+      and how tightly the points cluster about the line. A statistical measure 
+      of the strength of the relationship between variables that takes these 
+      factors into account is the subject of the next section.
+    </para>
+
+  </content>
+  
+  <glossary>
+    <definition id="quantitative-variables">
+      <term>Quantitative Variables</term>
+      <meaning id="idp4818352">Variables that have are measured on a numeric or quantitative scale. Ordinal, interval and ratio scales are quantitative. A country's population, a person's shoe size, or a car's speed are all quantitative variables. Variables that are not quantitative are known as qualitative variables.
+      </meaning>
+    </definition>
+    
+    <definition id="histogram">
+      <term>Histogram</term>
+      <meaning id="idm1277968">
+	A histogram is a graphical representation of a distribution. It partitions the variable on the x-axis into various contiguous class intervals of (usually) equal widths. The heights of the bars represent the class frequencies.
+    <figure id="histogramfig">
+      <media id="idm7824944" alt=""><image src="../../media/histogramfig.png" mime-type="image/png"/></media>
+    </figure>
+    See also: <term target-id="sturgis-rule">Sturgis's Rule</term>
+  </meaning>
+  </definition>
+
+    <definition id="sturgis-rule">
+	<term>Sturgis's Rule</term>
+      <meaning id="idp2707744">
+	One method of determining the number of classes for a <term target-id="histogram">histogram</term>, Sturgis's Rule is to take 
+	<m:math>
+	  <m:apply>
+	    <m:plus/>
+	    <m:cn>1</m:cn>
+	    <m:apply>
+	      <m:log/>
+	      <m:logbase><m:cn>2</m:cn>
+	      </m:logbase>
+	      <m:ci>N</m:ci>
+	    </m:apply>
+	  </m:apply>
+	</m:math> classes, rounded to the nearest integer.
+      </meaning>
+    </definition>
+    
+    <definition id="bivariate">
+      <term>Bivariate</term>
+      <meaning id="idp4926448">
+	Bivariate data is data for which there are two variables for each observation. As an example, the following bivariate data show the ages of husbands and wives of 10 married couples.
+    <table frame="all" id="tab3" summary="">
+      <tgroup cols="11" align="left" colsep="1" rowsep="1">
+	<tbody valign="top">
+	  <row>
+	    <entry align="center">Husband</entry>
+	    <entry align="center">36</entry>
+	    <entry align="center">72</entry>
+	    <entry align="center">37</entry>
+	    <entry align="center">36</entry>
+	    <entry align="center">51</entry>
+	    <entry align="center">50</entry>
+	    <entry align="center">47</entry>
+	    <entry align="center">50</entry>
+	    <entry align="center">37</entry>
+	    <entry align="center">41</entry>
+	  </row>
+	  <row>
+	    <entry align="center">Wife</entry>
+	    <entry align="center">35</entry>
+	    <entry align="center">67</entry>
+	    <entry align="center">33</entry>
+	    <entry align="center">35</entry>
+	    <entry align="center">50</entry>
+	    <entry align="center">46</entry>
+	    <entry align="center">47</entry>
+	    <entry align="center">42</entry>
+	    <entry align="center">36</entry>
+	    <entry align="center">41</entry>
+	  </row>
+	</tbody>
+      </tgroup>
+    </table>
+    </meaning>
+    </definition>
+
+    <definition id="scatter-plot">
+      <term>Scatter Plot</term>
+      <meaning id="idp5235712">
+	A scatter plot of two variables shows the values of one variable on the Y axis and the values of the other variable on the X axis. Scatter plots are well suited for revealing the relationship between two variables. The scatter plot shown in <link target-id="fig4"/> illustrates data from one of Galileo's classic experiments in which he observed the distance traveled balls traveled after being dropped on a incline as a function of their release height.
+	</meaning>
+    </definition>
+
+    <definition id="positive_association">
+      <term>Positive Association</term>
+      <meaning id="idp407248">
+	There is a positive association between variables <m:math><m:ci>X</m:ci></m:math> and <m:math><m:ci>Y</m:ci></m:math> if smaller values of <m:math><m:ci>X</m:ci></m:math> are associated with smaller values of <m:math><m:ci>Y</m:ci></m:math> and larger values of <m:math><m:ci>X</m:ci></m:math> are assoicated with larger values of <m:math><m:ci>Y</m:ci></m:math>.
+      </meaning>
+    </definition>
+
+    <definition id="negative_association">
+      <term>Negative Association</term>
+      <meaning id="idp3046320">
+	There is a negative association between variables <m:math><m:ci>X</m:ci></m:math> and <m:math><m:ci>Y</m:ci></m:math> if smaller values of <m:math><m:ci>X</m:ci></m:math> are associated with larger values of <m:math><m:ci>Y</m:ci></m:math> and larger values of <m:math><m:ci>X</m:ci></m:math> are assoicated with smaller values of <m:math><m:ci>Y</m:ci></m:math>.
+      </meaning>
+    </definition>
+
+    <definition id="linear_relationship">
+      <term>Linear Relationship</term>
+      <meaning id="idp5077424">
+	If the relationship between two variables is a perfect linear relationship, then a scatterplot of the points will fall on a straight line as shown in <link target-id="l_rfig1"/>.
+	<figure id="l_rfig1">
+	  <media id="idp5543216" alt=""><image src="../../media/l_rfig1.png" mime-type="image/png"/></media>
+	</figure>
+	With real data, there is almost never a perfect linear relationship between two variables. The more the points tend to fall along a straight line the stronger the linear relationship. <link target-id="fig2"/> shows two variables (husband's age and wife's age) that have a strong but not a perfect linear relationship.
+      </meaning>
+    </definition>
+
+
+
+  </glossary>
+  
+</document>

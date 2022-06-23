@@ -1,0 +1,661 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+  <title>The Binomial Random Variable</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m45712</md:content-id>
+  <md:title>The Binomial Random Variable</md:title>
+  <md:abstract/>
+  <md:uuid>d3ec4c6a-fd35-4bd9-84f6-bda01219bb4a</md:uuid>
+</metadata>
+
+<content>
+    <para id="para1">
+      When you flip a coin, there are two possible outcomes: heads and
+      tails. Each outcome has a fixed probability, the same from trial
+      to trial. In the case of coins, heads and tails each have the
+      same probability of 1/2. More generally, there are situations in
+      which the coin is biased, so that heads and tails have different
+      probabilities. In the present section, we consider probability
+      distributions for which there are just two possible outcomes
+      with fixed probability summing to one. These distributions are
+      called are called <term target-id="bidist">binomial
+      distributions</term>.
+    </para>
+    <section id="sect2">
+      <title>A Simple Example</title> 
+      <para id="para2">The four possible outcomes that could occur if you flipped a
+	coin twice are listed in <link target-id="table2"/>. Note that
+	the four outcomes are equally likely: each has probability
+	<m:math><m:cn type="rational">1<m:sep/>4</m:cn> </m:math>. To
+	see this, note that the tosses of the coin are independent
+	(neither affects the other). Hence, the probability of a head
+	on Flip 1 and a head on Flip 2 is the product of
+	<m:math>
+	  <m:apply>
+	    <m:ci>P[H]</m:ci>
+	  </m:apply>
+	</m:math> and
+	<m:math>
+	  <m:apply>
+	    <m:ci>P[H]</m:ci>
+	  </m:apply>
+	</m:math>, which is 
+	<m:math>
+	  <m:apply>
+	    <m:eq/>
+	    <m:apply>
+	      <m:times/>
+	      <m:cn type="rational">1<m:sep/>2</m:cn>
+	      <m:cn type="rational">1<m:sep/>2</m:cn>
+	    </m:apply>
+	    <m:cn type="rational">1<m:sep/>4</m:cn>
+	  </m:apply>
+	</m:math>. The same calculation applies to the probability of
+	a head on Flip one and a tail on Flip 2. Each is 
+	<m:math>
+	  <m:apply>
+	    <m:eq/>
+	    <m:apply>
+	      <m:times/>
+	      <m:cn type="rational">1<m:sep/>2</m:cn>
+	      <m:cn type="rational">1<m:sep/>2</m:cn>
+	    </m:apply>
+	    <m:cn type="rational">1<m:sep/>4</m:cn>
+	  </m:apply>
+	</m:math>.
+      </para><table id="table2" frame="all" summary="">
+	<title>Four Possible Outcomes</title>
+	<tgroup cols="3" align="left" colsep="1" rowsep="1">
+	  <thead valign="top">
+	    <row>
+	      <entry>
+		Outcome
+	      </entry>
+	      <entry>
+		First
+		Flip
+	      </entry>
+	      <entry>
+		Second
+		Flip
+	      </entry>
+	    </row>
+	  </thead>
+	  <tbody valign="top">
+	    <row>
+	      <entry>
+		1
+	      </entry>
+	      <entry>
+		Heads
+	      </entry>
+	      <entry>
+		Heads
+	      </entry>
+	    </row>
+	    <row>
+	      <entry>
+		2
+	      </entry>
+	      <entry>
+		Heads
+	      </entry>
+	      <entry>
+		Tails
+	      </entry>
+	    </row>
+	    <row>
+	      <entry>
+		3
+	      </entry>
+	      <entry>
+		Tails
+	      </entry>
+	      <entry>
+		Heads
+	      </entry>
+	    </row>
+	    <row>
+	      <entry>
+		4
+	      </entry>
+	      <entry>
+		Tails
+	      </entry>
+	      <entry>
+		Tails
+	      </entry>
+	    </row>
+	  </tbody>
+	</tgroup>
+      </table>
+      <para id="para3">The four possible outcomes can be classifid in
+      terms of the number of heads that come up. The number could be
+      two (Outcome 1), one (Outcomes 2 and 3) or 0 (Outcome 4). The
+      probabilities of these possibilities are shown in <link target-id="table1"/> and in <link target-id="fig1"/>. Since two of the
+      outcomes represent the case in which just one head appears in
+      the two tosses, the probability of this event is equal to
+	<m:math>
+	  <m:apply>
+	    <m:eq/>
+	    <m:apply>
+	      <m:plus/>
+	      <m:cn type="rational">1<m:sep/>4</m:cn>
+	      <m:cn type="rational">1<m:sep/>4</m:cn>
+	    </m:apply>
+	    <m:cn type="rational">1<m:sep/>2</m:cn>
+	  </m:apply>
+	</m:math>. <link target-id="table2"/> summarizes the situation.
+      </para>
+      <table id="table1" frame="all" summary="">
+	<title>Probabilities of Getting 0,1, or 2 heads.</title>
+	<tgroup cols="2" align="left" colsep="1" rowsep="1">
+	  <thead valign="top">
+	    <row>
+	      <entry>
+		Number
+		of
+		Heads
+	      </entry>
+	      <entry>
+		Probability
+	      </entry>
+	    </row>
+	  </thead>
+	  <tbody valign="top">
+	    <row>
+	      <entry>
+		0
+	      </entry>
+	      <entry>
+		1/4
+	      </entry>
+	    </row>
+	    <row>
+	      <entry>
+		1
+	      </entry>
+	      <entry>
+		1/2
+	      </entry>
+	    </row>
+	    <row>
+	      <entry>
+		2
+	      </entry>
+	      <entry>
+		1/4
+	      </entry>
+	    </row>
+	  </tbody>
+	</tgroup>
+      </table>
+      <figure id="fig1">
+	<media id="id1170377339538" alt=""><image src="../../media/binomial1.gif" mime-type="image/gif"/></media>
+	<caption>Probabilities of 0, 1, and 2 heads.</caption>
+      </figure>
+      <para id="para5">
+	<link target-id="fig1"/> is a discrete probability distribution:
+	It shows the probability for each of the values on the
+	X-axis. Defining a head as a "success," <link target-id="fig1"/>
+	shows the probability of 0, 1, and 2 successes for two trials
+	(flips) for an event that has a probability of 0.5 of being a
+	success on each trial. This makes <link target-id="fig1"/> an
+	example of a <term>binomial distribution</term>.
+      </para>
+    </section>
+    <section id="formula"><title>The Formula for Binomial Probabilities</title><para id="para6">The binomial distribution consists of the probabilities of
+	each of the possible numbers of successes on
+	<m:math><m:ci>n </m:ci></m:math> trials for independent events
+	that each have a probability of 
+        <m:math>
+	  <m:apply>
+	    <m:ci>p</m:ci>
+	  </m:apply>
+	</m:math>
+of occurring. For the coin flip example,
+	<m:math>
+	  <m:apply>
+	    <m:eq/>
+	    <m:ci>n</m:ci>
+	    <m:cn>2</m:cn>
+	  </m:apply>
+	</m:math> and 
+	<m:math>
+	  <m:apply>
+            <m:ci>p=</m:ci>
+	    <m:cn>0.5</m:cn>
+	  </m:apply>
+	</m:math>. 
+The formula for the binomial distribution is shown below:
+
+	<m:math display="block">
+	  <m:apply>
+	    <m:eq/>
+	    <m:apply>
+	      <m:ci>P[x]</m:ci>
+	    </m:apply>
+	    <m:apply>
+	      <m:times/>
+	      <m:apply>
+		<m:divide/>
+		<m:apply>
+		  <m:factorial/>
+		  <m:ci>n</m:ci>
+		</m:apply>
+		<m:apply>
+		  <m:times/>
+		  <m:apply>
+		    <m:factorial/>
+		    <m:ci>x</m:ci>
+		  </m:apply>
+		  <m:apply>
+		    <m:factorial/>
+		    <m:apply>
+		      <m:minus/>
+		      <m:ci>n</m:ci>
+		      <m:ci>x</m:ci>
+		    </m:apply>
+		  </m:apply>
+		</m:apply>
+	      </m:apply>
+	      <m:apply>
+		<m:power/>
+                <m:ci>p</m:ci>
+                <m:ci>x</m:ci>
+	      </m:apply>
+	      <m:apply>
+		<m:power/>
+		<m:apply>
+		  <m:minus/>
+		  <m:cn>1</m:cn>
+                  <m:ci>p</m:ci>
+		</m:apply>
+		<m:apply>
+		  <m:minus/>
+		  <m:ci>n</m:ci>
+		  <m:ci>x</m:ci>
+		</m:apply>
+	      </m:apply>
+	    </m:apply>
+	  </m:apply>
+	</m:math>
+	where 
+	<m:math>
+	  <m:apply>
+	    <m:ci>P[x]</m:ci>
+	  </m:apply>
+	</m:math> is the probability of <m:math><m:ci>x</m:ci>
+	</m:math> successes out of <m:math><m:ci>n</m:ci></m:math>
+	trials, <m:math><m:ci>n</m:ci></m:math> is the number of
+	trials, and <m:math><m:ci>p</m:ci></m:math> is the
+	probability of success on a given trial. Applying this to the
+	coin flip example,
+	<m:math display="block">
+	  <m:apply>
+	    <m:eq/>
+	    <m:apply>
+	      <m:cn>P[0]</m:cn>
+	    </m:apply>
+	    <m:apply>
+	      <m:times/>
+	      <m:apply>
+		<m:divide/>
+		<m:apply>
+		  <m:factorial/>
+		  <m:cn>2</m:cn>
+		</m:apply>
+		<m:apply>
+		  <m:times/>
+		  <m:apply>
+		    <m:factorial/>
+		    <m:cn>0</m:cn>
+		  </m:apply>
+		  <m:apply>
+		    <m:factorial/>
+		    <m:apply>
+		      <m:minus/>
+		      <m:cn>2</m:cn>
+		      <m:cn>0</m:cn>
+		    </m:apply>
+		  </m:apply>
+		</m:apply>
+	      </m:apply>
+	      <m:apply>
+		<m:power/>
+		<m:cn>0.5</m:cn>
+		<m:cn>0</m:cn>
+	      </m:apply>
+	      <m:apply>
+		<m:power/>
+		<m:apply>
+		  <m:minus/>
+		  <m:cn>1</m:cn>
+		  <m:cn>0.5</m:cn>
+		</m:apply>
+		<m:apply>
+		  <m:minus/>
+		  <m:cn>2</m:cn>
+		  <m:cn>0</m:cn>
+		</m:apply>
+	      </m:apply>
+	    </m:apply>
+	    <m:apply>
+	      <m:times/>
+	      <m:apply>
+		<m:divide/>
+		<m:cn>2</m:cn>
+		<m:cn>2</m:cn>
+	      </m:apply>
+	      <m:cn>1</m:cn>
+	      <m:cn>.25</m:cn>
+	    </m:apply>
+	    <m:cn>0.25</m:cn>
+	  </m:apply>
+	</m:math>
+	<m:math display="block">
+	  <m:apply>
+	    <m:eq/>
+	      <m:apply>
+	      <m:cn>P[1]</m:cn>
+	    </m:apply>
+	    <m:apply>
+	      <m:times/>
+	      <m:apply>
+		<m:divide/>
+		<m:apply>
+		  <m:factorial/>
+		  <m:cn>2</m:cn>
+		</m:apply>
+		<m:apply>
+		  <m:times/>
+		  <m:apply>
+		    <m:factorial/>
+		    <m:cn>1</m:cn>
+		  </m:apply>
+		  <m:apply>
+		    <m:factorial/>
+		    <m:apply>
+		      <m:minus/>
+		      <m:cn>2</m:cn>
+		      <m:cn>1</m:cn>
+		    </m:apply>
+		  </m:apply>
+		</m:apply>
+	      </m:apply>
+	      <m:apply>
+		<m:power/>
+		<m:cn>0.5</m:cn>
+		<m:cn>1</m:cn>
+	      </m:apply>
+	      <m:apply>
+		<m:power/>
+		<m:apply>
+		  <m:minus/>
+		  <m:cn>1</m:cn>
+		  <m:cn>0.5</m:cn>
+		</m:apply>
+		<m:apply>
+		  <m:minus/>
+		  <m:cn>2</m:cn>
+		  <m:cn>1</m:cn>
+		</m:apply>
+	          </m:apply>
+	    </m:apply>
+	    <m:apply>
+	      <m:times/>
+	      <m:apply>
+		<m:divide/>
+		<m:cn>2</m:cn>
+		<m:cn>1</m:cn>
+	      </m:apply>
+	      <m:cn>.5</m:cn>
+	      <m:cn>.5</m:cn>
+	    </m:apply>
+	    <m:cn>0.50</m:cn>
+	  </m:apply>
+	</m:math>
+	<m:math display="block">
+	  <m:apply>
+	    <m:eq/>
+	    <m:apply>
+	      <m:cn>P[2]</m:cn>
+	    </m:apply>
+	    <m:apply>
+	      <m:times/>
+	      <m:apply>
+		<m:divide/>
+		<m:apply>
+		  <m:factorial/>
+		  <m:cn>2</m:cn>
+		</m:apply>
+		<m:apply>
+		  <m:times/>
+		  <m:apply>
+		    <m:factorial/>
+		    <m:cn>2</m:cn>
+		  </m:apply>
+		  <m:apply>
+		    <m:factorial/>
+		    <m:apply>
+		      <m:minus/>
+		      <m:cn>2</m:cn>
+		      <m:cn>2</m:cn>
+		    </m:apply>
+		  </m:apply>
+		</m:apply>
+	      </m:apply>
+	      <m:apply>
+		<m:power/>
+		<m:cn>0.5</m:cn>
+		<m:cn>2</m:cn>
+	      </m:apply>
+	      <m:apply>
+		<m:power/>
+		<m:apply>
+		  <m:minus/>
+		  <m:cn>1</m:cn>
+		  <m:cn>0.5</m:cn>
+		</m:apply>
+		<m:apply>
+		  <m:minus/>
+		  <m:cn>2</m:cn>
+		  <m:cn>2</m:cn>
+		</m:apply>
+	      </m:apply>
+	    </m:apply>
+	    <m:apply>
+	      <m:times/>
+	      <m:apply>
+		<m:divide/>
+		<m:cn>2</m:cn>
+		<m:cn>2</m:cn>
+	      </m:apply>
+	      <m:cn>.25</m:cn>
+	      <m:cn>1</m:cn>
+	    </m:apply>
+	    <m:cn>0.25</m:cn>
+	  </m:apply>
+	</m:math>
+	If you flip a coin twice, what is the probability of getting
+	one or more heads? Since the probability of getting exactly
+	one head is 0.50 and the probability of getting exactly two
+	heads is 0.25, the probability of getting one or more heads is
+	<m:math>
+	  <m:apply>
+	    <m:eq/>
+	    <m:apply>
+	      <m:plus/>
+	      <m:cn>0.50</m:cn>
+	      <m:cn>0.25</m:cn>
+	    </m:apply>
+	    <m:cn>0.75</m:cn>
+	  </m:apply>
+	</m:math>.
+      </para><para id="para13">Now suppose that the coin is biased; let's say the probability of heads
+	is only 0.4. What is the probability of getting heads at least
+	once in two tosses? We could substitute p=0.4 with x=1 and with x=2 into our general formula
+	above; adding the results would obtain the answer 0.64.
+      </para></section>
+    <section id="sect3">
+      <title>Cumulative Probabilities</title>
+      <para id="para14">
+	We toss a coin 12 times. What is the probability that we get
+	from 0 to 3 heads? The answer is found by computing the
+	probability of exactly 0 heads, exactly 1 head, exactly 2
+	heads, and exactly 3 heads. The probability of getting from 0
+	to 3 heads is then the sum of these probabilities. The
+	probabilities are: 0.0002, 0.0029, 0.0161, and 0.0537. The sum
+	of the probabilities is 0.073. The calculation of cumulative
+	binomial probabilities can be quite tedious. Therefore we have
+	provided a binomial calculator to make it easy to calculate
+	these probabilities.
+      </para>
+      <note id="id1170358493028" type="Binomial Calculator"><label>Binomial Calculator</label>
+	Click <link target-id="calc">here</link> for the binomial
+	calculator.
+      </note>
+    </section>
+    <section id="sect4">
+      <title>Mean and Standard Deviation of Binomial
+      Distributions</title>
+      <para id="para17">Consider a coin-tossing experiment in which you tossed a coin
+	12 times and recorded the number of heads. If you performed
+	this experiment over and over again, what would the mean
+	number of heads be? On average, you would expect half the coin
+	tosses to come up heads. Therefore the mean number of heads
+	would be 6. In general, the mean of a binomial distribution
+	with parameters <m:math><m:ci>n</m:ci></m:math> (the number of
+	trials) and <m:math><m:ci>p</m:ci></m:math> (the
+	probability of success for each trial) is:
+	<m:math display="block">
+	  <m:apply>
+	    <m:eq/>
+	    <m:ci>μ</m:ci>
+	    <m:apply>
+	      <m:times/>
+	      <m:ci>n</m:ci>
+              <m:ci>p</m:ci>
+	    </m:apply>
+	  </m:apply>
+	</m:math>
+	where
+	<m:math>
+          <m:ci>μ</m:ci> </m:math> is the mean of the binomial
+	distribution. The variance of the binomial distribution is:
+	<m:math display="block">
+	  <m:apply>
+	    <m:eq/>
+	    <m:apply>
+	      <m:power/>
+	      <m:ci>σ</m:ci>
+	      <m:cn>2</m:cn>
+	    </m:apply>
+	    <m:apply>
+	      <m:times/>
+	      <m:ci>n</m:ci>
+	      <m:ci>p</m:ci>
+	      <m:apply>
+		<m:minus/>
+		<m:cn>1</m:cn>
+		<m:ci>p</m:ci>
+	      </m:apply>
+	    </m:apply> 
+	  </m:apply>
+        </m:math>
+      where
+	<m:math>
+	  <m:apply>
+	    <m:power/>
+	    <m:ci>σ</m:ci>
+	    <m:cn>2</m:cn>
+	  </m:apply>
+	</m:math> is the variance of the binomial distribution.
+      </para><para id="para22">Let's return to the coin tossing experiment. The coin was
+	tossed 12 times so 
+	<m:math>
+	  <m:apply>
+	    <m:eq/>
+	    <m:ci>n</m:ci>
+	    <m:cn>12</m:cn>
+	  </m:apply>
+	</m:math>. A coin has a probability of 0.5 of coming up
+	heads. Therefore, 
+	<m:math>
+	  <m:apply>
+	    <m:eq/>
+	    <m:ci>p</m:ci>
+	    <m:cn>0.5</m:cn>
+	  </m:apply>
+	</m:math>. The mean and standard deviation can therefore be
+	computed as follows:
+	<m:math display="block">
+	  <m:apply>
+	    <m:eq/>
+	    <m:ci>μ</m:ci>
+	    <m:apply>
+	      <m:times/>
+	      <m:ci>n</m:ci>
+	      <m:ci>p</m:ci>
+	    </m:apply>
+	    <m:apply>
+	      <m:times/>
+	      <m:cn>12</m:cn>
+	      <m:cn>0.5</m:cn>
+	    </m:apply>
+	    <m:cn>6</m:cn>
+	  </m:apply>
+        </m:math>
+	<m:math display="block">
+	  <m:apply>
+	    <m:eq/>
+	    <m:apply>
+	      <m:power/>
+	      <m:ci>σ</m:ci>
+	      <m:cn>2</m:cn>
+	    </m:apply>
+	    <m:apply>
+	      <m:times/>
+	      <m:ci>n</m:ci>
+	      <m:ci>p</m:ci>
+	      <m:apply>
+		<m:minus/>
+		<m:cn>1</m:cn>
+		<m:ci>p</m:ci>
+	      </m:apply>
+	    </m:apply>
+	    <m:apply>
+	      <m:times/>
+	      <m:cn>12</m:cn>
+	      <m:cn>0.5</m:cn>
+	      <m:apply>
+		<m:minus/>
+		<m:cn>1.0</m:cn>
+		<m:cn>0.5</m:cn>
+	      </m:apply>
+	    </m:apply>
+	    <m:cn>3.0</m:cn>
+	  </m:apply>
+	</m:math>
+      Naturally, the standard deviation
+	<m:math>
+	  <m:mfenced>
+	    <m:ci>σ</m:ci>
+	  </m:mfenced>
+	</m:math> is the square root of the variance 
+	<m:math>
+	  <m:mfenced>
+	    <m:apply>
+	      <m:power/>
+	        <m:ci>σ</m:ci>
+	        <m:cn>2</m:cn>
+	    </m:apply>
+	  </m:mfenced>
+	</m:math>.
+      </para></section>
+    <section id="binomialcalc">
+      <title>Binomial Calculator</title>
+      <media id="id1170349821002" alt="" display="block"><java-applet src="binomialprob.binomialProb.class" id="calc" mime-type="application/x-java-applet" height="430" width="400" code="binomialprob.binomialProb.class" archive="binomialprob.jar"><param name="hspace" value="0"/><param name="vspace" value="0"/><param name="align" value="middle"/></java-applet></media>
+    </section>
+  </content>
+</document>

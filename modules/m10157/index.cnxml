@@ -1,0 +1,360 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+
+  <title>Stem and Leaf Displays</title>
+
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>60c1b556-7ca9-42d1-8de1-4e8d4e672ee6</md:uuid>
+</metadata>
+
+  <content>
+    <para id="intro">
+      A <term>stem and leaf</term> display is a graphical method of
+      displaying data.  It is particularly useful when your data are
+      not too numerous.  In this section, we will explain how to
+      construct and interpret this kind of graph.
+    </para>
+
+    <para id="introb">
+      As usual, an example will get us started.  Consider <link target-id="figure1" strength="3"/>.  It shows the number of
+      touchdown (TD) passes <footnote id="idm640">Touchdown Pass: In
+      American football, a touchdown pass occurs when a completed pass
+      results in a touchdown. The pass may be to a player in the end
+      zone or to a player who subsequently runs into the end zone. A
+      touchdown is worth 6 points and allows for a chance at one (and
+      by some rules two) additional point(s). </footnote> thrown by each
+      of the 31 teams in the National Football League in the 2000
+      season.
+    </para>
+
+    <figure id="figure1">
+      <media id="idp185024" alt=""><image src="../../media/table1.gif" mime-type="image/gif"/></media>
+      <caption>Number of touchdown passes.</caption>
+    </figure>
+
+    <para id="para1">
+      A stem and leaf display of the data is shown in the <link target-id="table1" strength="3"/> below.  The left
+      portion of the table contains the stems.  They are the numbers
+      3, 2, 1, and 0, arranged as a column to the left of the bars.
+      Think of these numbers as 10's digits.  A stem of 3 (for
+      example) can be used to represent the 10's digit in any of the
+      numbers from 30 to 39.  The numbers to the right of the bar are
+      leaves, and they represent the 1's digits.  Every leaf in the
+      graph therefore stands for the result of adding the leaf to 10
+      times its stem.
+    </para>
+
+    <table frame="all" id="table1" summary="">
+      <title>Stem and leaf display showing the number of passing
+	touchdowns.</title>
+
+      <tgroup cols="1">
+	<tbody>
+	  <row>
+	    <entry align="left">3|2337</entry>
+	  </row>
+	  <row>
+	    <entry align="left">2|001112223889</entry>
+	  </row>
+	  <row>
+	    <entry align="left">1|2244456888899</entry>
+	  </row>
+	  <row>
+	    <entry align="left">0|69</entry>
+	  </row>
+	</tbody>
+      </tgroup>
+    </table>
+
+    <para id="para2">
+      To make this clear, let us examine this <link target-id="table1" strength="3"/> more closely.  In the top row, the
+      four leaves to the right of stem 3 are 2, 3, 3, and 7.  Combined
+      with the stem, these leaves represent the numbers 32, 33, 33,
+      and 37, which are the numbers of TD passes for the first four
+      teams in the table.  The next row has a stem of 2 and 12 leaves.
+      Together, they represent 12 data points, namely, two occurrences
+      of 20 TD passes, three occurrences of 21 TD passes, three
+      occurrences of 22 TD passes, one occurrence of 23 TD passes, two
+      occurrences of 28 TD passes, and one occurrence of 29 TD passes.
+      We leave it to you to figure out what the third row represents.
+      The fourth row has a stem of 0 and two leaves. It stands for the
+      last two entries, namely 9 TD passes and 6 TD passes.  (The
+      latter two numbers may be thought of as 09 and 06.).
+    </para>
+
+    <para id="para3">
+      One purpose of a stem and leaf display is to clarify the shape
+      of the distribution.  You can see many facts about TD passes
+      more easily in <link target-id="figure1" strength="3"/> than in the
+      <link target-id="table1" strength="3"/>.  For
+      example, by looking at the stems and the shape of the plot, you
+      can tell that most of the teams had between 10 and 29 passing
+      TDs, with a few having more and a few having less.  The precise
+      numbers of TD passes can be determined by examining the leaves.
+    </para>
+
+    <para id="para4">
+      We can make our figure even more revealing by splitting each
+      stem into two parts.  The <link target-id="table2" strength="3"/> below shows how to do this.  The top
+      row is reserved for numbers from 35 to 39 and holds only the 37
+      TD passes made by the first team in the <link target-id="table1" strength="3"/>.  The second row is reserved for
+      the numbers from 30 to 34 and holds the 32, 33, and 33 TD passes
+      made by the next three teams in the table.  You can see for
+      yourself what the other rows represent.
+    </para>
+
+    <table frame="all" id="table2" summary="">
+      <title>
+	Stem and leaf display with the stems split in two.</title>
+      <tgroup cols="1">
+	<tbody>
+	  <row>
+	    <entry align="left">3|7</entry>
+	  </row>
+	  <row>
+	    <entry align="left">3|233</entry>
+	  </row>
+	  <row>
+	    <entry align="left">2|889</entry>
+	  </row>
+	  <row>
+	    <entry align="left">2|001112223</entry>
+	  </row>
+	  <row>
+	    <entry align="left">1|56888899</entry>
+	  </row>
+	  <row>
+	    <entry align="left">1|22444</entry>
+	  </row>
+	  <row>
+	    <entry align="left">0|69</entry>
+	  </row>
+	</tbody>
+      </tgroup>
+    </table>
+
+    <para id="parag4">
+      The <link target-id="table2" strength="3"/> with stem
+      and leaf split in two is more revealing than the simpler <link target-id="table1" strength="3"/> before because the
+      simpler table lumps too many values into a single row.  Whether
+      you should split stems in a display depends on the exact form of
+      your data.  If rows get too long with single stems, you might
+      try splitting them into two or more parts.
+    </para>
+
+    <para id="para5">
+      There is a variation of stem and leaf displays that is useful
+      for comparing distributions.  The two distributions are placed
+      back to back along a common column of stems.  The result is a
+      <term>back to back stem and leaf graph</term>.  The <link target-id="table3" strength="3"/> below shows such a
+      graph.  It compares the numbers of TD passes in the 1998 and
+      2000 seasons.  The stems are in the middle, the leaves to the
+      left are for the 1998 data, and the leaves to the right are for
+      the 2000 data.  For example, the second-to-last row shows that
+      in 1998 there were teams with 11, 12, and 13 TD passes, and in
+      2000 there were two teams with 12 and three teams with 14 TD
+      passes.
+    </para>
+
+    <table frame="all" id="table3" summary="">
+      <title>Back to back stem and leaf display.  The left side shows
+	the 1998 TD data and the right side shows the 2000 TD
+	data.</title>
+
+      <tgroup cols="3">
+	<thead>
+	  <row>
+	    <entry>1998</entry>
+	    <entry/>
+	    <entry>2000</entry>
+	  </row>
+	</thead>
+	
+	<tbody>
+	  <row>
+	    <entry align="right">11</entry>
+	    <entry align="center">4</entry>
+	    <entry align="left"/>
+	  </row>
+	  <row>
+	    <entry align="right"/>
+	    <entry align="center">3</entry>
+	    <entry align="left">7</entry>
+	  </row>
+	  <row>
+	    <entry align="right">332</entry>
+	    <entry align="center">3</entry>
+	    <entry align="left">233</entry>
+	  </row>
+	  <row>
+	    <entry align="right">8865</entry>
+	    <entry align="center">2</entry>
+	    <entry align="left">889</entry>
+	  </row>
+	  <row>
+	    <entry align="right">44331110</entry>
+	    <entry align="center">2</entry>
+	    <entry align="left">001112223</entry>
+	  </row>
+	  <row>
+	    <entry align="right">987776665</entry>
+	    <entry align="center">1</entry>
+	    <entry align="left">56888899</entry>
+	  </row>
+	  <row>
+	    <entry align="right">321</entry>
+	    <entry align="center">1</entry>
+	    <entry align="left">22444</entry>
+	  </row>
+	  <row>
+	    <entry align="right">7</entry>
+	    <entry align="center">0</entry>
+	    <entry align="left">69</entry>
+	  </row>
+	</tbody>
+      </tgroup>
+    </table>
+
+    <para id="para6">
+      This <link target-id="table3" strength="3"/> helps us
+      see that the two seasons were similar, but that only in 1998 did
+      any teams throw more than 40 TD passes.
+    </para>
+
+    <para id="para7">
+      There are two things about the football data that make them easy
+      to graph with stems and leaves.  First, the data are limited to
+      whole numbers that can be represented with a one-digit stem and
+      a one-digit leaf.  Second, all the numbers are positive.  If the
+      data include numbers with three or more digits, or contain
+      decimals, they can be rounded to two-digit accuracy.  Negative
+      values are also easily handled.  Let us look at another example.
+    </para>
+
+    <para id="para8">
+      <link target-id="image2" strength="3"/> shows data from a <link url="http://psych.rice.edu/online_stat/v10/case_studies/weapons/design.html">study</link>
+      on aggressive thinking.  Each value is the mean difference over
+      a series of trials between the time it took an experimental
+      subject to name aggressive words (like "punch") under two
+      conditions.  In one condition the words were preceded by a
+      non-weapon word like "rabbit" or "bug."  In the second
+      condition, the same words were preceded by a weapon word such as
+      "gun" or "knife."  The issue addressed by the experiment was
+      whether a preceding weapon word would speed up (or prime)
+      pronunciation of the aggressive word, compared to a non-weapon
+      priming word.  A positive difference implies greater priming of
+      the aggressive word by the weapon word.  Negative differences
+      imply that the priming by the weapon word was less than for a
+      neutral word.
+    </para>
+
+    <figure id="image2">
+      <media id="idp94800" alt=""><image src="../../media/table_2.gif" mime-type="image/gif"/></media>
+      <caption>
+	The effects of priming (thousandths of a second).
+      </caption>
+    </figure>
+
+    <para id="parag8">
+      You see that the numbers range from 43.2 to -27.4.  The first
+      value indicates that one subject was 43.2 milliseconds faster
+      pronouncing aggressive words when they were preceded by weapon
+      words than when preceded by neutral words.  The value -27.4
+      indicates that another subject was 27.4 milliseconds slower
+      pronouncing aggressive words when they were preceded by weapon
+      words.
+    </para>
+
+    <para id="para9">
+      The data are displayed with stems and leaves in the <link target-id="table4" strength="3"/>.  Since stem and
+      leaf displays can only portray two whole digits (one for the
+      stem and one for the leaf) the numbers are first rounded.  Thus,
+      the value 43.2 is rounded to 43 and represented with a stem of 4
+      and a leaf of 3.  Similarly, 42.9 is rounded to 43.  To
+      represent negative numbers, we simply use negative stems.  For
+      example, the bottom row of the figure represents the number -27.
+      The second-to-last row represents the numbers -10, -10, -15,
+      etc.  Once again, we have rounded the original values from <link target-id="image2" strength="3"/>.
+    </para>
+
+    <table frame="all" id="table4" summary="">
+      <title>Stem and leaf display with negative numbers and rounding</title>
+      <tgroup cols="1">
+	<tbody>
+	  <row>
+	    <entry align="left">4|33</entry>
+	  </row>
+	  <row>
+	    <entry align="left">3|56</entry>
+	  </row>
+	  <row>
+	    <entry align="left">2|00456</entry>
+	  </row>
+	  <row>
+	    <entry align="left">1|00134</entry>
+	  </row>
+	  <row>
+	    <entry align="left">0|1245589</entry>
+	  </row>
+	  <row>
+	    <entry align="left">-0|0679</entry>
+	  </row>
+	  <row>
+	    <entry align="left">-1|005559</entry>
+	  </row>
+	  <row>
+	    <entry align="left">-2|7 </entry>
+	  </row>
+	</tbody>
+      </tgroup>
+    </table>
+    
+    <para id="para10">
+      Observe that the figure contains a row headed by "0" and another
+      headed by"-0".  The stem of 0 is for numbers between 0 and 9
+      whereas the stem of -0 is for numbers between 0 and -9.  For
+      example, the fifth row of the table holds the numbers 1, 2, 4,
+      5, 5, 8, 9 and the sixth row holds 0, -6, -7, and -9.  Values
+      that are exactly 0 before rounding should be split as evenly as
+      possible between the "0" and "-0" rows.  In <link target-id="image2" strength="3"/>, none of the values are 0 before
+      rounding.  The "0" that appears in the "-0" row comes from the
+      original value of -0.2 in the figure.
+    </para>
+
+    <para id="para11">
+      Although stem and leaf displays are unwieldy for large datasets,
+      they are often useful for datasets with up to 200 observations.
+      <link target-id="last" strength="3"/> portrays the distribution of
+      populations of 185 US cities in 1998.  To be included, a city
+      had to have between 100,000 and 500,000 residents.
+    </para>
+
+    <figure id="last">
+      <media id="idm6974016" alt=""><image src="../../media/figure_5.gif" mime-type="image/gif"/></media>
+      <caption>
+	Stem and leaf display of populations of US cities with
+	populations between 100,000 and 500,000.
+      </caption>
+    </figure>
+
+    <para id="para12">
+      Since a stem and leaf plot shows only two-place accuracy, we had
+      to round the numbers to the nearest 10,000.  For example the
+      largest number (493,559) was rounded to 490,000 and then plotted
+      with a stem of 4 and a leaf of 9.  The fourth highest number
+      (463,201) was rounded to 460,000 and plotted with a stem of 4
+      and a leaf of 6.  Thus, the stems represent units of 100,000 and
+      the leaves represent units of 10,000.  Notice that each stem
+      value is split into five parts: 0-1, 2-3, 4-5, 6-7, and 8-9.
+    </para>
+
+    <para id="lastp">
+      Whether your data can be suitably represented by a stem and leaf
+      graph depends on whether they can be rounded without loss of
+      important information.  Also, their extreme values must fit into
+      two successive digits, as the data in <link target-id="last" strength="3"/> fit into the 10,000 and 100,000 places (for
+      leaves and stems, respectively).  Deciding what kind of graph is
+      best suited to displaying your data thus requires good judgment.
+      Statistics is not just recipes!
+    </para>
+
+  </content>
+</document>
