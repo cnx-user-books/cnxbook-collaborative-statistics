@@ -1,0 +1,150 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Descriptive Statistics: Practice 3: Interpreting Percentiles</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>722b6fc4-b5e9-4800-adf2-c2d629bcff19</md:uuid>
+</metadata>
+  <content>
+    
+    <para id="id11273656"><title>Interpreting Percentiles, Quartiles, and Median</title>A percentile indicates the relative standing of a data value when data are sorted into numerical order, from smallest to largest. p% of data values are less than or equal to the pth percentile.</para>
+    <list id="element-152" list-type="bulleted"><item>Low percentiles always correspond to lower data values. </item>
+<item>High percentiles always correspond to higher data values.</item>
+</list>
+    
+    <para id="id17792872">A percentile may or may not correspond to a value judgment about whether it is "good" or "bad". The interpretation of whether a certain percentile is good or bad depends on the context of the situation to which the data applies. In some situations, a low percentile would be considered "good'; in other contexts a high percentile might be considered "good".  In many situations, there is no value judgment that applies.</para>
+    
+    <para id="element-76">Understanding how to properly interpret percentiles is important not only when describing data, but is also important in later chapters of this textbook when calculating probabilities.</para><para id="id6598598"><title>Guideline:</title>When writing the interpretation of a percentile in the context of the given data, the sentence should contain the following information:</para>
+    <list id="element-524" list-type="bulleted"><item>information about the context of the situation being considered,</item>
+<item>the data value (value of the variable) that represents the percentile,</item>
+<item>the percent of individuals or items with data values below the percentile. </item>
+<item>Additionally, you may also choose to state the percent of individuals or items with data values above the percentile.</item></list>
+    
+    
+    
+    <example id="element-13"><para id="element-271">On a timed math test, the first quartile for times for finishing the exam was 35 minutes. Interpret the first quartile in the context of this situation.
+</para><list id="element-984" list-type="bulleted"><item>25% of students finished the exam in 35 minutes or less. </item>
+<item>75% of students finished the exam in 35 minutes or more.</item>
+<item>A low percentile would be considered good, as finishing more quickly on a timed exam is desirable. (If you take too long, you might not be able to finish.)</item></list>
+</example>
+    
+    
+    
+    <example id="element-658"><para id="element-647">
+On a 20 question math test, the 70th percentile for number of correct answers was 16. Interpret the 70th percentile in the context of this situation.
+</para><list id="element-616" list-type="bulleted"><item>70% of students answered 16 or fewer questions correctly.</item>
+<item>30% of students answered 16 or more questions correctly.</item>
+<item>Note: A high percentile would be considered good, as answering more questions correctly is desirable.</item></list>
+</example>
+    
+    
+    
+    <example id="element-659"><para id="element-554">At a certain community college, it was found that the 30th percentile of credit units that students are enrolled for is 7 units. Interpret the 30th percentile in the context of this situation.
+</para><list id="element-410" list-type="bulleted"><item>30% of students are enrolled in 7 or fewer credit units</item>
+<item>70% of students are enrolled in 7 or more credit units</item>
+<item>In this example, there is no "good" or "bad" value judgment associated with a higher or lower percentile. Students attend community college for varied reasons and needs, and their course load varies according to their needs.</item></list>
+</example>
+    
+    
+    
+    <para id="id17434135"><title>Do the following Practice Problems for Interpreting Percentiles</title></para>
+    <exercise id="element-513"><problem id="idp3234912">
+  <list id="element-931" list-type="labeled-item" mark-suffix="."><item><label>a</label>  For runners in a race, a low time means a faster run. The winners in a race have the shortest running times. Is it more desirable to have a finish time with a high or a low percentile when running a race?</item>
+<item><label>b</label> The 20th percentile of run times in a particular race is 5.2 minutes. Write a sentence interpreting the 20th percentile in the context of the situation.</item>
+<item><label>c</label> A bicyclist in the 90th percentile of a bicycle race between two towns completed the race in 1 hour and 12 minutes. Is he among the fastest or slowest cyclists in the race? Write a sentence interpreting the 90th percentile in the context of the situation.</item></list>
+</problem>
+
+<solution id="idm7494496">
+  <list id="element-462" list-type="labeled-item" mark-suffix=".">
+<item><label>a</label>  For runners in a race it is more desirable to have a low percentile for finish time. A low percentile means a short time, which is faster.</item>
+<item><label>b</label>INTERPRETATION: 20% of runners finished the race in 5.2 minutes or less. 80% of runners finished the race in 5.2 minutes or longer.</item>
+<item><label>c</label>He is among the slowest cyclists (90% of cyclists were faster than him.) INTERPRETATION: 90% of cyclists had a finish time of 1 hour, 12 minutes or less.Only 10% of cyclists had a finish time of 1 hour, 12 minutes or longer</item></list>
+</solution>
+</exercise>
+    
+    
+    <exercise id="element-283"><problem id="idp3481952">
+  <list id="element-838" list-type="labeled-item" mark-suffix="."><item><label>a</label> For runners in a race, a higher speed means a faster run. Is it more desirable to have a speed with a high or a low percentile when running a race?</item>
+<item><label>b</label>The 40th percentile of speeds in a particular race is 7.5 miles per hour. Write a sentence interpreting the 40th percentile in the context of the situation.</item>
+</list>
+</problem>
+
+<solution id="idp2253840">
+  <list id="element-618" list-type="labeled-item" mark-suffix=".">
+<item><label>a</label>For runners in a race it is more desirable to have a high percentile for speed. A high percentile means a higher speed, which is faster.</item>
+<item><label>b</label>INTERPRETATION: 40% of runners ran at speeds of 7.5 miles per hour or less (slower). 60% of runners ran at speeds of 7.5 miles per hour or more (faster).</item>
+</list>
+</solution>
+</exercise>
+    
+    <exercise id="element-868"><problem id="idp5349232">
+  <para id="element-793">On an exam, would it be more desirable to earn a grade with a high or low percentile? Explain. 
+  </para>
+</problem>
+
+<solution id="idp3153680">
+  <para id="element-150">On an exam you would prefer a high percentile; higher percentiles correspond to higher grades on the exam.</para>
+</solution>
+</exercise>
+    <exercise id="element-757"><problem id="idp7292080">
+  <para id="element-442">Mina is waiting in line at the Department of Motor Vehicles (DMV). Her wait time of 32 minutes is the  85th percentile of wait times. Is that good or bad? Write a sentence interpreting the 85th percentile in the context of this situation.
+  </para>
+</problem>
+
+<solution id="idp12513184">
+  <para id="element-371">When waiting in line at the DMV, the 85th percentile would be a long wait time compared to the other people waiting. 85% of people had shorter wait times than you did. In this context, you would prefer a wait time corresponding to a lower percentile. INTERPRETATION: 85% of people at the DMV waited 32 minutes or less. 15% of people at the DMV waited 32 minutes or longer.
+  </para>
+</solution>
+</exercise><exercise id="element-433"><problem id="idp10400752">
+  <para id="element-971">In a survey collecting data about the salaries earned by recent college graduates, Li found that her salary was in the 78th percentile. Should Li be pleased or upset by this result? Explain. 
+  </para>
+</problem>
+
+<solution id="idp8435984">
+  <para id="element-799">
+   Li should be pleased. Her salary is relatively high compared to other recent college grads. 78% of recent college graduates earn less than Li does. 22% of recent college graduates earn more than Li does.
+  </para>
+</solution>
+</exercise>
+    
+    
+    
+    <exercise id="element-321"><problem id="idp10808704">
+  <para id="element-25">
+    In a study collecting data about the repair costs of damage to automobiles in a certain type of crash tests, a certain model of car had $1700 in damage and was in the 90th percentile. Should the manufacturer and/or a consumer be pleased or upset by this result? Explain. Write a sentence that interprets the 90th percentile in the context of this problem.
+  </para>
+</problem>
+
+<solution id="idp3974352">
+  <para id="element-464">The manufacturer and the consumer would be upset.  This is a large repair cost for the damages, compared to the other cars in the sample. INTERPRETATION: 90% of the crash tested cars had damage repair costs of $1700 or less; only 10% had damage repair costs of $1700 or more.
+  </para>
+</solution>
+</exercise>
+    
+    
+    <exercise id="element-274"><problem id="idp7328096">
+  <list id="element-155" list-type="labeled-item" mark-suffix="">
+<item>The University of California has two criteria used to set admission standards for freshman to be admitted to a college in the UC system: </item>
+<item>a. Students' GPAs and scores on standardized tests (SATs and ACTs) are entered into a formula that calculates an "admissions index" score. The admissions index score is used to set eligibility standards intended to meet the goal of admitting the top 12% of high school students in the state. In this context, what percentile does the top 12% represent?</item>
+<item>b. Students whose GPAs are at or above the 96th percentile of all students at their high school are eligible (called eligible in the local context), even if they are not in the top 12% of all students in the state. What percent of students from each high school are "eligible in the local context"?</item></list>
+</problem>
+
+<solution id="idp9006512">
+  <list id="element-503" list-type="labeled-item" mark-suffix="."><item><label>a</label>The top 12% of students are those who are at or above the <emphasis> 88th percentile </emphasis>of admissions index scores.</item>
+<item><label>b</label> The <emphasis> top 4% </emphasis>of students' GPAs are at or above the 96th percentile, making the top 4% of students "eligible in the local context".</item>
+</list>
+</solution>
+</exercise>
+    
+    
+    <exercise id="element-302"><problem id="idp6595024">
+  <para id="element-113">Suppose that you are buying a house. You and your realtor have determined that the most expensive house you can afford is the 34th percentile. The 34th percentile of housing prices is $240,000 in the town you want to move to. In this town, can you afford 34% of the houses or 66% of the houses? 
+  </para>
+</problem>
+
+<solution id="idm6630352">
+  <para id="element-996">You can afford 34% of houses. 66% of the houses are too expensive for your budget.  INTERPRETATION: 34% of houses cost $240,000 or less. 66% of houses cost $240,000 or more.</para>
+</solution>
+</exercise>
+
+
+  </content>
+
+</document>

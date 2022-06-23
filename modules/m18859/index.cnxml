@@ -1,0 +1,375 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Probability Topics: Contingency Tables (modified R. Bloom)</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>54e80ac4-3020-4333-a3da-fa818cd36d60</md:uuid>
+</metadata>
+   <content>
+    <para id="element-864">A <term target-id="contintable">contingency table</term> provides a different way of calculating probabilities. The table helps in determining conditional probabilities quite easily.  The table displays sample values in relation to  two different variables that may be dependent or contingent on one another.  Later on, we will use contingency tables again, but in another manner.</para><example id="element-775"><para id="element-557">
+Suppose a study of speeding violations and drivers who use car phones produced the following fictional data:
+</para><table id="element-838" summary="">
+<tgroup cols="4"><thead>
+  <row>
+    <entry/>
+    <entry>Speeding violation 
+in the last year</entry>
+    <entry>No speeding violation
+in the last year</entry>
+    <entry>Total</entry>
+  </row>
+</thead>
+<tbody>
+
+  <row>
+    <entry>Car phone user</entry>
+    <entry>25</entry>
+    <entry>280</entry>
+    <entry>305</entry>
+  </row>
+  <row>
+    <entry>Not a car phone user</entry>
+    <entry>45</entry>
+    <entry>405</entry>
+    <entry>450</entry>
+  </row>
+  <row>
+    <entry>Total</entry>
+    <entry>70</entry>
+    <entry>685</entry>
+    <entry>755</entry>
+  </row>
+</tbody>
+
+
+</tgroup>
+</table>
+<para id="element-42">The total number of people in the sample is 755.   The row totals are 305 and 450.  The column totals are 70 and 685.   Notice that <m:math><m:mn>305</m:mn><m:mo> + </m:mo><m:mn>450</m:mn><m:mo> = </m:mo><m:mn>755</m:mn></m:math> and <m:math><m:mn>70</m:mn><m:mo> + </m:mo><m:mn>685</m:mn><m:mo> = </m:mo><m:mn>755</m:mn></m:math>.</para><para id="element-818">Calculate the following probabilities using the table</para>
+
+<exercise id="element-101"><problem id="idm4737632">
+  <para id="element-101p">
+   <m:math><m:mtext>P(person is a car phone user) = </m:mtext></m:math>
+  </para>
+ </problem>
+ <solution id="idm17177280">
+  <para id="element-101s">
+    <m:math>
+     <m:mfrac>
+      <m:mtext>number of car phone users </m:mtext>
+      <m:mtext>total number in study</m:mtext>  
+     </m:mfrac>
+     <m:mi>=</m:mi>
+     <m:mfrac>
+      <m:mn>305</m:mn>
+      <m:mn>755</m:mn>
+     </m:mfrac>
+    </m:math>
+  </para>
+ </solution>
+</exercise>
+
+<exercise id="element-102"><problem id="idm17164256">
+  <para id="element-102p">
+   <m:math><m:mtext>P(person had no violation in the last year)  = </m:mtext></m:math>
+  </para>
+ </problem>
+ <solution id="idm3795216">
+  <para id="element-102s">
+   <m:math>
+    <m:mfrac>
+     <m:mtext>number that had no violation</m:mtext>
+     <m:mtext>total number in study</m:mtext>  
+    </m:mfrac>
+    <m:mi>=</m:mi>
+    <m:mfrac>
+     <m:mn>685</m:mn>
+     <m:mn>755</m:mn>
+    </m:mfrac>
+   </m:math>
+  </para>
+ </solution>
+</exercise>
+
+
+<exercise id="element-103"><problem id="idm2851936">
+  <para id="element-103p">
+  <m:math><m:mtext>P(person had no violation in the last year AND was a car phone user)   =</m:mtext></m:math>
+  </para>
+ </problem>
+ <solution id="idm2850928">
+  <para id="element-103s">
+<m:math><m:mfrac>
+    <m:mn>280</m:mn>
+    <m:mn>755</m:mn>
+
+  </m:mfrac></m:math>
+  </para>
+ </solution>
+</exercise>
+
+
+<exercise id="element-104"><problem id="idm6904032">
+  <para id="element-104p">
+  <m:math><m:mtext>P(person is a car phone user OR person had no violation in the last year)   =</m:mtext></m:math>
+  </para>
+ </problem>
+ <solution id="idm5003584">
+  <para id="element-104s"><m:math>
+<m:mo>(</m:mo>
+<m:mfrac>
+    <m:mn>305</m:mn>
+    <m:mn>755</m:mn>
+  </m:mfrac><m:mi>+</m:mi>
+<m:mfrac>
+    <m:mn>685</m:mn>
+    <m:mn>755</m:mn>
+  </m:mfrac>
+<m:mo>)</m:mo><m:mi> - </m:mi>
+<m:mfrac>
+    <m:mn>280</m:mn>
+    <m:mn>755</m:mn>
+  </m:mfrac><m:mi>=</m:mi>
+<m:mfrac>
+    <m:mn>710</m:mn>
+    <m:mn>755</m:mn>
+  </m:mfrac>
+</m:math>
+  </para>
+ </solution>
+</exercise>
+
+
+<exercise id="element-105"><problem id="idm6503728">
+  <para id="element-105p">
+  <m:math><m:mtext>P(person is a car phone user GIVEN person had a violation in the last year)   =  </m:mtext></m:math>
+  </para>
+ </problem>
+ <solution id="idm7415552">
+  <para id="element-105s">
+<m:math><m:mfrac>
+    <m:mn>25</m:mn>
+    <m:mn>70</m:mn>
+  </m:mfrac> </m:math>
+   (The sample space is reduced to the number of persons who had a violation.)
+  </para>
+ </solution>
+</exercise>
+
+
+<exercise id="element-107"><problem id="idp14992">
+  <para id="element-107p">
+  <m:math><m:mtext>P(person had no violation last year GIVEN person was not a car phone user)   =  </m:mtext></m:math>
+  </para>
+ </problem>
+ <solution id="idm6246944">
+  <para id="element-107s">
+<m:math><m:mfrac>
+    <m:mn>405</m:mn>
+    <m:mn>450</m:mn>
+  </m:mfrac> </m:math>
+(The sample space is reduced to the number of persons who were not car phone users.) 
+  </para>
+ </solution>
+</exercise>
+</example>
+<example id="element-511"><para id="element-98">The following table shows a random sample of 100 hikers and the areas of hiking preferred:
+</para><table id="element-850" summary="">
+<title>Hiking Area Preference</title>
+<tgroup cols="5"><thead>
+  <row>
+    <entry>Sex</entry>
+    <entry>The Coastline</entry>
+    <entry>Near Lakes and Streams</entry>
+    <entry>On Mountain Peaks</entry>
+    <entry>Total</entry>
+  </row>
+</thead>
+<tbody>
+  <row>
+    <entry>Female</entry>
+    <entry>18</entry>
+    <entry>16</entry>
+    <entry>___</entry>
+    <entry>45</entry>
+
+  </row>
+  <row>
+    <entry>Male</entry>
+    <entry>___</entry>
+    <entry>___</entry>
+    <entry>14</entry>
+    <entry>55</entry>
+  </row>
+  <row>
+    <entry>Total</entry>
+    <entry>___</entry>
+    <entry>41</entry>
+    <entry>___</entry>
+    <entry>___</entry>
+  </row>
+</tbody>
+
+</tgroup>
+</table><exercise id="element-227">
+<problem id="idp1287696">
+  <para id="element-665">
+    Complete the table.
+  </para>
+</problem>
+
+<solution print-placement="end" id="idm582816">
+ <table id="element-850s" summary="">
+<title>Hiking Area Preference</title>
+<tgroup cols="5"><thead>
+  <row>
+    <entry>Sex</entry>
+    <entry>The Coastline</entry>
+    <entry>Near Lakes and Streams</entry>
+    <entry>On Mountain Peaks</entry>
+    <entry>Total</entry>
+  </row>
+</thead>
+<tbody>
+  <row>
+    <entry>Female</entry>
+    <entry>18</entry>
+    <entry>16</entry>
+    <entry><emphasis>11</emphasis></entry>
+    <entry>45</entry>
+
+  </row>
+  <row>
+    <entry>Male</entry>
+    <entry><emphasis>16</emphasis></entry>
+    <entry><emphasis>25</emphasis></entry>
+    <entry>14</entry>
+    <entry>55</entry>
+  </row>
+  <row>
+    <entry>Total</entry>
+    <entry><emphasis>34</emphasis></entry>
+    <entry>41</entry>
+    <entry><emphasis>25</emphasis></entry>
+    <entry><emphasis>100</emphasis></entry>
+  </row>
+</tbody>
+
+</tgroup>
+</table>
+</solution>
+</exercise><exercise id="element-754">
+<problem id="idm5560640">
+  <para id="element-891">
+    Are the events "being female" and "preferring the coastline" independent events?
+  </para>
+  <para id="element-123">
+    Let <m:math><m:mi>F</m:mi></m:math> = being female and let <m:math><m:mi>C</m:mi></m:math> = preferring the coastline.
+  </para>
+  <list id="element-1242" list-type="labeled-item" mark-suffix=".">
+   
+   <item><label>a</label><m:math><m:mtext>P(F AND C)</m:mtext></m:math> =</item>
+   <item><label>b</label><m:math><m:mi>P(F)</m:mi><m:mo> ⋅ </m:mo><m:mi>P(C)</m:mi></m:math> =</item>
+  </list>
+  <para id="element-3532">
+   Are these two numbers the same?  If they are, then <m:math><m:mi>F</m:mi></m:math> and <m:math><m:mi>C</m:mi></m:math> are independent.  If they are not, then <m:math><m:mi>F</m:mi></m:math> and <m:math><m:mi>C</m:mi></m:math> are not independent.</para>
+</problem>
+
+<solution print-placement="end" id="idm7254752">
+  <list id="element-3256" list-type="labeled-item" mark-suffix=".">
+  <item><label>a</label>
+   <m:math>
+    <m:mtext>P(F AND C)</m:mtext>
+    <m:mo> = </m:mo>
+    <m:mfrac>
+     <m:mn>18</m:mn>
+     <m:mn>100</m:mn>
+    </m:mfrac>
+    <m:mo> = </m:mo>
+    <m:mn>0.18</m:mn>
+   </m:math>
+  </item>
+  
+  <item><label>b</label>
+   <m:math>
+    <m:mi>P(F)</m:mi><m:mo> ⋅ </m:mo><m:mi>P(C)</m:mi>
+    <m:mo> = </m:mo>
+    <m:mfrac>
+     <m:mn>45</m:mn>
+     <m:mn>100</m:mn>
+    </m:mfrac>
+    <m:mo> ⋅ </m:mo>
+    <m:mfrac>
+     <m:mn>45</m:mn>
+     <m:mn>100</m:mn>
+    </m:mfrac>
+    <m:mo> = </m:mo>
+    <m:mn>0.45</m:mn>
+    <m:mo> ⋅ </m:mo>    
+    <m:mn>0.45</m:mn>
+    <m:mo> = </m:mo>
+    <m:mn>0.153</m:mn>
+   </m:math>
+  </item>
+  </list>
+
+  <para id="element-404"><m:math>
+    <m:mtext>P(F AND C)</m:mtext>
+    <m:mo> ≠ </m:mo>
+    <m:mi>P(F)</m:mi><m:mo> ⋅ </m:mo><m:mi>P(C)</m:mi></m:math>, so the events <m:math><m:mi>F</m:mi></m:math> and <m:math><m:mi>C</m:mi></m:math> are not independent.
+
+  </para>
+</solution>
+</exercise><exercise id="element-414">
+<problem id="idm5988480">
+  <para id="element-717">
+Find the probability that a person is male given that the person prefers hiking near lakes and streams.  Let <m:math><m:mtext>M</m:mtext></m:math> = being male and let <m:math><m:mtext>L</m:mtext></m:math> = prefers hiking near lakes and streams.
+</para>
+
+<list id="element-2341" list-type="labeled-item" mark-suffix=".">
+<item><label>a</label>What word tells you this is a conditional? </item>
+<item><label>b</label>Fill in the blanks and calculate the probability: <m:math><m:mtext>P(___|___)</m:mtext><m:mo> = </m:mo><m:mi>___</m:mi></m:math>.</item>
+<item><label>c</label>Is the sample space for this problem all 100 hikers? If not, what is it?        </item>
+</list>
+
+</problem>
+
+<solution print-placement="end" id="idm1339952">
+<list id="element-2341s" list-type="labeled-item" mark-suffix=".">
+<item><label>a</label>The word 'given' tells you that this is a conditional.</item>
+<item><label>b</label><m:math><m:mtext>P(M|L)</m:mtext><m:mo> = </m:mo><m:mfrac><m:mn>25</m:mn><m:mn>41</m:mn></m:mfrac></m:math></item>
+<item><label>c</label>No, the sample space for this problem is 41.</item>
+</list>
+</solution>
+</exercise><exercise id="element-402"><problem id="idm4816640">
+  <para id="element-715">
+   Find the probability that a person is female or prefers hiking on mountain peaks.
+   Let <m:math><m:mi>F</m:mi></m:math> = being female and let <m:math><m:mi>P</m:mi></m:math> = prefers mountain peaks.
+  </para>
+
+  <list id="list1213" list-type="labeled-item" mark-suffix=".">
+   <item><label>a</label><m:math><m:mtext>P(F)</m:mtext><m:mo> = </m:mo></m:math> </item>     
+   <item><label>b</label><m:math><m:mtext>P(P)</m:mtext><m:mo> = </m:mo></m:math> </item>
+   <item><label>c</label><m:math><m:mtext>P(F AND P)</m:mtext><m:mo> = </m:mo></m:math></item>
+   <item><label>d</label>Therefore, <m:math><m:mtext>P(F OR P)</m:mtext><m:mo> = </m:mo></m:math> </item>
+</list>
+
+</problem>
+
+<solution print-placement="end" id="idm10022752">
+
+  <list id="list1213s" list-type="labeled-item" mark-suffix=".">
+   <item><label>a</label><m:math><m:mtext>P(F)</m:mtext><m:mo> = </m:mo><m:mfrac><m:mn>45</m:mn><m:mn>100</m:mn></m:mfrac></m:math> </item>     
+   <item><label>b</label><m:math><m:mtext>P(P)</m:mtext><m:mo> = </m:mo><m:mfrac><m:mn>25</m:mn><m:mn>100</m:mn></m:mfrac></m:math> </item>
+   <item><label>c</label><m:math><m:mtext>P(F AND P)</m:mtext><m:mo> = </m:mo><m:mfrac><m:mn>11</m:mn><m:mn>100</m:mn></m:mfrac></m:math></item>
+   <item><label>d</label><m:math><m:mtext>P(F OR P)</m:mtext><m:mo> = </m:mo><m:mfrac><m:mn>45</m:mn><m:mn>100</m:mn></m:mfrac>  <m:mo> + </m:mo> <m:mfrac><m:mn>25</m:mn><m:mn>100</m:mn></m:mfrac> <m:mo> - </m:mo>  <m:mfrac><m:mn>11</m:mn><m:mn>100</m:mn></m:mfrac> <m:mo> = </m:mo><m:mfrac><m:mn>59</m:mn><m:mn>100</m:mn></m:mfrac></m:math> </item>
+</list>
+</solution>
+</exercise>
+</example>   
+  </content>
+  <glossary>
+ <definition id="contintable">
+    <term>Contingency Table</term>
+    <meaning id="idm2777392">
+ The method of displaying a frequency distribution in case of dependable (contingent) variables; the table provides the easy way to calculate conditional probabilities.
+    </meaning>
+  </definition>
+</glossary>
+</document>

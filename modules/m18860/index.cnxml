@@ -1,0 +1,45 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Continuous Random Variables: Properties of Continuous Probability Distributions</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>31baeaf7-b1e7-48aa-81d4-7c21b174a036</md:uuid>
+</metadata>
+  <content>
+    <section id="id5833271">
+      <title>Properties of Continuous Probability Distributions</title>
+      <para id="id3577367">The graph of a continuous probability distribution is a curve. Probability is represented by area under the curve.</para>
+      <para id="id6551145">The curve is called the <emphasis> probability density function  </emphasis>(abbreviated:  <emphasis>pdf</emphasis>). We use the symbol <m:math><m:apply><m:ci type="fn">f</m:ci><m:ci>x</m:ci></m:apply></m:math> to represent the curve. <m:math><m:apply><m:ci type="fn">f</m:ci><m:ci>x</m:ci></m:apply></m:math> is the function that corresponds to the graph; we use the density function <m:math><m:apply><m:ci type="fn">f</m:ci><m:ci>x</m:ci></m:apply></m:math> to draw the graph of the probability distribution. </para>
+      
+      <para id="element-275"><emphasis>Area under the curve</emphasis> is given by a different function called the  <emphasis>cumulative distribution function </emphasis> (abbreviated:  <emphasis>cdf</emphasis>). The cumulative distribution function is used to evaluate probability as area.</para><para id="element-146">Note that the  probability distribution function (pdf) and the cumulative distribution function (cdf) are not the same, although they are related to each other.  </para><list id="element-916" list-type="bulleted"><item>The entire area under the curve and above the x-axis is equal to 1.</item>
+<item>Probability is found for intervals of X values rather than for individual X values.</item>
+<item><m:math><m:reln><m:lt/>
+<m:reln><m:lt/>
+<m:mrow><m:mi>P</m:mi><m:mo>(</m:mo><m:mn>c</m:mn></m:mrow>
+<m:mrow><m:mi>X</m:mi></m:mrow></m:reln>
+<m:mrow><m:mn>d</m:mn><m:mo>)</m:mo></m:mrow></m:reln>
+</m:math> is the probability that the random variable X is in the interval between the values c and d.   
+<m:math><m:reln><m:lt/>
+<m:reln><m:lt/>
+<m:mrow><m:mi>P</m:mi><m:mo>(</m:mo><m:mn>c</m:mn></m:mrow>
+<m:mrow><m:mi>X</m:mi></m:mrow></m:reln>
+<m:mrow><m:mn>d</m:mn><m:mo>)</m:mo></m:mrow></m:reln>
+</m:math>
+is the area under the curve, above the x-axis, to the right of c and the left of d.</item>
+<item><m:math><m:reln><m:eq/>
+<m:reln><m:eq/>
+<m:mrow><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>X</m:mi></m:mrow>
+<m:mrow><m:mi>c</m:mi><m:mo>)</m:mo></m:mrow></m:reln>
+<m:mrow><m:mn>0</m:mn></m:mrow></m:reln>
+</m:math> The probability that X takes on any single individual value is 0. The area below the curve, above the x-axis, and between X=c and X=c has no width, and therefore no area (area = 0). Since the probability is equal to the area, the probability is also 0.</item>
+</list>
+      
+      
+      
+      <para id="element-902">We will find the area that represents probability by using geometry, formulas, technology, or probability tables.  In general, calculus is needed to find the area under the curve for many probability density functions.  When we use formulas to find the area in this textbook, the formulas were found by using the techniques of integral calculus.  However, because most students taking this course have not studied calculus, we will not be using calculus in this textbook.</para><para id="id3398350">There are many continuous probability distributions. When using a continuous probability distribution to model probability, the distribution used is selected to best model and fit the particular situation. </para>
+      
+      <para id="element-22">In this chapter and the next chapter, we will study the uniform distribution, the exponential distribution, and the normal distribution. The following graphs illustrate these distributions.</para><para id="id3686457">
+        <figure id="id4131243"><media id="idm107088" alt=""><image src="../../media/graphics1.png" mime-type="image/png" height="190" width="317"/></media><caption>The graph shows a Uniform Distribution with the area between X=3 and X=6 shaded to represent the probability that the value of the random variable X is in the interval between 3 and 6.</caption></figure>
+        <figure id="id3243513"><media id="idm714048" alt=""><image src="../../media/graphics2.png" mime-type="image/png" height="190" width="301"/></media><caption>The graph shows an Exponential Distribution with the area between X=2 and X=4 shaded to represent the probability that the value of the random variable X is in the interval between 2 and 4.</caption></figure>
+      </para>
+      <figure id="id8924240"><media id="idp8301824" alt=""><image src="../../media/graphics3.png" mime-type="image/png" height="209" width="513"/></media><caption>The graph shows the Standard Normal Distribution with the area between X=1 and X=2 shaded to represent the probability that the value of the random variable X is in the interval between 1 and 2.</caption></figure>
+    </section>
+  </content>
+</document>

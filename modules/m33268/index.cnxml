@@ -1,0 +1,57 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Prediction (modified R. Bloom)</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m33268</md:content-id>
+  <md:title>Prediction (modified R. Bloom)</md:title>
+  <md:abstract>This module provides an overview of Linear Regression and Correlation: Prediction
+as a part of R. Bloom's custom Collaborative Statistics collection (col10617).  It has been modified from the original module m17092 in the Collaborative Statistics collection (col10522) by Barbara Illowsky and Susan Dean.</md:abstract>
+  <md:uuid>e1b8542f-9e00-4d57-bc8d-0ce6003845fb</md:uuid>
+</metadata>
+  <content>
+    <para id="eip-128">Recall the <link document="m17092" target-id="element-22">third exam/final exam example</link>.</para><para id="eip-381">We examined the scatterplot and showed that the correlation coefficient is significant.  We found the equation of the best fit line for the final exam grade as a function of the grade on the third exam. We can now use the least squares regression line for prediction.</para><para id="element-12498">Suppose you want to estimate, or predict, the final
+exam score of statistics students who received 73 on the third exam. The exam scores <emphasis>(<m:math><m:mi>x</m:mi></m:math>-values)</emphasis> range from 65 to 75. <emphasis> Since 73 is between
+the <m:math><m:mi>x</m:mi></m:math>-values 65 and 75</emphasis>, substitute <m:math><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>73</m:mn></m:math> into the equation. Then:
+</para><equation id="element-735"><m:math>
+<m:mover>
+<m:mi>y</m:mi>
+<m:mo>^</m:mo>
+</m:mover>
+<m:mo>=</m:mo>
+<m:mn>-173.51</m:mn>
+<m:mo>+</m:mo>
+<m:mn>4.83</m:mn>
+<m:mo>(</m:mo>
+<m:mn>73</m:mn>
+<m:mo>)</m:mo>
+<m:mo>=</m:mo>
+<m:mn>179.08</m:mn>
+</m:math>
+</equation><para id="element-212">We predict that statistic students who earn a grade of 73 on the third exam will earn a grade of 179.08 on
+the final exam, on average. </para><para id="eip-796">Remember: Do not use the regression equation for prediction outside the domain of observed <m:math><m:mi>x</m:mi></m:math> values in the data.</para><example id="element-438"><para id="element-546">Recall the <link document="m17092" target-id="element-22">third exam/final exam example</link>.
+</para><exercise id="element-770"><problem id="id2231757">
+  <para id="element-464">
+    What would you predict the final exam score to be for a student who scored a 66 on the third exam?
+  </para>
+</problem>
+
+<solution id="id1166357525478">
+  <para id="element-444">
+    145.27
+  </para>
+</solution>
+</exercise><exercise id="element-844">
+<problem id="id1166363139419">
+  <para id="element-306">
+    What would you predict the final exam score to be for a student who scored a 78 on the third exam?
+  </para>
+</problem>
+
+<solution id="id1166359511123" print-placement="end">
+  <para id="element-380">The x values in the data are between 65 and 75. 78 is outside of the domain of the observed x values in the data (independent variables), so you cannot reliably predict the final exam score for this student. (Even though it is possible to enter x into the equation and calculate a y value, you should not do so!)
+  </para>
+</solution>
+</exercise>
+</example>   
+  </content>
+  
+</document>
