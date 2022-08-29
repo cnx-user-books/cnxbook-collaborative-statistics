@@ -1,12 +1,13 @@
-<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en">
+<?xml version="1.0"?>
+<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en" authors="OpenStax College">
   <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
     <md:content-id>col11403</md:content-id>
     <md:title>Collaborative Statistics (MT230 - Fall 2014)</md:title>
     <md:language>en</md:language>
     <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License</md:license>
     <md:uuid>e28e607b-7b75-4607-a005-c63f475d80ee</md:uuid>
-<md:slug>collaborative-statistics-mt230-fall-2012</md:slug>
-</metadata>
+    <md:slug>collaborative-statistics-mt230-fall-2012</md:slug>
+  </metadata>
   <col:content>
     <col:module document="m16026"/>
     <col:module document="m18746"/>
