@@ -1,12 +1,13 @@
-<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en">
+<?xml version="1.0"?>
+<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en" authors="OpenStax College">
   <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
     <md:content-id>col10617</md:content-id>
     <md:title>Collaborative Statistics: Custom Version modified by R. Bloom</md:title>
     <md:language>en</md:language>
     <md:license url="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License</md:license>
     <md:uuid>960edc28-30f7-4077-bd1b-2f458e47fc54</md:uuid>
-<md:slug>collaborative-statistics-custom-version-modified-by-r-bloom</md:slug>
-</metadata>
+    <md:slug>collaborative-statistics-custom-version-modified-by-r-bloom</md:slug>
+  </metadata>
   <col:content>
     <col:module document="m18941"/>
     <col:module document="m16026"/>
