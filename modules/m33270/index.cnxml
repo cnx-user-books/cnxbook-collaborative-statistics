@@ -64,7 +64,7 @@ because the correlation coefficient is NOT significantly different from 0.
 </item>
 </list><list id="eip-335" list-type="labeled-item"><title>Calculation Notes:</title><item> You will use technology to calculate the p-value.  The following describe the calculations to compute the test statistics and the p-value:</item><item>The p-value is calculated using a 
 <m:math><m:mi>t</m:mi></m:math>-distribution with n-2 degrees of freedom.</item>
-<item>  The formula for the test statistic is <m:math display="display">
+<item>  The formula for the test statistic is <m:math>
   <m:apply>
     <m:eq/>
     <m:ci>t</m:ci>

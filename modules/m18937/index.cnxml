@@ -976,7 +976,7 @@ If researchers desire a specific margin of error, then they can use the error bo
 <m:mo>)</m:mo>
 </m:math>
 
-</para><para id="eip-864">The formula for sample size is <m:math display="display">
+</para><para id="eip-864">The formula for sample size is <m:math>
   <m:apply>
     <m:eq/>
     <m:ci>n</m:ci>
@@ -1024,7 +1024,7 @@ If researchers desire a specific margin of error, then they can use the error bo
 <m:mn>1.96</m:mn> 
 </m:math>, because the confidence level is 95%.
 </item> 
-</list><list id="eip-501" list-type="labeled-item"><item><m:math display="display">
+</list><list id="eip-501" list-type="labeled-item"><item><m:math>
   <m:apply>
     <m:eq/>
     <m:ci>n</m:ci>
