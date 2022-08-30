@@ -640,12 +640,7 @@
     </section>
     <section id="id1169103223149"><title>Determining Sample Size Required to Estimate p.</title><para id="id5946556">Again, let’s look at the equation for the Error Bound.</para>
       <para id="id1169100149301">
-        <m:math>
-          <m:semantics>
-            <m:mrow/>
-            <m:annotation encoding="StarMath 5.0">{}</m:annotation>
-          </m:semantics>
-        </m:math>
+        
         <m:math>
           <m:semantics>
             <m:mrow>
